@@ -1,12 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Asset maintenance history</title>
+    <link rel="stylesheet" type="text/css" href="../vendor/Skeleton/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../vendor/Skeleton/css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e1a9636c5d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <h1 class="page-title">Asset maintenance history</h1>
+        </div>
+    </header>
+    <div class="asset-spec">
+        <div class="container">
+            <div class="row">
+                <div class="two-thirds column">
+                    <table class="u-full-width">
+                        <thead>
+                            <tr>
+                                <th>Property</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>GIAI (Global Individual Asset Identifier)</td>
+                                <td>4012345ABCD-124</td>
+                            </tr>
+                            <tr>
+                                <td>Description short</td>
+                                <td>Technical assembly ABCD-124</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Process step</th>
+                                <th>Disposition</th>
+                                <th>Parent-child relationship</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2021-12-15</td>
+                                <td>08:45:00.000+01:00</td>
+                                <td>Inspecting</td>
+                                <td>Conformant</td>
+                                <td></td>
+                                <td>Acme Corp. Production Site Oldtown, Test Road, 98765 Oldstate, Elysium</td>
+                            </tr>
+                            <tr>
+                                <td>2021-11-16</td>
+                                <td>15:30:00.000+01:00</td>
+                                <td>Installing</td>
+                                <td></td>
+                                <td>Installed into assembly line C-991</td>
+                                <td>Acme Corp. Production Site Oldtown, Test Road, 98765 Oldstate, Elysium</td>
+                            </tr>
+                            <tr>
+                                <td>2021-11-11</td>
+                                <td>14:15:00.000+01:00</td>
+                                <td>Commissioning</td>
+                                <td>Active</td>
+                                <td></td>
+                                <td>Example Manufacturing Site Newtown, Test Drive, 12345 Newstate, Elysium</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

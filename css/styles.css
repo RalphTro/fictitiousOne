@@ -1,0 +1,17 @@
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+.page-title{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-weight: lighter;
+    color: rgb(30, 30, 30); 
+}
+
+.asset-spec{
+    /* display: block; */
+}
+
+
+
