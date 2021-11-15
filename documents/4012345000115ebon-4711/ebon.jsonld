@@ -1,0 +1,25 @@
+{
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://dev.gs1-germany.de/vc/TO-BE-DEFINED.jsonld"
+    ],
+    "id": "https://id.gs1.org/253/4012345000115ebon-4711",
+	"type": [
+		"VerifiableCredential",
+		"PurchaseProofCredential"
+	],
+    "credentialSubject": {
+        "id": "https://id.gs1.org/01/04012345999990/21/XYZ-1234",
+        "gtin": "04012345999990",
+        "hasSerialNumber": "XYZ-1234",
+        "seller": {
+            "@type": "Organization",
+            "url": "https://id.gs1.org/417/401234500005"
+          },
+        "customer": {
+            "@type": "Person",
+            "url": "did:indy:idunion:test:12345"
+          },
+        "purchaseDate": "2021-11-15"
+    }
+}
