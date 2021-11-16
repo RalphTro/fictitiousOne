@@ -1,3 +1,5 @@
+/* CSS file for all simple web pages */
+
 body{
     font-family: 'Mulish', sans-serif;
 }
@@ -11,7 +13,7 @@ body{
 
 .table th, .table td {
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 15px;
     text-align: left;
   }
 

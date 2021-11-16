@@ -1,0 +1,119 @@
+{
+    "@context": {
+        "gs1": "https://gs1.org/voc/",
+        "xsd": "https://www.w3.org/2001/XMLSchema#",
+        "@vocab": "https://gs1.org/voc/"
+    },
+    "@type": "gs1:Product",
+    "@id": "https://resolver-dv1.gs1.org/01/04012345999990",
+    "gtin": "04012345999990",
+    "productName": [
+        {
+            "@value": "Bosch Professional 12V System Cordless Screwdriver GSR 12V-15",
+            "@language": "en"
+        },
+        {
+            "@value": "Bosch Professional 12V System Akkuschrauber GSR 12V-15",
+            "@language": "de"
+        }
+    ],
+    "brand": {
+        "brandName": [
+            {
+                "@value": "Bosch Professional",
+                "@language": "en"
+            },
+            {
+                "@value": "Bosch Professional",
+                "@language": "de"
+            }
+        ],
+        "@type": "gs1:Brand"
+    },
+    "productDescription": [
+        {
+            "@value": "Hartes Drehmoment von 30 Nm und 0-1.300 U/min sorgen für ein ausgewogenes Verhältnis zwischen Leistung und Größe. Kompaktes Design ermöglicht optimales Handling und ist ideal zum Arbeiten über Kopf und an engen Stellen. Electronic Cell Protection verhindert Überlastung, Überhitzung und Tiefentladung",
+            "@language": "de"
+        }
+    ],
+    "productMarketingMessage": [
+        {
+            "@value": "12 Volt Cordless Screwdriver from Bosch – with a balanced relationship between performance and size",
+            "@language": "en"
+        },
+        {
+            "@value": "Bohrschrauber aus der 12-Volt-Klasse von Bosch – mit ausgewogenem Verhältnis zwischen Leistung und Größe",
+            "@language": "de"
+        }
+    ],
+    "image": {
+        "filePixelWidth": {
+            "@value": "1561",
+            "@type": "xsd:integer"
+        },
+        "filePixelHeight": {
+            "@value": "1736",
+            "@type": "xsd:integer"
+        },
+        "referencedFileURL": {
+            "@id": "https://www.bosch-sk.sk/images/products/59320-bosch-gsr-12v-15-professional-B.jpg"
+        },
+        "@type": "gs1:ReferencedFileDetails"
+    },
+    "colourDescription": [
+        {
+            "@value": "blue",
+            "@language": "en"
+        },
+        {
+            "@value": "blau",
+            "@language": "de"
+        }
+    ],
+    "gpcCategoryDescription": [
+        {
+            "@value": "Screwdrivers/Rotary Tools",
+            "@language": "en"
+        }
+    ],
+    "gpcCategoryCode": "10003654",
+    "manufacturer": {
+        "@id": "Robert Bosch GmbH"
+    },
+    "isProductRecalled": {
+        "@value": "false",
+        "@type": "xsd:boolean"
+    },
+    "productID": "0615990GB0",
+    "outOfPackageHeight": {
+        "value": {
+            "@value": "178",
+            "@type": "xsd:float"
+        },
+        "unitCode": "CMT",
+        "@type": "gs1:QuantitativeValue"
+    },
+    "outOfPackageWidth": {
+        "value": {
+            "@value": "169",
+            "@type": "xsd:float"
+        },
+        "unitCode": "CMT",
+        "@type": "gs1:QuantitativeValue"
+    },
+    "targetMarket": [
+        {
+            "consumerFirstAvailabilityDateTime": {
+                "@value": "2021-09-01 00:00:00 +02:00",
+                "@type": "xsd:dateTime"
+            },
+            "targetMarketCountries": [
+                {
+                    "@type": "gs1:Country",
+                    "countryCode": "DE"
+                }
+            ],
+            "@type": "gs1:TargetMarketDetails"
+        }
+    ]
+}
