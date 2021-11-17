@@ -9,22 +9,22 @@
     "gtin": "04012345999990",
     "productName": [
         {
-            "@value": "Bosch Professional 12V System Cordless Screwdriver GSR 12V-15",
+            "@value": "Fictitious One Professional 12V System Cordless Screwdriver GSR 12V-15",
             "@language": "en"
         },
         {
-            "@value": "Bosch Professional 12V System Akkuschrauber GSR 12V-15",
+            "@value": "Fictitious One Professional 12V System Akkuschrauber GSR 12V-15",
             "@language": "de"
         }
     ],
     "brand": {
         "brandName": [
             {
-                "@value": "Bosch Professional",
+                "@value": "Fictitious One",
                 "@language": "en"
             },
             {
-                "@value": "Bosch Professional",
+                "@value": "Fictitious One",
                 "@language": "de"
             }
         ],
@@ -38,25 +38,25 @@
     ],
     "productMarketingMessage": [
         {
-            "@value": "12 Volt Cordless Screwdriver from Bosch – with a balanced relationship between performance and size",
+            "@value": "12 Volt Cordless Screwdriver from Fictitious One – with a balanced relationship between performance and size",
             "@language": "en"
         },
         {
-            "@value": "Bohrschrauber aus der 12-Volt-Klasse von Bosch – mit ausgewogenem Verhältnis zwischen Leistung und Größe",
+            "@value": "Bohrschrauber aus der 12-Volt-Klasse von Fictitious One – mit ausgewogenem Verhältnis zwischen Leistung und Größe",
             "@language": "de"
         }
     ],
     "image": {
         "filePixelWidth": {
-            "@value": "1561",
+            "@value": "2897",
             "@type": "xsd:integer"
         },
         "filePixelHeight": {
-            "@value": "1736",
+            "@value": "2287",
             "@type": "xsd:integer"
         },
         "referencedFileURL": {
-            "@id": "https://www.bosch-sk.sk/images/products/59320-bosch-gsr-12v-15-professional-B.jpg"
+            "@id": "https://pixabay.com/de/photos/akkuschrauber-schrauber-handwerk-2239493/"
         },
         "@type": "gs1:ReferencedFileDetails"
     },
@@ -78,7 +78,7 @@
     ],
     "gpcCategoryCode": "10003654",
     "manufacturer": {
-        "@id": "Robert Bosch GmbH"
+        "@id": "Fictitious One"
     },
     "isProductRecalled": {
         "@value": "false",
