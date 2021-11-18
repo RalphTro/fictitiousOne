@@ -4,11 +4,28 @@ body{
     font-family: 'Mulish', sans-serif;
 }
 
+.header{
+    background-color: rgb(30, 30, 30);
+}
+
+.header-brand {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 150%;
+    display: block;
+    text-shadow: 0px 0px 3px rgb(112, 147, 207);
+}
+
 .page-title{
-    padding-top: 80px;
+    padding-top: 40px;
     padding-bottom: 0px;
     font-weight: lighter;
-    color: rgb(30, 30, 30); 
+    color: rgb(255, 255, 255);
+}
+
+.container-title{
+    padding-top: 40px; 
 }
 
 .table th, .table td {
@@ -44,7 +61,8 @@ body{
 }
 
 .footer{
-    padding-top: 10px; 
+    padding-top: 40px; 
+    padding-bottom: 20px; 
     background-color: rgb(30, 30, 30);
     font-weight: lighter;
     font-size: 80%;
@@ -55,9 +73,12 @@ body{
     margin-bottom: 5px; 
 }
 
+.footer .logo{
+    background-color: rgb(255, 255, 255);
+}
+
 .footer img{
     width: 100%; 
-    color: rgb(255, 255, 255);
 }
 
 
