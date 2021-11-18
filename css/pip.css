@@ -75,15 +75,26 @@ p {
 
 .footer{
     background-color: rgb(30, 30, 30);
-    text-align: center;
     font-weight: lighter;
+    font-size: 80%;
+    padding-top: 30px; 
+    padding-bottom: 20px;
 }
 
 .footer p{
     color: rgb(255, 255, 255);
+    margin-bottom: 5px;
 }
 
 .footer-hr{
     margin-top: 0px; 
     margin-bottom: 20px;
+}
+
+.footer .logo{
+    background-color: rgb(255, 255, 255);
+}
+
+.footer img{
+    width: 100%; 
 }

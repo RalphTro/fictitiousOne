@@ -15,6 +15,7 @@ body{
     font-size: 150%;
     display: block;
     text-shadow: 0px 0px 3px rgb(112, 147, 207);
+    padding-top: 20px;
 }
 
 .page-title{
@@ -61,11 +62,13 @@ body{
 }
 
 .footer{
-    padding-top: 40px; 
+    padding-top: 20px; 
     padding-bottom: 20px; 
     background-color: rgb(30, 30, 30);
     font-weight: lighter;
     font-size: 80%;
+    position: relative;
+    top: 40px;
 }
 
 .footer p{
