@@ -43,5 +43,21 @@ body{
     text-align: center;
 }
 
+.footer{
+    padding-top: 10px; 
+    background-color: rgb(30, 30, 30);
+    font-weight: lighter;
+    font-size: 80%;
+}
+
+.footer p{
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px; 
+}
+
+.footer img{
+    width: 100%; 
+    color: rgb(255, 255, 255);
+}
 
 
