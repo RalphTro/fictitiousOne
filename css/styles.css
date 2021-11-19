@@ -98,4 +98,12 @@ body{
     width: 100%; 
 }
 
+#validity-demo{
+    color: rgb(56, 197, 103);
+    font-size: 120%;
+    position: relative;
+    top: 25px;
+    margin-left: -25px;
+}
+
 
