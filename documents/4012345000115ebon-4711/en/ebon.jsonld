@@ -14,7 +14,7 @@
         "hasSerialNumber": "XYZ-1234",
         "seller": {
             "@type": "Organization",
-            "url": "https://resolver-dv1.gs1.org/417/401234500005"
+            "url": "https://resolver-dv1.gs1.org/417/401234500009"
           },
         "customer": {
             "@type": "Person",
