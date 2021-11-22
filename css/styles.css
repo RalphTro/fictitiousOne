@@ -29,6 +29,10 @@ body{
     padding: 40px;;
 }
 
+.spacing-narrow{
+    padding: 20px;;
+}
+
 .container-title{
     padding-top: 40px; 
 }
@@ -104,6 +108,11 @@ body{
     position: relative;
     top: 25px;
     margin-left: -25px;
+}
+
+.validity-result{
+    color: rgb(56, 197, 103);
+    font-size: 150%;
 }
 
 
