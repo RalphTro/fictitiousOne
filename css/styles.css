@@ -73,6 +73,11 @@ body{
     text-align: center;
 }
 
+.tracking-icon{
+    font-size: 3em; 
+    padding-left: 10px;
+}
+
 #check-button{
     background-color: rgb(30, 30, 30);
     border-color: #d4e5d3;
