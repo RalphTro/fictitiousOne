@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "gs1": "https://gs1.org/voc/",
+        "xsd": "https://www.w3.org/2001/XMLSchema#",
+        "@vocab": "https://gs1.org/voc/"
+    },
+    "@type": "gs1:Product",
+    "@id": "https://resolver-dv1.gs1.org/01/04012345999990",
+    "gtin": "04012345999990",
+    "productName": [
+        {
+            "@value": "Fictitious One Professional 12V System Cordless Screwdriver GSR 12V-15",
+            "@language": "en"
+        },
+        {
+            "@value": "Fictitious One Professional 12V System Akkuschrauber GSR 12V-15",
+            "@language": "de"
+        }
+    ],
+    "certification": [
+        {
+            "certificationAgency": [
+                {
+                    "@value": "Example Devices Council (EDC)",
+                    "@language": "en"
+                }
+            ],
+            "certificationStandard": [
+                {
+                    "@value": "EDC Standard A-001",
+                    "@language": "en"
+                }
+            ],
+            "certificationValue": [
+                {
+                    "@value": "Quality Level A",
+                    "@language": "en"
+                }
+            ],
+            "certificationIdentification": [
+                {
+                    "@value": "EDC-123456",
+                    "@language": "en"
+                }
+            ],
+            "issuanceDate": "2021-12-11",
+            "certificationStartDate": "2021-12-12",
+            "certificationEndDate": "2023-12-11",
+            "@type": "gs1:CertificationDetails"
+        }
+    ]
+}
