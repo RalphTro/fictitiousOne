@@ -1,25 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Information Page</title>
-    <link rel="stylesheet" type="text/css" href="../../../../vendor/Skeleton/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="../../../../vendor/Skeleton/css/skeleton.css">
-    <link rel="stylesheet" type="text/css" href="../../../../css/pip.css">
+    <link rel="stylesheet" type="text/css" href="../../../../../vendor/Skeleton/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../../../../../vendor/Skeleton/css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="../../../../../css/pip.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e1a9636c5d.js" crossorigin="anonymous"></script>
+    <script type="application/ld+json">
+        {
+            "@context": {
+                "gs1": "http://gs1.org/voc/",
+                "xsd": "http://www.w3.org/2001/XMLSchema#",
+                "@vocab": "http://gs1.org/voc/"
+            },
+            "@type": "gs1:Product",
+            "productName": [
+                {
+                    "@value": "Screwdriver Pro",
+                    "@language": "en"
+                }
+            ],
+            "gtin": "04012345999990",
+            "hasBatchLotNumber": "20210401-A",
+            "hasSerialNumber": "XYZ-1234",
+            "productionDate": "2021-04-01",
+            "brand": {
+                "brandName": [
+                    {
+                        "@value": "Fictitious One",
+                        "@language": "en"
+                    }
+                ],
+                "@type": "gs1:Brand"
+            },
+            "gpcCategoryDescription": [
+                {
+                    "@value": "Screwdrivers - Non Powered",
+                    "@language": "en"
+                }
+            ],
+            "gpcCategoryCode": "10003528",
+            "manufacturer": {
+                "@id": "Fictitious One"
+            },
+            "isProductRecalled": {
+                "@value": "false",
+                "@type": "xsd:boolean"
+            },
+            "countryOfOrigin": [
+                {
+                    "@type": "gs1:Country",
+                    "countryCode": "DE"
+                }
+            ]
+        }
+    </script>
 </head>
 
 <body>
     <header class="header">
         <div class="container">
             <div class="header-brand-wrapper">
-                <a class="header-brand" href="https://ralphtro.github.io/fictitiousOne/parties/4012345000009/en/company.html" target="_blank">Fictitious One</a>
+                <a class="header-brand" href="https://ralphtro.github.io/fictitiousOne/parties/4012345000009/de/company.html" target="_blank">Fictitious One</a>
             </div>
         </div>
         <div class="container">
@@ -34,7 +83,7 @@
         <div class="container">
             <div class="row">
                 <div class="eight columns">
-                    <h1 class="overview-title">Our <strong>Screwdriver Pro</strong></h1>
+                    <h1 class="overview-title">Unser <strong>Screwdriver Pro</strong></h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Laudantium pariatur necessitatibus, ea est minus quo voluptate aut ipsam mollitia exercitationem
                         quaerat culpa! Nihil aliquam nesciunt harum nobis minima architecto nam?</p>
@@ -43,7 +92,7 @@
                 </div>
                 <div class="four columns">
                     <div>
-                        <img class="overview-img" src="../../../../images/screwdriver.jpg" alt="Screwdriver">
+                        <img class="overview-img" src="../../../../../images/screwdriver.jpg" alt="Screwdriver">
                     </div>
                 </div>
             </div>
@@ -58,7 +107,7 @@
                     </div>
                 </div>
                 <div class="eight columns">
-                    <h1 class="service-title">What we <strong>Promise</strong></h1>
+                    <h1 class="service-title">Was wir <strong>Versprechen</strong></h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam consequuntur unde
                         similique beatae ducimus dolore consequatur fugit quaerat enim dolor.</p>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem corrupti iste natus nobis
@@ -74,14 +123,14 @@
         <div class="container">
             <div class="row">
                 <div class="eight columns">
-                    <h1 class="features-title">Individual <strong>Features</strong></h1>
+                    <h1 class="features-title">Produkt-<strong>Eigenschaften</strong></h1>
                     <ul class="feature-list">
                         <li><strong>GTIN: </strong>04012345999990</li>
-                        <li><strong>Date of production: </strong>1 April 2021</li>
-                        <li><strong>Serial number: </strong>XYZ-1234</li>
-                        <li><strong>Country of origin: </strong>Germany</li>
-                        <li><strong>Batch number: </strong>20210401-A</li>
-                        <li><strong>Product recalled: </strong>no</li>
+                        <li><strong>Produktionsdatum: </strong>1. April 2021</li>
+                        <li><strong>Seriennummer: </strong>XYZ-1234</li>
+                        <li><strong>Ursprungsland: </strong>Deutschland</li>
+                        <li><strong>Chargennummer: </strong>20210401-A</li>
+                        <li><strong>Produkt zurückgerufen: </strong>nein</li>
                     </ul>
                 </div>
                 <div class="four columns">

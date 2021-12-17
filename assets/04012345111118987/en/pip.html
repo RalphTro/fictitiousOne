@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Returnable asset info</title>
-  <link rel="stylesheet" type="text/css" href="../../../../vendor/Skeleton/css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="../../../../vendor/Skeleton/css/skeleton.css">
-  <link rel="stylesheet" type="text/css" href="../../../../css/styles.css">
+  <link rel="stylesheet" type="text/css" href="../../../vendor/Skeleton/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../../../vendor/Skeleton/css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="../../../css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;700&display=swap" rel="stylesheet">
@@ -22,61 +22,37 @@
         <a class="header-brand" href="https://ralphtro.github.io/fictitiousOne/parties/4012345000009/en/company.html" target="_blank">Fictitious One</a>
       </div>
       <div class="row">
-        <h1 class="page-title">Product ID Certification</h1>
+        <h1 class="page-title">Reusable asset information</h1>
       </div>
     </div>
   </header>
-  <div class="spacing"></div>
-  <div class="container">
-    <div class="row">
-        <div class="two columns">
-            <p><strong>GTIN</strong></p>
-        </div>
-        <div class="four columns">
-            <p>04012345999990</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="two columns">
-            <p><strong>Serial number</strong></p>
-        </div>
-        <div class="four columns">
-            <p>XYZ-1234</p>
-        </div>
-    </div>    
-  </div>
-  <div class="spacing-narrow"></div>
-  <div>
+  <div class="asset-spec">
     <div class="container">
       <div class="row">
-        <div class="twelve columns">
+        <div class="two-thirds column">
           <table class="table u-full-width">
             <thead>
               <tr>
-                <th>Check</th>
-                <th>Explanation</th>
-                <th>Result</th>
-                <th>Reference</th>
+                <th>Property</th>
+                <th>Value</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>GS1 Prefix Validation</td>
-                <td>The local GS1 Member Organisation is entitled to allocate this GS1 Company Prefix.</td>
-                <td class="validity-result"><strong>OK</strong></td>
-                <td>(LINK TO VC TBD)</td>
+                <td>GRAI (Global Returnable Asset Identifier)</td>
+                <td>04012345111118987</td>
               </tr>
               <tr>
-                <td>GS1 Company Prefix Validation</td>
-                <td>The organisation is entitled to generate GS1 Keys from this GS1 Company Prefix.</td>
-                <td class="validity-result"><strong>OK</strong></td>
-                <td>(LINK TO VC TBD)</td>
+                <td>Asset serial number</td>
+                <td>987</td>
               </tr>
               <tr>
-                <td>GS1 Key Validation</td>
-                <td>The organisation issued this GS1 Key.</td>
-                <td class="validity-result"><strong>OK</strong></td>
-                <td>(LINK TO VC TBD)</td>
+                <td>Size (length, width, height)</td>
+                <td>600mm, 400mm, 200mm</td>
+              </tr>
+              <tr>
+                <td>Colour</td>
+                <td>Blue</td>
               </tr>
             </tbody>
           </table>
@@ -87,7 +63,7 @@
   <div class="footer">
     <div class="container">
       <div class="one column logo">
-        <img src="../../../../images/osi_appr_license.png" alt="Open Source Approved License Logo">
+        <img src="../../../images/osi_appr_license.png" alt="Open Source Approved License Logo">
       </div>
       <div class="eight columns">
         <p>All website source code and content is <strong>Open Source (MIT License)</strong>.</p>
