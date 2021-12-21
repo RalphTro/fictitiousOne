@@ -1,0 +1,73 @@
+/* Styles for simple (e.g. table-based) pages */
+
+.spacing{
+    padding: 40px;
+}
+
+.spacing-narrow{
+    padding: 20px;
+}
+
+.container-title{
+    padding-top: 40px; 
+}
+
+.asset-spec{
+    padding-top: 60px;
+}
+
+.table th, .table td {
+    padding-left: 5px;
+    padding-right: 15px;
+    text-align: left;
+  }
+
+.table{
+    border: 1px solid #d4e5d3;
+}
+
+.table tbody tr:nth-child(odd) td,
+.table tbody tr:nth-child(odd) th {
+	background: #d4e5d3;
+}
+
+.table thead tr th,
+.table tbody tr td:nth-child(1){
+    white-space: nowrap;
+}
+
+.divide{
+    border:5px solid #d4e5d3;
+    border-radius: 5px;
+}
+
+.asset-icon{
+    padding-top: 20px; 
+    color: #d4e5d3;
+    font-size: 10em; 
+    text-align: center;
+}
+
+.tracking-icon{
+    font-size: 3em; 
+    padding-left: 10px;
+}
+
+#check-button{
+    background-color: rgb(30, 30, 30);
+    border-color: #d4e5d3;
+    margin-top: 20px;
+}
+
+#validity-demo{
+    color: rgb(56, 197, 103);
+    font-size: 120%;
+    position: relative;
+    top: 25px;
+    margin-left: -25px;
+}
+
+.validity-result{
+    color: rgb(56, 197, 103);
+    font-size: 150%;
+}

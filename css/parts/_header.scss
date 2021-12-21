@@ -1,0 +1,73 @@
+/* Header styles for all simple pages */
+
+.header{
+    background-color: rgb(30, 30, 30);
+}
+
+.header-brand {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 150%;
+    display: block;
+    text-shadow: 0px 0px 3px rgb(112, 147, 207);
+    padding-top: 20px;
+}
+
+.page-title{
+    padding-top: 40px;
+    padding-bottom: 0px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+}
+
+/* Header styles for product/corporate pages */
+
+#header-screwdriver {
+    height: 620px;
+    background-image: url("../images/screw.jpg");
+    background-size: cover;
+    background-position: 70% 60%;
+}
+
+#header-corporate {
+    height: 620px;
+    background-image: url("../images/workspace.jpg");
+    background-size: cover;
+    background-position: 40% 15%;
+}
+
+.header-brand-wrapper {
+    margin-top: 10px;
+    float: left;
+}
+
+.header-brand {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 150%;
+    display: block;
+    text-shadow: 0px 0px 3px rgb(112, 147, 207);
+}
+
+.slogan {
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 3px black;
+    font-size: 450%;
+}
+.slogan {
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 3px black;
+    font-size: 450%;
+}
+
+#slogan-screwdriver{
+    padding-top: 430px;
+}
+
+#slogan-corporate{
+    padding-top: 170px;
+}
