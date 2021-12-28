@@ -6,6 +6,11 @@
     font-size: 80%;
     position: relative;
     top: 40px;
+    text-align: center;
+
+    @media ($bp-larger-than-phablet) {
+        text-align: left;
+    }
 }
 
 .footer p{
@@ -17,8 +22,32 @@
     background-color: rgb(255, 255, 255);
 }
 
+.footer .eight{
+    margin-left: 0%;
+
+    @media ($bp-larger-than-tablet) {
+        margin-left: 4%;
+    }
+}
+
+.footer .three{
+    margin-left: 0%;
+
+    @media ($bp-larger-than-phablet) {
+        margin-left: 2%;
+    }
+    @media ($bp-larger-than-tablet) {
+        margin-left: 4%;
+    }
+}
+
 .footer img{
-    width: 100%; 
+    display: none;
+
+    @media ($bp-larger-than-tablet) {
+        display: block;
+        width: 100%; 
+    }
 }
 
 .footer-hr{

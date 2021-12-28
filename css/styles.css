@@ -1030,6 +1030,13 @@ p {
   font-size: 80%;
   position: relative;
   top: 40px;
+  text-align: center;
+}
+
+@media (min-width: 550px) {
+  .footer {
+    text-align: left;
+  }
 }
 
 .footer p {
@@ -1041,8 +1048,41 @@ p {
   background-color: white;
 }
 
+.footer .eight {
+  margin-left: 0%;
+}
+
+@media (min-width: 750px) {
+  .footer .eight {
+    margin-left: 4%;
+  }
+}
+
+.footer .three {
+  margin-left: 0%;
+}
+
+@media (min-width: 550px) {
+  .footer .three {
+    margin-left: 2%;
+  }
+}
+
+@media (min-width: 750px) {
+  .footer .three {
+    margin-left: 4%;
+  }
+}
+
 .footer img {
-  width: 100%;
+  display: none;
+}
+
+@media (min-width: 750px) {
+  .footer img {
+    display: block;
+    width: 100%;
+  }
 }
 
 .footer-hr {
