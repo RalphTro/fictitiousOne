@@ -37,6 +37,13 @@
     background-position: 40% 15%;
 }
 
+#header-wine{
+    height: 620px;
+    background-image: url("../images/wine.jpg");
+    background-size: cover;
+    background-position: 50% 55%;
+}
+
 .header-brand-wrapper {
     margin-top: 10px;
     float: left;
@@ -70,4 +77,8 @@
 
 #slogan-corporate{
     padding-top: 170px;
+}
+
+#slogan-wine{
+    padding-top: 120px;
 }
