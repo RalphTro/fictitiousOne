@@ -24,20 +24,24 @@
 
 .footer .eight{
     margin-left: 0%;
+    font-size: 70%;
 
     @media ($bp-larger-than-tablet) {
         margin-left: 4%;
+        font-size: 80%;
     }
 }
 
 .footer .three{
     margin-left: 0%;
+    font-size: 70%;
 
     @media ($bp-larger-than-phablet) {
         margin-left: 2%;
     }
     @media ($bp-larger-than-tablet) {
         margin-left: 4%;
+        font-size: 80%;
     }
 }
 
@@ -63,6 +67,11 @@
     font-size: 80%;
     padding-top: 30px; 
     padding-bottom: 20px;
+    text-align: center;
+
+    @media ($bp-larger-than-phablet) {
+        text-align: left;
+    }
 }
 
 .footer-special p{
@@ -74,8 +83,36 @@
     background-color: rgb(255, 255, 255);
 }
 
+.footer-special .eight{
+    margin-left: 0%;
+    font-size: 70%;
+
+    @media ($bp-larger-than-tablet) {
+        margin-left: 4%;
+        font-size: 80%;
+    }
+}
+
+.footer-special .three{
+    margin-left: 0%;
+    font-size: 70%;
+
+    @media ($bp-larger-than-phablet) {
+        margin-left: 2%;
+    }
+    @media ($bp-larger-than-tablet) {
+        margin-left: 4%;
+        font-size: 80%;
+    }
+}
+
 .footer-special img{
-    width: 100%; 
+    display: none;
+
+    @media ($bp-larger-than-tablet) {
+        display: block;
+        width: 100%; 
+    }
 }
 
 
