@@ -34,9 +34,13 @@
 }
 
 .feature-list li{
-    width: 50%; 
+    width: 100%; 
     color: rgb(117, 117, 117);
     font-size: 120%;
     float: left;
     height: 2.5em;
+
+    @media ($bp-larger-than-desktop) {
+        width: 50%;
+    }
 }

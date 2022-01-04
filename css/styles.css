@@ -1112,11 +1112,17 @@ p {
 }
 
 .feature-list li {
-  width: 50%;
+  width: 100%;
   color: #757575;
   font-size: 120%;
   float: left;
   height: 2.5em;
+}
+
+@media (min-width: 1000px) {
+  .feature-list li {
+    width: 50%;
+  }
 }
 
 .footer {
