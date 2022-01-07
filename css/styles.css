@@ -845,6 +845,13 @@ p {
   background-position: 50% 55%;
 }
 
+#header-honey {
+  height: 620px;
+  background-image: url("../images/honey.jpg");
+  background-size: cover;
+  background-position: 90% 50%;
+}
+
 .header-brand-wrapper {
   margin-top: 10px;
   float: left;
@@ -875,6 +882,25 @@ p {
 
 #slogan-screwdriver {
   padding-top: 430px;
+  font-size: 200%;
+}
+
+@media (min-width: 550px) {
+  #slogan-screwdriver {
+    font-size: 250%;
+  }
+}
+
+@media (min-width: 750px) {
+  #slogan-screwdriver {
+    font-size: 350%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #slogan-screwdriver {
+    font-size: 450%;
+  }
 }
 
 #slogan-corporate {
@@ -883,6 +909,10 @@ p {
 
 #slogan-wine {
   padding-top: 120px;
+}
+
+#slogan-honey {
+  padding-top: 240px;
 }
 
 /* Styles for simple (e.g. table-based) pages */
@@ -1114,7 +1144,7 @@ p {
 .feature-list li {
   width: 100%;
   color: #757575;
-  font-size: 120%;
+  /* font-size: 120%; */
   float: left;
   height: 2.5em;
 }
@@ -1125,6 +1155,40 @@ p {
   }
 }
 
+.origin-map {
+  width: 100%;
+  min-width: 400px;
+}
+
+@media (min-width: 550px) {
+  div.six.columns.origin {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  div.six.columns.origin {
+    margin-left: 4%;
+  }
+}
+
+.origin-description {
+  display: contents;
+  float: none;
+}
+
+@media (min-width: 1000px) {
+  .origin-description {
+    display: block;
+    float: left;
+  }
+}
+
+/*  */
+/* .origin-map img{
+    width: min-content;
+    height: 300px;
+} */
 .footer {
   padding-top: 20px;
   padding-bottom: 20px;

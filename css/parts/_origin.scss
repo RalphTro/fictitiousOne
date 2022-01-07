@@ -1,0 +1,32 @@
+.origin-map{
+    width: 100%;
+    min-width: 400px; 
+}
+
+div.six.columns.origin{
+    @media ($bp-larger-than-phablet) {
+        margin-left: 0;
+    }
+    @media ($bp-larger-than-desktop) {
+        margin-left: 4%;
+    }
+}
+
+.origin-description{
+    display: contents; 
+    float: none;
+
+    @media ($bp-larger-than-desktop) {
+        display: block;
+        float: left;
+    }
+}
+
+
+
+/*  */
+
+/* .origin-map img{
+    width: min-content;
+    height: 300px;
+} */
