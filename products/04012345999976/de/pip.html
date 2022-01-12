@@ -21,6 +21,25 @@
                     href="https://ralphtro.github.io/fictitiousOne/parties/4012345000009/de/company.html"
                     target="_blank">Fictitious One</a>
             </div>
+            <div class="topnav">
+                <a href="#" class="active" id="topnap-text">Home</a>
+                <div id="myLinks">
+                    <a href="#overview">Überblick</a>
+                    <a href="#characteristics">Eigenschaften</a>
+                    <a href="#origin">Herkunft</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="hamburger()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+            <nav class="header-navbar">
+                <ul class="header-navbar-links">
+                    <li><a href="#overview">Überblick</a></li>
+                    <li><a href="#characteristics">Eigenschaften</a></li>
+                    <li><a href="#origin">Herkunft</a></li>
+                </ul>
+            </nav>
         </div>
         <div class="container">
             <div class="slogan" id="slogan-wine">
@@ -30,12 +49,12 @@
             </div>
         </div>
     </header>
-    <div class="overview">
+    <div class="overview" id="overview">
         <div class="container">
             <div class="row">
                 <div class="eight columns">
-                    <h1 class="overview-title"><strong>Good Wine One</strong></h1>
-                    <p>Unser Good Wine One überzeugt als vielseitiger Alleskönner.
+                    <h1 class="overview-title"><strong>Überblick</strong></h1>
+                    <p>Unser <strong>Good Wine One </strong> überzeugt als vielseitiger Alleskönner.
                         Die flüssigen Argumente für diesen vollmundigen Grauburgunder sind eine sanfte Säurestruktur mit
                         Aromen von exotischen Früchten!</p>
                     <p>Genießen Sie diesen trockenen Grauburgunder zu allem was die nordische Küche so hergibt!</p>
@@ -49,14 +68,9 @@
         </div>
     </div>
 
-    <div class="features grey">
+    <div class="features grey" id="characteristics">
         <div class="container">
             <div class="row">
-                <!--  <div class="four columns">
-                    <div class="features-icon">
-                        <i class="fa fa-list-ol" aria-hidden="true"></i>
-                    </div>
-                </div> -->
                 <div class="twelve columns">
                     <h1 class="features-title"><strong>Eigenschaften</strong></h1>
                     <ul class="feature-list">
@@ -69,26 +83,26 @@
                         <li><strong>Rebsorte: </strong>Grauer Burgunder</li>
                         <li><strong>Geschmack: </strong>Trocken</li>
                         <li><strong>Nettoinhalt: </strong>0,75 l</li>
-                        <li><strong>Erzeuger: </strong>Erzeugerabfüllung</li>
+                        <li><strong>Produktion/Abfüllung: </strong>Erzeugerabfüllung</li>
                         <li><strong>Amtliche Prüfnummer: </strong>1671 049 10 19</li>
                         <li><strong>GPC: </strong>10000276</li>
                         <li><strong>Alkoholgehalt: </strong>12,5 % vol</li>
                         <li><strong>Inhaltsstoffe: </strong>Wasser, Alkohol, Extrakt</li>
                         <li><strong>Empfehlung: </strong>zu allen nordischen Gerichten</li>
                         <li><strong>Qualitätsstufe: </strong>Qualitätswein bestimmter Anbaugebiete</li>
-                        <li><strong>Nährwerte: </strong>Kalorien 83kcal, Natrium 5mg, Kalium 99mg, Kohlenhydrate 2,7g</li>
+                        <li><strong>Nährwerte: </strong>Kalorien 83 kcal, Natrium 5 mg, Kalium 99 mg, Kohlenhydrate 2,7 g</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="service">
+    <div class="service" id="origin">
         <div class="container">
             <div class="row">
 
                 <div class="six columns origin-description">
-                    <h1 class="service-title"><strong>Weingut</strong></h1>
+                    <h1 class="service-title"><strong>Herkunft</strong></h1>
                     <p>Das Weingut Good Winemaker One liegt mitten im UNESCO Weltkulturerbe Oberes Mittelrheintal.
                         Die Reben stehen auf 3ha in den bekannten Schiefersteillagen.</p>
                     <p>Als Familienbetrieb sorgen wir in vierter Generation dafür, dass unsere Typenweine höchsten
@@ -106,7 +120,6 @@
 
     <div class="footer-special">
         <div class="container">
-            <!-- <hr class="footer-hr" /> -->
             <div class="row">
                 <div class="one column logo">
                     <img src="../../../images/osi_appr_license.png" alt="Open Source Approved License Logo">
@@ -125,6 +138,7 @@
             </div>
         </div>
     </div>
+    <script src="../../../javascript/stylescripts.js"></script>
 </body>
 
 </html>

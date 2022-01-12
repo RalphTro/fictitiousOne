@@ -17,24 +17,47 @@
     <header id="header-wine">
         <div class="container">
             <div class="header-brand-wrapper">
-                <a class="header-brand" href="https://ralphtro.github.io/fictitiousOne/parties/4012345000009/en/company.html" target="_blank">Fictitious One</a>
+                <a class="header-brand"
+                    href="https://ralphtro.github.io/fictitiousOne/parties/4012345000009/en/company.html"
+                    target="_blank">Fictitious One</a>
             </div>
+
+            <div class="topnav">
+                <a href="#" class="active" id="topnap-text">Home</a>
+                <div id="myLinks">
+                    <a href="#overview">Overview</a>
+                    <a href="#characteristics">Characteristics</a>
+                    <a href="#origin">Origin</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="hamburger()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+            <nav class="header-navbar">
+                <ul class="header-navbar-links">
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#characteristics">Characteristics</a></li>
+                    <li><a href="#origin">Origin</a></li>
+                </ul>
+            </nav>
         </div>
+
         <div class="container">
             <div class="slogan" id="slogan-wine">
                 <div>
-                   <strong>Fine Wine</strong> from the <strong>Rhine</strong>
+                    <strong>Fine Wine</strong> from the <strong>Rhine</strong>
                 </div>
             </div>
         </div>
     </header>
-    <div class="overview">
+    <div class="overview" id="overview">
         <div class="container">
             <div class="row">
                 <div class="eight columns">
-                    <h1 class="overview-title"><strong>Good Wine One</strong></h1>
-                    <p>Our Good Wine One convinces as a versatile all-rounder.
-                        The liquid arguments for this full-bodied Pinot Gris are 
+                    <h1 class="overview-title"><strong>Overview</strong></h1>
+                    <p>Our <strong>Good Wine One </strong> convinces as a versatile all-rounder.
+                        The liquid arguments for this full-bodied Pinot Gris are
                         a gentle acid structure with aromas of exotic fruits</p>
                     <p>Enjoy this dry Pinot Gris with everything that Nordic cuisine has to offer.</p>
                 </div>
@@ -47,15 +70,10 @@
         </div>
     </div>
 
-    <div class="features grey">
+    <div class="features grey" id="characteristics">
         <div class="container">
             <div class="row">
-                <div class="four columns">
-                    <div class="features-icon">
-                        <i class="fa fa-list-ol" aria-hidden="true"></i>
-                    </div>
-                </div>
-                <div class="eight columns">
+                <div class="twelve columns">
                     <h1 class="features-title"><strong>Characteristics</strong></h1>
                     <ul class="feature-list">
                         <li><strong>GTIN: </strong>04012345999976</li>
@@ -66,43 +84,38 @@
                         <li><strong>Vintage: </strong>2019</li>
                         <li><strong>Grape Variety: </strong>Pinot Gris</li>
                         <li><strong>Style of Wine: </strong>Dry</li>
-                        <li><strong>Net Content: </strong>0,75 l</li>
-                        <li><strong>Producer: </strong>Erzeugerabfüllung</li>
+                        <li><strong>Net Content: </strong>0.75 l</li>
+                        <li><strong>Production/filling: </strong>Filled by producer</li>
                         <li><strong>Quality Control Test Number: </strong>1671 049 10 19</li>
                         <li><strong>GPC: </strong>10000276</li>
-                        <li><strong>Alcohol Content: </strong>12,5 % vol</li>
+                        <li><strong>Alcohol Content: </strong>12.5 % vol</li>
                         <li><strong>Ingredients: </strong>water, alcohol, extract</li>
                         <li><strong>Recommendation: </strong>with all nordic dishes</li>
                         <li><strong>Quality Category: </strong>Quality wine produced in certain regions</li>
-                        <li><strong>Nutritional values: </strong>calories 83kcal, sodium 5mg, potassium 99mg, carbons 2,7g</li>
+                        <li><strong>Nutritional values: </strong>calories 83 kcal, sodium 5 mg, potassium 99 mg, carbons
+                            2.7 g</li>
                     </ul>
                 </div>
-   
             </div>
         </div>
     </div>
 
-
-
-
-
-
-    <div class="service">
+    <div class="service" id="origin">
         <div class="container">
             <div class="row">
-  
-                <div class="eight columns">
-                    <h1 class="service-title"><strong>Vineyard</strong></h1>
-                    <p>The Good Winemaker One winery is located in the middle of the UNESCO World Heritage Site Upper Middle Rhine Valley.
+                <div class="six columns origin-description">
+                    <h1 class="service-title"><strong>Origin</strong></h1>
+                    <p>The Good Winemaker One winery is located in the middle of the UNESCO World Heritage Site Upper
+                        Middle Rhine Valley.
                         The vines are planted on 3ha in the well-known slate steep slopes.</p>
-                    <p>As a family business in its fourth generation, we ensure that our type wines meet the highest quality standards
+                    <p>As a family business in its fourth generation, we ensure that our type wines meet the highest
+                        quality standards
                         and inspire you again and again!</p>
-                    <p>Karte (Shapefile analog fTRACE?)
-                    </p>
                 </div>
-                <div class="four columns">
-                    <div class="service-icon">
-                        <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                <div class="six columns origin">
+                    <div class="origin-map-wrapper">
+                        <img src="../../../images/rhine_map.png" class="origin-map"
+                            alt="Rhine region map displaying the wine's origin">
                     </div>
                 </div>
             </div>
@@ -111,7 +124,6 @@
 
     <div class="footer-special">
         <div class="container">
-            <!-- <hr class="footer-hr" /> -->
             <div class="row">
                 <div class="one column logo">
                     <img src="../../../images/osi_appr_license.png" alt="Open Source Approved License Logo">
@@ -123,12 +135,14 @@
                             purposes</strong> only.</p>
                 </div>
                 <div class="three columns">
-                    <p><strong>&copy; </strong>Ralph Troeger</p>
-                    <p><strong>&#64; </strong>ralph.troeger@gs1.de</p>
+                    <p><strong>&copy; </strong>Anna Klapper, Ralph Troeger</p>
+                    <p><strong>&#64; </strong>anna.klapper@gs1.de, ralph.troeger@gs1.de</p>
                     <p><strong>&#10710; </strong>2022</p>
-                </div> 
+                </div>
             </div>
         </div>
     </div>
+    <script src="../../../javascript/stylescripts.js"></script>
 </body>
+
 </html>
