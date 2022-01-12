@@ -1246,8 +1246,8 @@ p {
 }
 
 .origin-map {
-  width: 90%;
-  min-width: 400px;
+  width: 100%;
+  min-width: 330px;
 }
 
 @media (min-width: 550px) {
