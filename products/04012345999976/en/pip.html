@@ -11,6 +11,97 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e1a9636c5d.js" crossorigin="anonymous"></script>
+    <script type="application/ld+json">
+        {
+            "@context": {
+                "gs1": "https://gs1.org/voc/",
+                "s": "https://schema.org/",
+                "xsd": "https://www.w3.org/2001/XMLSchema#",
+                "@vocab": "https://gs1.org/voc/"
+            },
+            "@type": [
+                "gs1:Beverage",
+                "s:Product"
+            ],
+            "s:name": [
+                {
+                    "@value": "Good Wine One",
+                    "@language": "en"
+                },
+                {
+                    "@value": "Good Wine One",
+                    "@language": "de"
+                }
+            ],
+            "gtin": "04012345999976",
+            "s:brand": {
+                "@id": "Fictitious One"
+            },
+            "gpcCategoryDescription": [
+                {
+                    "@value": "Wine - Still",
+                    "@language": "en"
+                }
+            ],
+            "gpcCategoryCode": "10000276",
+            "isProductRecalled": {
+                "@value": "false",
+                "@type": "xsd:boolean"
+            },
+            "netContent": {
+                "s:value": {
+                    "@value": "0.75",
+                    "@type": "xsd:float"
+                },
+                "s:unitCode": "LTR",
+                "@type": "s:QuantitativeValue"
+            },
+            "percentageOfAlcoholByVolume": {
+                "@value": "12.5",
+                "@type": "xsd:float"
+            },
+            "isVintage": {
+                "@id": "gs1:NonbinaryLogicCode-TRUE"
+            },
+            "beverageVintage": "2019",
+            "countryOfOriginStatement": [
+                {
+                    "@value": "Mittelrhein",
+                    "@language": "en"
+                },
+                {
+                    "@value": "Mittelrhein",
+                    "@language": "de"
+                }
+            ],
+            "countryOfOrigin": [
+                {
+                    "@type": "s:Country",
+                    "countryCode": "DE"
+                }
+            ],
+            "targetMarket": [
+                {
+                    "targetMarketCountries": [
+                        {
+                            "@type": "s:Country",
+                            "countryCode": "FR"
+                        },
+                        {
+                            "@type": "s:Country",
+                            "countryCode": "DE"
+                        },
+                        {
+                            "@type": "s:Country",
+                            "countryCode": "GB"
+                        }
+                    ],
+                    "@type": "gs1:TargetMarketDetails"
+                }
+            ]
+        }
+    </script>
+    
 </head>
 
 <body>
