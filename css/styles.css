@@ -1248,6 +1248,8 @@ p {
 .origin-map {
   width: 100%;
   min-width: 330px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (min-width: 550px) {
