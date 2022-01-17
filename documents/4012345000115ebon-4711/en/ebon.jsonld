@@ -9,7 +9,7 @@
 		"PurchaseProofCredential"
 	],
     "credentialSubject": {
-        "id": "https://resolver-dv1.gs1.org/01/04012345999990/21/XYZ-1234",
+        "id": "https://resolver-dv1.gs1.org/01/04012345999990/10/20210401-A/21/XYZ-1234",
         "gtin": "04012345999990",
         "hasSerialNumber": "XYZ-1234",
         "seller": {
