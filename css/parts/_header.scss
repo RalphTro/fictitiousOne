@@ -190,4 +190,9 @@
 
 #slogan-honey{
     padding-top: 240px;
+    font-size: 350%;
+
+    @media ($bp-larger-than-phablet) {
+        font-size: 450%;
+    }
 }

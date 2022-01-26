@@ -1003,6 +1003,13 @@ p {
 
 #slogan-honey {
   padding-top: 240px;
+  font-size: 350%;
+}
+
+@media (min-width: 550px) {
+  #slogan-honey {
+    font-size: 450%;
+  }
 }
 
 /* Styles for simple (e.g. table-based) pages */
@@ -1144,6 +1151,10 @@ p {
 
 .overview-img {
   width: 100%;
+}
+
+.overview-list {
+  padding-left: 20px;
 }
 
 .service {
