@@ -21,4 +21,4 @@ The following table accommodates sample data that may be used to populate GS1 Di
 |01|04012345999990| |/| |en|GB|text/html| |https://ralphtro.github.io/fictitiousOne/products/04012345999990/en/userManual.html|
 |00|040123451111111110| |/| |de|DE|text/html| |https://ralphtro.github.io/fictitiousOne/shipments/040123451111111110/de/tracking.html|
 |00|040123451111111110| |/| |en|GB|text/html| |https://ralphtro.github.io/fictitiousOne/shipments/040123451111111110/en/tracking.html|
-|01|04012345999969|Honey Pot One|gs1:pip|en|GB|text/html|Product Information Page|https://ralphtro.github.io/fictitiousOne/products/04012345999969/en/pip.html|
+|01|04012345999969|Honey Pot One|/|gs1:pip|en|GB|text/html|Product Information Page|https://ralphtro.github.io/fictitiousOne/products/04012345999969/en/pip.html|
