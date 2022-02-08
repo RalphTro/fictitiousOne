@@ -1002,7 +1002,7 @@ p {
 }
 
 #slogan-honey {
-  padding-top: 240px;
+  padding-top: 180px;
   font-size: 350%;
 }
 
@@ -1010,6 +1010,10 @@ p {
   #slogan-honey {
     font-size: 450%;
   }
+}
+
+#container-honey {
+  padding-top: 30px;
 }
 
 /* Styles for simple (e.g. table-based) pages */
@@ -1157,6 +1161,10 @@ p {
   padding-left: 20px;
 }
 
+.overview-text {
+  padding-left: 20px;
+}
+
 .service {
   padding-top: 100px;
   padding-bottom: 75px;
@@ -1254,6 +1262,14 @@ p {
   .feature-list li {
     width: 50%;
   }
+}
+
+img.feature-image {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
 }
 
 .origin-map {
