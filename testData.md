@@ -15,8 +15,12 @@ The following table accommodates sample data that may be used to populate GS1 Di
 |414|4012345000108|Warenlager B|/| |de|DE|text/html| |https://ralphtro.github.io/fictitiousOne/locations/4012345000108/de/locationInfo.html|
 |414|4012345000108|Warehouse B|/| |en|GB|text/html| |https://ralphtro.github.io/fictitiousOne/locations/4012345000108/en/locationInfo.html|
 |414|4012345000108|Warehouse B|/| |en|GB|application/ld+json| |https://github.com/RalphTro/fictitiousOne/blob/main/locations/4012345000108/openingHours.jsonld|
-|01|04012345999990|Screwdriver One|10/20210401-A/21/XYZ-1234| |de|DE|text/html| |https://ralphtro.github.io/fictitiousOne/products/04012345999990/20210401-A/XYZ-1234/de/pip.html|
-|01|04012345999990|Screwdriver One|10/20210401-A/21/XYZ-1234| |en|GB|text/html| |https://ralphtro.github.io/fictitiousOne/products/04012345999990/20210401-A/XYZ-1234/en/pip.html|
+|414|4012345000115|Production Site Musterstadt|/| |en|GB|text/html|Site Info|https://ralphtro.github.io/fictitiousOne/locations/4012345000115/en/locationInfo.html|
+|414|4012345000115|Produktionsstandort Musterstadt|/| |de|DE|text/html|Info Standort|https://ralphtro.github.io/fictitiousOne/locations/4012345000115/de/locationInfo.html|
+|414|4012345000115|Production Line|/254| |en|GB|text/html|Sub Site Info|https://ralphtro.github.io/fictitiousOne/locations/4012345000115/12/en/productionLine.html|
+|414|4012345000115|Produktionslinie|/254| |de|DE|text/html|Info Sub-Lokation|https://ralphtro.github.io/fictitiousOne/locations/4012345000115/12/de/productionLine.html|
+|01|04012345999990|Screwdriver One|/10/20210401-A/21/XYZ-1234| |de|DE|text/html| |https://ralphtro.github.io/fictitiousOne/products/04012345999990/20210401-A/XYZ-1234/de/pip.html|
+|01|04012345999990|Screwdriver One|/10/20210401-A/21/XYZ-1234| |en|GB|text/html| |https://ralphtro.github.io/fictitiousOne/products/04012345999990/20210401-A/XYZ-1234/en/pip.html|
 |01|04012345999990|Screwdriver One|/| |en|GB|text/html| |https://ralphtro.github.io/fictitiousOne/products/04012345999990/en/certification.html|
 |01|04012345999990|Screwdriver One|/| |en|GB|text/html| |https://ralphtro.github.io/fictitiousOne/products/04012345999990/en/userManual.html|
 |00|040123451111111110|Sendungseinheit|/| |de|DE|text/html| |https://ralphtro.github.io/fictitiousOne/shipments/040123451111111110/de/tracking.html|
