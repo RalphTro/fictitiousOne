@@ -26,3 +26,5 @@ The following table accommodates sample data that may be used to populate GS1 Di
 |00|040123451111111110|Sendungseinheit|/| |de|text/html| |https://ralphtro.github.io/fictitiousOne/shipments/040123451111111110/de/tracking.html|
 |00|040123451111111110|Logistics Unit|/| |en|text/html| |https://ralphtro.github.io/fictitiousOne/shipments/040123451111111110/en/tracking.html|
 |01|04012345999969|Honey Pot One|/|gs1:pip|en|text/html|Product Information Page|https://ralphtro.github.io/fictitiousOne/products/04012345999969/en/pip.html|
+|01|04012345999969|Honey Pot One|/|gs1:pip|de|text/html|Produktinformationsseite|https://ralphtro.github.io/fictitiousOne/products/04012345999969/de/pip.html|
+|01|04012345999969|Honey Pot One|/|gs1:pip|es|text/html|Sitio web de información del producto|https://ralphtro.github.io/fictitiousOne/products/04012345999969/es/pip.html|
