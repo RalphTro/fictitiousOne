@@ -8,7 +8,7 @@ The following table accommodates sample data that may be used to populate GS1 Di
 |417|4012345000009|Fictitious One|/| |de|text/html| |https://ralphtro.github.io/fictitiousOne/parties/4012345000009/de/company.html|
 |417|4012345000009|Fictitious One|/| |en|text/html| |https://ralphtro.github.io/fictitiousOne/parties/4012345000009/en/company.html|
 |253|4012345000115ebon-4711|Purchase Proof|/| |en|text/html| |https://ralphtro.github.io/fictitiousOne/documents/4012345000115ebon-4711/en/ebon.html|
-|8004|4012345ABCD-123|Asset ABCD-123|/| |en|text/html |https://ralphtro.github.io/fictitiousOne/assets/4012345ABCD-123/en/traceability.html|
+|8004|4012345ABCD-123|Asset ABCD-123|/| |en|text/html| |https://ralphtro.github.io/fictitiousOne/assets/4012345ABCD-123/en/traceability.html|
 |8004|4012345ABCD-124|Asset ABCD-124|/| |en|text/html| |https://ralphtro.github.io/fictitiousOne/assets/4012345ABCD-124/en/traceability.html|
 |8003|04012345111118988|RTI Type 11111|/| |en|text/html| |https://ralphtro.github.io/fictitiousOne/assets/04012345111118988/en/pip.html|
 |8003|04012345111118987|RTI Type 11111|/| |en|text/html| |https://ralphtro.github.io/fictitiousOne/assets/04012345111118987/en/pip.html|
