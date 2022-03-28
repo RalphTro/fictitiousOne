@@ -942,6 +942,13 @@ p {
   background-position: 90% 50%;
 }
 
+#header-pills {
+  height: 620px;
+  background-image: url("../images/pills.jpeg");
+  background-size: cover;
+  background-position: 90% 50%;
+}
+
 .header-brand-wrapper {
   margin-top: 10px;
   float: left;
@@ -1008,6 +1015,20 @@ p {
 
 @media (min-width: 550px) {
   #slogan-honey {
+    font-size: 450%;
+  }
+}
+
+#slogan-pills {
+  padding-top: 180px;
+  font-size: 350%;
+  color: #296dbf;
+  text-shadow: none;
+  font-weight: bolder;
+}
+
+@media (min-width: 550px) {
+  #slogan-pills {
     font-size: 450%;
   }
 }
