@@ -2,27 +2,29 @@
 
 The following table accommodates sample data that may be used to populate GS1 Digital Link Resolver Services for e.g. test and demonstration purposes.
 
-|Key type|Identification key|Item description|Qualifier path|Link type|Language|Context|Mime type|Link title|Target URL|
-|--------|------------------|----------------|--------------|---------|--------|-------|---------|----------|----------|
-|01|04000001002221|Demowürfel AddFert|/|gs1:pip|de|DE|text/html|GTIN Manager Produktseite|https://www.gtin-manager.de/produkte/gln-4000001000005-gs1-germany-gmbh/gtin-4000001002221-demow%C3%BCrfel-addfert|
-|417|4012345000009|Fictitious One|/| |de|DE|text/html| |https://ralphtro.github.io/fictitiousOne/parties/4012345000009/de/company.html|
-|417|4012345000009|Fictitious One|/| |en|GB|text/html| |https://ralphtro.github.io/fictitiousOne/parties/4012345000009/en/company.html|
-|253|4012345000115ebon-4711|Purchase Proof|/| |en|GB|text/html| |https://ralphtro.github.io/fictitiousOne/documents/4012345000115ebon-4711/en/ebon.html|
-|8004|4012345ABCD-123|Asset ABCD-123|/| |en|GB|text/html| |https://ralphtro.github.io/fictitiousOne/assets/4012345ABCD-123/en/traceability.html|
-|8004|4012345ABCD-124|Asset ABCD-124|/| |en|GB|text/html| |https://ralphtro.github.io/fictitiousOne/assets/4012345ABCD-124/en/traceability.html|
-|8003|04012345111118988|RTI Type 11111|/| |en|GB|text/html| |https://ralphtro.github.io/fictitiousOne/assets/04012345111118988/en/pip.html|
-|8003|04012345111118987|RTI Type 11111|/| |en|GB|text/html| |https://ralphtro.github.io/fictitiousOne/assets/04012345111118987/en/pip.html|
-|414|4012345000108|Warenlager B|/| |de|DE|text/html| |https://ralphtro.github.io/fictitiousOne/locations/4012345000108/de/locationInfo.html|
-|414|4012345000108|Warehouse B|/| |en|GB|text/html| |https://ralphtro.github.io/fictitiousOne/locations/4012345000108/en/locationInfo.html|
-|414|4012345000108|Warehouse B|/| |en|GB|application/ld+json| |https://github.com/RalphTro/fictitiousOne/blob/main/locations/4012345000108/openingHours.jsonld|
-|414|4012345000115|Production Site Musterstadt|/| |en|GB|text/html|Site Info|https://ralphtro.github.io/fictitiousOne/locations/4012345000115/en/locationInfo.html|
-|414|4012345000115|Produktionsstandort Musterstadt|/| |de|DE|text/html|Info Standort|https://ralphtro.github.io/fictitiousOne/locations/4012345000115/de/locationInfo.html|
-|414|4012345000115|Production Line|/254/12| |en|GB|text/html|Sub Site Info|https://ralphtro.github.io/fictitiousOne/locations/4012345000115/12/en/productionLine.html|
-|414|4012345000115|Produktionslinie|/254/12| |de|DE|text/html|Info Sub-Lokation|https://ralphtro.github.io/fictitiousOne/locations/4012345000115/12/de/productionLine.html|
-|01|04012345999990|Screwdriver One|/10/20210401-A/21/XYZ-1234| |de|DE|text/html| |https://ralphtro.github.io/fictitiousOne/products/04012345999990/20210401-A/XYZ-1234/de/pip.html|
-|01|04012345999990|Screwdriver One|/10/20210401-A/21/XYZ-1234| |en|GB|text/html| |https://ralphtro.github.io/fictitiousOne/products/04012345999990/20210401-A/XYZ-1234/en/pip.html|
-|01|04012345999990|Screwdriver One|/| |en|GB|text/html| |https://ralphtro.github.io/fictitiousOne/products/04012345999990/en/certification.html|
-|01|04012345999990|Screwdriver One|/| |en|GB|text/html| |https://ralphtro.github.io/fictitiousOne/products/04012345999990/en/userManual.html|
-|00|040123451111111110|Sendungseinheit|/| |de|DE|text/html| |https://ralphtro.github.io/fictitiousOne/shipments/040123451111111110/de/tracking.html|
-|00|040123451111111110|Logistics Unit|/| |en|GB|text/html| |https://ralphtro.github.io/fictitiousOne/shipments/040123451111111110/en/tracking.html|
-|01|04012345999969|Honey Pot One|/|gs1:pip|en|GB|text/html|Product Information Page|https://ralphtro.github.io/fictitiousOne/products/04012345999969/en/pip.html|
+|Key type|Identification key|Item description|Qualifier path|Link type|Language|Mime type|Link title|Target URL|
+|--------|------------------|----------------|--------------|--------|-------|---------|----------|----------|
+|01|04000001002221|Demowürfel AddFert|/|gs1:pip|de|text/html|GTIN Manager Produktseite|https://www.gtin-manager.de/produkte/gln-4000001000005-gs1-germany-gmbh/gtin-4000001002221-demow%C3%BCrfel-addfert|
+|417|4012345000009|Fictitious One|/| |de|text/html| |https://ralphtro.github.io/fictitiousOne/parties/4012345000009/de/company.html|
+|417|4012345000009|Fictitious One|/| |en|text/html| |https://ralphtro.github.io/fictitiousOne/parties/4012345000009/en/company.html|
+|253|4012345000115ebon-4711|Purchase Proof|/| |en|text/html| |https://ralphtro.github.io/fictitiousOne/documents/4012345000115ebon-4711/en/ebon.html|
+|8004|4012345ABCD-123|Asset ABCD-123|/| |en|text/html| |https://ralphtro.github.io/fictitiousOne/assets/4012345ABCD-123/en/traceability.html|
+|8004|4012345ABCD-124|Asset ABCD-124|/| |en|text/html| |https://ralphtro.github.io/fictitiousOne/assets/4012345ABCD-124/en/traceability.html|
+|8003|04012345111118988|RTI Type 11111|/| |en|text/html| |https://ralphtro.github.io/fictitiousOne/assets/04012345111118988/en/pip.html|
+|8003|04012345111118987|RTI Type 11111|/| |en|text/html| |https://ralphtro.github.io/fictitiousOne/assets/04012345111118987/en/pip.html|
+|414|4012345000108|Warenlager B|/| |de|text/html| |https://ralphtro.github.io/fictitiousOne/locations/4012345000108/de/locationInfo.html|
+|414|4012345000108|Warehouse B|/| |en|text/html| |https://ralphtro.github.io/fictitiousOne/locations/4012345000108/en/locationInfo.html|
+|414|4012345000108|Warehouse B|/| |en|application/ld+json| |https://github.com/RalphTro/fictitiousOne/blob/main/locations/4012345000108/openingHours.jsonld|
+|414|4012345000115|Production Site Musterstadt|/| |en|text/html|Site Info|https://ralphtro.github.io/fictitiousOne/locations/4012345000115/en/locationInfo.html|
+|414|4012345000115|Produktionsstandort Musterstadt|/| |de|text/html|Info Standort|https://ralphtro.github.io/fictitiousOne/locations/4012345000115/de/locationInfo.html|
+|414|4012345000115|Production Line|/254/12| |en|text/html|Sub Site Info|https://ralphtro.github.io/fictitiousOne/locations/4012345000115/12/en/productionLine.html|
+|414|4012345000115|Produktionslinie|/254/12| |de|text/html|Info Sub-Lokation|https://ralphtro.github.io/fictitiousOne/locations/4012345000115/12/de/productionLine.html|
+|01|04012345999990|Screwdriver One|/10/20210401-A/21/XYZ-1234| |de|text/html| |https://ralphtro.github.io/fictitiousOne/products/04012345999990/20210401-A/XYZ-1234/de/pip.html|
+|01|04012345999990|Screwdriver One|/10/20210401-A/21/XYZ-1234| |en|text/html| |https://ralphtro.github.io/fictitiousOne/products/04012345999990/20210401-A/XYZ-1234/en/pip.html|
+|01|04012345999990|Screwdriver One|/| |en|text/html| |https://ralphtro.github.io/fictitiousOne/products/04012345999990/en/certification.html|
+|01|04012345999990|Screwdriver One|/| |en|text/html| |https://ralphtro.github.io/fictitiousOne/products/04012345999990/en/userManual.html|
+|00|040123451111111110|Sendungseinheit|/| |de|text/html| |https://ralphtro.github.io/fictitiousOne/shipments/040123451111111110/de/tracking.html|
+|00|040123451111111110|Logistics Unit|/| |en|text/html| |https://ralphtro.github.io/fictitiousOne/shipments/040123451111111110/en/tracking.html|
+|01|04012345999969|Honey Pot One|/|gs1:pip|en|text/html|Product Information Page|https://ralphtro.github.io/fictitiousOne/products/04012345999969/en/pip.html|
+|01|04012345999969|Honey Pot One|/|gs1:pip|de|text/html|Produktinformationsseite|https://ralphtro.github.io/fictitiousOne/products/04012345999969/de/pip.html|
+|01|04012345999969|Honey Pot One|/|gs1:pip|es|text/html|Sitio web de información del producto|https://ralphtro.github.io/fictitiousOne/products/04012345999969/es/pip.html|
