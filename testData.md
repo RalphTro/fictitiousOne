@@ -28,3 +28,5 @@ The following table accommodates sample data that may be used to populate GS1 Di
 |01|04012345999969|Honey Pot One|/|gs1:pip|en|text/html|Product Information Page|https://ralphtro.github.io/fictitiousOne/products/04012345999969/en/pip.html|
 |01|04012345999969|Honey Pot One|/|gs1:pip|de|text/html|Produktinformationsseite|https://ralphtro.github.io/fictitiousOne/products/04012345999969/de/pip.html|
 |01|04012345999969|Honey Pot One|/|gs1:pip|es|text/html|Sitio web de información del producto|https://ralphtro.github.io/fictitiousOne/products/04012345999969/es/pip.html|
+|01|04012345999969|Honey Pot One|/|gs1:promotion|en|text/html|World Bee Day Promotion|https://ralphtro.github.io/fictitiousOne/products/04012345999969/en/promotion.html|
+|01|04012345999969|Honey Pot One|/|gs1:masterData|en|text/html|Key Master Data|https://ralphtro.github.io/fictitiousOne/products/04012345999969/en/keyMasterData.html|
