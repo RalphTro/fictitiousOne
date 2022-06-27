@@ -949,6 +949,13 @@ p {
   background-position: 90% 50%;
 }
 
+#header-jeans {
+  height: 620px;
+  background-image: url("../images/jeans.jpg");
+  background-size: cover;
+  background-position: 90% 50%;
+}
+
 .header-brand-wrapper {
   margin-top: 10px;
   float: left;
@@ -1030,6 +1037,18 @@ p {
 @media (min-width: 550px) {
   #slogan-pills {
     font-size: 450%;
+  }
+}
+
+#slogan-jeans {
+  padding-top: 120px;
+  font-size: 450%;
+  color: #ff37de;
+}
+
+@media (min-width: 550px) {
+  #slogan-jeans {
+    font-size: 600%;
   }
 }
 
@@ -1134,6 +1153,11 @@ p {
 .validity-result {
   color: #38c567;
   font-size: 150%;
+}
+
+.care-instructions {
+  color: #ff37de;
+  font-size: 200%;
 }
 
 .overview {
@@ -1267,6 +1291,10 @@ p {
   }
 }
 
+.jeans-icons {
+  color: #ff37de;
+}
+
 .feature-list {
   list-style-type: none;
 }
@@ -1291,6 +1319,13 @@ img.feature-image {
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
+}
+
+img.look-image {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .origin-map {

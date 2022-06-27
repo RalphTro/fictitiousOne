@@ -146,6 +146,13 @@
     background-position: 90% 50%;
 }
 
+#header-jeans{
+    height: 620px;
+    background-image: url("../images/jeans.jpg");
+    background-size: cover;
+    background-position: 90% 50%;
+}
+
 .header-brand-wrapper {
     margin-top: 10px;
     float: left;
@@ -213,6 +220,16 @@
 
     @media ($bp-larger-than-phablet) {
         font-size: 450%;
+    }
+}
+
+#slogan-jeans{
+    padding-top: 120px;
+    font-size: 450%;
+    color: rgb(255, 55, 222);
+
+    @media ($bp-larger-than-phablet) {
+        font-size: 600%;
     }
 }
 
