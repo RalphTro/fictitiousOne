@@ -1155,6 +1155,11 @@ p {
   font-size: 150%;
 }
 
+.care-instructions {
+  color: #ff37de;
+  font-size: 200%;
+}
+
 .overview {
   padding-top: 100px;
   padding-bottom: 75px;
