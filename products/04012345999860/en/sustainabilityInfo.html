@@ -48,7 +48,19 @@
                 },
                 "unitCode": "KGM",
                 "@type": "gs1:QuantitativeValue"
+            },
+            "ingredient": [
+            {
+                "@type": "example:packagingIngredientDetails",
+                "ingredientTypeCode": {
+                    "@id": "example:POLYMER_HDPE"
+                },
+                "ingredientContentPercentage": {
+                    "@value": "100",
+                    "@type": "xsd:float"
+                }
             }
+            ]
         }
     </script>
 </head>
@@ -78,7 +90,7 @@
                     <tbody>
                         <tr>
                             <td><strong>Product Name</strong></td>
-                            <td colspan="3">PDS4CP Bail of plastic raw material</td>
+                            <td colspan="3">PDS4CP Bail of HDPE plastic</td>
                         </tr>
                         <tr>
                             <td><strong>Brand</strong> </td>
@@ -86,11 +98,23 @@
                         </tr>
                         <tr>
                             <td><strong>Description</strong></td>
-                            <td colspan="3">Bale of fossil- or bio-based raw material</td>
+                            <td colspan="3">Bale of High-Density Polyethylene (HDPE) plastic raw material</td>
                         </tr>
                         <tr>
                             <td><strong>Net Weight</strong> </td>
                             <td colspan="3">100 kilogram</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Ingredients</strong></td>
+                            <td>Name</td>
+                            <td>Code Value</td>
+                            <td>Percentage</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>High-Density Polyethylene</td>
+                            <td>POLYMER_HDPE</td>
+                            <td>100</td>
                         </tr>
                     </tbody>
                     <tfoot>
