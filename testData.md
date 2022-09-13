@@ -32,6 +32,7 @@ The following table accommodates sample data that may be used to populate GS1 Di
 |Assets|
 |8004|4012345ABCD-123|Asset ABCD-123|/|gs1:traceability|en|text/html| |https://ralphtro.github.io/fictitiousOne/assets/4012345ABCD-123/en/traceability.html|
 |8004|4012345ABCD-124|Asset ABCD-124|/|gs1:traceability|en|text/html| |https://ralphtro.github.io/fictitiousOne/assets/4012345ABCD-124/en/traceability.html|
+|8004|4012345sen987|Sensor device for determining food quality|/|gs1:traceability|en|text/html| |https://ralphtro.github.io/fictitiousOne/assets/4012345sen987/en/traceability.html|
 |8003|04012345111118988|RTI Type 11111|/|gs1:pip|en|text/html| |https://ralphtro.github.io/fictitiousOne/assets/04012345111118988/en/pip.html|
 |8003|04012345111118987|RTI Type 11111|/|gs1:pip|en|text/html| |https://ralphtro.github.io/fictitiousOne/assets/04012345111118987/en/pip.html|
 |Shipments|
