@@ -16,6 +16,8 @@ The following table accommodates sample data that may be used to populate GS1 Di
 |01|04012345999990|Screwdriver One|/10/20210401-A/21/XYZ-1234|gs1:pip|en|text/html| |https://ralphtro.github.io/fictitiousOne/products/04012345999990/20210401-A/XYZ-1234/en/pip.html|
 |01|04012345999990|Screwdriver One|/|gs1:certificationInfo|en|text/html| |https://ralphtro.github.io/fictitiousOne/products/04012345999990/en/certification.html|
 |01|04012345999990|Screwdriver One|/|gs1:instructions|en|text/html| |https://ralphtro.github.io/fictitiousOne/products/04012345999990/en/userManual.html|
+|01|04012345999990|Screwdriver One|/|gs1:verificationService|en|text/html| |https://ralphtro.github.io/fictitiousOne/products/04012345999990/en/authenticity.html|
+|01|04012345999990|Screwdriver One|/|gs1:relatedVideo|en|video/mp4|Promotional Video|https://www.pexels.com/video/a-man-drilling-the-wood-8829527/|
 |Locations|
 |414|4012345000108|Warenlager B|/|gs1:locationInfo|de|text/html| |https://ralphtro.github.io/fictitiousOne/locations/4012345000108/de/locationInfo.html|
 |414|4012345000108|Warehouse B|/|gs1:locationInfo|en|text/html| |https://ralphtro.github.io/fictitiousOne/locations/4012345000108/en/locationInfo.html|
