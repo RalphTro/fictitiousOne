@@ -14,6 +14,15 @@
     padding-top: 20px;
 }
 
+.header-brand-blue {
+    color: rgb(6, 97, 139);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 200%;
+    display: block;
+    padding-top: 20px;
+}
+
 .page-title{
     padding-top: 40px;
     padding-bottom: 0px;
@@ -29,12 +38,23 @@
     }
 }
 
+.header-navbar-blue{
+    display: block;
+}
+
 /* Navigation (not for mobile) */
 
 .header-navbar-links{
     color: white; 
     float: right; 
     margin-top: 80px;
+}
+
+.header-navbar-blue-links{
+    font-size: 130%;
+    font-weight: bolder;
+    float: right; 
+    margin-top: 50px;
 }
 
 .header-navbar-links li{
@@ -44,13 +64,32 @@
     text-shadow: 0px 0px 3px black;
 }
 
+.header-navbar-blue-links li{
+    float: left; 
+    list-style-type: none; 
+    margin-left: 26px; 
+}
+
 .header-navbar-links a{
     color: rgb(255, 255, 255);
     text-decoration: none;
     transition: all 1s;
 }
 
+.header-navbar-blue-links a{
+    color: rgb(6, 97, 139);
+    text-decoration: none;
+    transition: all 1s;
+}
+
 .header-navbar-links a:hover{
+    color: rgb(91, 146, 234); 
+    font-weight: bold;
+    -webkit-text-decoration: underline rgb(91, 146, 234);
+            text-decoration: underline rgb(91, 146, 234); 
+}
+
+.header-navbar-blue-links a:hover{
     color: rgb(91, 146, 234); 
     font-weight: bold;
     -webkit-text-decoration: underline rgb(91, 146, 234);
@@ -70,7 +109,7 @@
         display: none;
     }
   }
-  
+
   /* Hide the links inside the navigation menu (except for logo/home) */
   .topnav #myLinks {
     display: none;
@@ -93,7 +132,7 @@
     right: 0;
     top: 25px;
   }
-  
+
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
     background-color: #ddd;
@@ -174,6 +213,13 @@
     font-size: 450%;
 }
 
+.slogan-blue {
+    /* color: white; */
+    text-align: center;
+    /* text-shadow: 0px 0px 3px black; */
+    font-size: 450%;
+}
+
 #slogan-screwdriver{
     padding-top: 430px;
     font-size: 200%;
@@ -185,6 +231,25 @@
         font-size: 350%;
     }
     @media ($bp-larger-than-desktop) {
+        font-size: 450%;
+    }
+}
+
+#slogan-screwdriver-blue{
+    padding-top: 300px;
+    font-size: 200%;
+    color: rgb(6, 97, 139);
+
+    @media ($bp-larger-than-phablet) {
+        font-size: 250%;
+        padding-top: 280px;
+    }
+    @media ($bp-larger-than-tablet) {
+        padding-top: 320px;
+        font-size: 350%;
+    }
+    @media ($bp-larger-than-desktop) {
+        padding-top: 320px;
         font-size: 450%;
     }
 }
