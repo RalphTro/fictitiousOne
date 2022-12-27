@@ -39,7 +39,11 @@
 }
 
 .header-navbar-blue{
-    display: block;
+    display: none;
+
+    @media ($bp-larger-than-phablet) {
+        display: block;
+    }
 }
 
 /* Navigation (not for mobile) */
@@ -236,7 +240,7 @@
 }
 
 #slogan-screwdriver-blue{
-    padding-top: 300px;
+    padding-top: 400px;
     font-size: 200%;
     color: rgb(6, 97, 139);
 
