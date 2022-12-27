@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,11 +12,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e1a9636c5d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header class="header">
         <div class="container">
             <div class="row">
-                <a class="header-brand" href="https://ralphtro.github.io/fictitiousOne/parties/4012345000009/en/company.html" target="_blank">Fictitious One</a>
+                <a class="header-brand"
+                    href="https://ralphtro.github.io/fictitiousOne/parties/4012345000009/en/company.html"
+                    target="_blank">Fictitious One</a>
             </div>
             <div class="row">
                 <h1 class="page-title">Authenticity Check</h1>
@@ -65,11 +69,11 @@
                 <p><strong>&copy; </strong>Ralph Troeger</p>
                 <p><strong>&#64; </strong>ralph.troeger@gs1.de</p>
                 <p><strong>&#10710; </strong>2022</p>
-            </div> 
+            </div>
         </div>
     </div>
     <!-- JUST FOR DEMO PURPOSES, VALIDATES ONLY IF GTIN (04012345999990) IS CORRECT -->
-    <script type = "text/javascript">
+    <script type="text/javascript">
         "use strict";
         const checkButton = document.getElementById("check-button");
         let validityDemo = document.getElementById("validity-demo-jeans");
@@ -77,11 +81,12 @@
             const gtinValue = document.getElementById("gtin").value;
             if (gtinValue === "04012345999990") {
                 validityDemo.innerText = "This product is very likely genuine.";
-            }else{
+            } else {
                 validityDemo.innerText = "This product is probably a fake.";
             }
-             
-            });
+
+        });
     </script>
 </body>
+
 </html>
