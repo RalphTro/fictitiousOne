@@ -1075,14 +1075,14 @@ p {
 
 @media (min-width: 750px) {
   #slogan-screwdriver-blue {
-    padding-top: 320px;
+    padding-top: 280px;
     font-size: 350%;
   }
 }
 
 @media (min-width: 1000px) {
   #slogan-screwdriver-blue {
-    padding-top: 320px;
+    padding-top: 300px;
     font-size: 450%;
   }
 }
