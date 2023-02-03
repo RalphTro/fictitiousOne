@@ -21,7 +21,7 @@ The following table accommodates sample data that may be used to populate GS1 Di
 |Locations|
 |414|4012345000108|Warenlager B|/|gs1:locationInfo|de|text/html| |https://ralphtro.github.io/fictitiousOne/locations/4012345000108/de/locationInfo.html|
 |414|4012345000108|Warehouse B|/|gs1:locationInfo|en|text/html| |https://ralphtro.github.io/fictitiousOne/locations/4012345000108/en/locationInfo.html|
-|414|4012345000108|Warehouse B|/|gs1:openingHoursInfo|en|application/ld+json| |https://github.com/RalphTro/fictitiousOne/blob/main/locations/4012345000108/openingHours.jsonld|
+|414|4012345000108|Warehouse B|/|gs1:openingHoursInfo|en|application/ld+json| |https://ralphtro.github.io/fictitiousOne/locations/4012345000108/en/openingHours.jsonld|
 |414|4012345000115|Production Site Musterstadt|/|gs1:locationInfo|en|text/html|Site Info|https://ralphtro.github.io/fictitiousOne/locations/4012345000115/en/locationInfo.html|
 |414|4012345000115|Produktionsstandort Musterstadt|/|gs1:locationInfo|de|text/html|Info Standort|https://ralphtro.github.io/fictitiousOne/locations/4012345000115/de/locationInfo.html|
 |414|4012345000115|Production Line|/254/12|gs1:locationInfo|en|text/html|Sub Site Info|https://ralphtro.github.io/fictitiousOne/locations/4012345000115/12/en/productionLine.html|
