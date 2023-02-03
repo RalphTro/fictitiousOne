@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "gs1": "https://gs1.org/voc/",
+        "s": "https://schema.org/",
+        "xsd": "https://www.w3.org/2001/XMLSchema#",
+        "@vocab": "https://gs1.org/voc/"
+    },
+    "@type": [
+        "gs1:Place"
+    ],
+    "globalLocationNumber": "4012345000108",
+    "address": {
+        "organizationName": [
+            {
+                "@value": "Warehouse B",
+                "@language": "en"
+            }
+        ],
+        "streetAddress": [
+            {
+                "@value": "Example Road 123",
+                "@language": "en"
+            }
+        ],
+        "addressLocality": [
+            {
+                "@value": "Musterstadt",
+                "@language": "en"
+            }
+        ],
+        "addressRegion": [
+            {
+                "@value": "NRW",
+                "@language": "en"
+            }
+        ],
+        "postalCode": "55555",
+        "addressCountry": {
+            "countryCode": "DE",
+            "@type": "gs1:Country"
+        },
+        "@type": "gs1:PostalAddress"
+    }
+}
