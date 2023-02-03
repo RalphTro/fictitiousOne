@@ -1,0 +1,30 @@
+{
+    "@context": {
+        "gs1": "https://gs1.org/voc/",
+        "s": "https://schema.org/",
+        "xsd": "https://www.w3.org/2001/XMLSchema#",
+        "@vocab": "https://gs1.org/voc/"
+    },
+    "@type": [
+        "gs1:Place",
+        "s:Place"
+    ],
+    "globalLocationNumber": "4012345000108",
+    "s:address": {
+        "s:name": [
+            {
+                "@value": "Fictitious One Warehouse B",
+                "@language": "en"
+            },
+            {
+                "@value": "Fictitious One Warenlager B",
+                "@language": "de"
+            }
+        ],
+        "@type": [
+            "gs1:PostalAddress",
+            "s:PostalAddress"
+        ]
+    },
+    "s:openingHours":["Mo-Fr 06:00-19:00", "Sa 07:30-18:00", "Su 07:30-13:00"]
+}
