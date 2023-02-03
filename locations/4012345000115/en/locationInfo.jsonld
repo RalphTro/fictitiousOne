@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "gs1": "https://gs1.org/voc/",
+        "s": "https://schema.org/",
+        "xsd": "https://www.w3.org/2001/XMLSchema#",
+        "@vocab": "https://gs1.org/voc/"
+    },
+    "@type": [
+        "gs1:Place",
+        "s:Place"
+    ],
+    "globalLocationNumber": "4012345000115",
+    "@id": "https://id.gs1.de/414/4012345000115",
+    "s:address": {
+        "s:name": [
+            {
+                "@value": "Fictitious One Production Site Musterstadt",
+                "@language": "en"
+            },
+            {
+                "@value": "Fictitious One Produktionsstandort Musterstadt",
+                "@language": "de"
+            }
+        ],
+        "s:streetAddress": [
+            {
+                "@value": "Example Road 45",
+                "@language": "en"
+            },
+            {
+                "@value": "Example Road 45",
+                "@language": "de"
+            }
+        ],
+        "s:addressLocality": [
+            {
+                "@value": "Musterstadt",
+                "@language": "en"
+            },
+            {
+                "@value": "Musterstadt",
+                "@language": "de"
+            }
+        ],
+        "s:addressRegion": [
+            {
+                "@value": "NRW",
+                "@language": "en"
+            },
+            {
+                "@value": "NRW",
+                "@language": "de"
+            }
+        ],
+        "s:postalCode": "55555",
+        "s:addressCountry": {
+            "countryCode": "DE",
+            "@type": [
+                "gs1:Country",
+                "s:Country"
+            ]
+        },
+        "@type": [
+            "gs1:PostalAddress",
+            "s:PostalAddress"
+        ]
+    }
+}
