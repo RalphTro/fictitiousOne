@@ -1,0 +1,16 @@
+{
+    "@context": {
+        "gs1": "https://gs1.org/voc/",
+        "xsd": "https://www.w3.org/2001/XMLSchema#",
+        "@vocab": "https://gs1.org/voc/"
+    },
+    "@type": "gs1:Seafood",
+    "@id": "https://id.gs1.de/01/04012345999853/10/LOT987",
+    "gtin": "04012345999853",
+    "hasBatchLotNumber": "LOT987",
+    "catchZone": "37.2",
+    "freshOrSeawaterFarmed": "gs1:FreshOrSeawaterFarmedCode-SEAWATER_FARMED",
+    "harvestDateStart": "2023-02-09",
+    "harvestDateEnd": "2023-02-10",
+    "bestBeforeDate": "2023-02-15"
+}
