@@ -5,7 +5,7 @@
             "example": "http://ns.example.com/epcis/"
         }
     ],
-    "id": "https://id.example.com/01/04055724000290/10/12345",
+    "id": "https://id.example.com/01/04012345999846/10/12345",
     "type": "EPCISQueryDocument",
     "schemaVersion": "2.0",
     "creationDate": "2023-02-23T11:30:00.0Z",
@@ -21,13 +21,13 @@
                         "eventTimeZoneOffset": "+00:00",
                         "quantityList": [
                             {
-                                "epcClass": "https://id.gs1.org/01/04055724001570/10/456789A",
+                                "epcClass": "https://id.gs1.org/01/04012345999839/10/456789A",
                                 "quantity": 15.5,
                                 "uom": "KGM"
                             }
                         ],
                         "readPoint": {
-                            "id": "https://id.gs1.org/414/4055724000924"
+                            "id": "https://id.gs1.org/414/4012345600018"
                         },
                         "bizStep": "commissioning",
                         "disposition": "active",
@@ -54,13 +54,13 @@
                         "eventTimeZoneOffset": "+00:00",
                         "quantityList": [
                             {
-                                "epcClass": "https://id.gs1.org/01/04055724001570/10/456789A",
+                                "epcClass": "https://id.gs1.org/01/04012345999839/10/456789A",
                                 "quantity": 15.5,
                                 "uom": "KGM"
                             }
                         ],
                         "readPoint": {
-                            "id": "https://id.gs1.org/414/4055724000924"
+                            "id": "https://id.gs1.org/414/4012345600018"
                         },
                         "bizStep": "shipping",
                         "disposition": "in_transit",
@@ -74,13 +74,13 @@
                         "sourceList": [
                             {
                                 "type": "owning_party",
-                                "source": "https://id.gs1.org/417/4055724000924"
+                                "source": "https://id.gs1.org/417/4012345600018"
                             }
                         ],
                         "destinationList": [
                             {
                                 "type": "owning_party",
-                                "destination": "https://id.gs1.org/417/4055724062311"
+                                "destination": "https://id.gs1.org/417/4012345600032"
                             }
                         ]
                     },
@@ -91,13 +91,13 @@
                         "eventTimeZoneOffset": "+00:00",
                         "quantityList": [
                             {
-                                "epcClass": "https://id.gs1.org/01/04055724001570/10/456789A",
+                                "epcClass": "https://id.gs1.org/01/04012345999839/10/456789A",
                                 "quantity": 15.5,
                                 "uom": "KGM"
                             }
                         ],
                         "readPoint": {
-                            "id": "https://id.gs1.org/414/4055724062311"
+                            "id": "https://id.gs1.org/414/4012345600032"
                         },
                         "bizStep": "receiving",
                         "disposition": "in_progress",
@@ -115,13 +115,13 @@
                         "sourceList": [
                             {
                                 "type": "owning_party",
-                                "source": "https://id.gs1.org/417/4055724000924"
+                                "source": "https://id.gs1.org/417/4012345600018"
                             }
                         ],
                         "destinationList": [
                             {
                                 "type": "owning_party",
-                                "destination": "https://id.gs1.org/417/4055724062311"
+                                "destination": "https://id.gs1.org/417/4012345600032"
                             }
                         ]
                     },
@@ -132,13 +132,13 @@
                         "eventTimeZoneOffset": "+00:00",
                         "quantityList": [
                             {
-                                "epcClass": "https://id.gs1.org/01/04055724001570/10/456789A",
+                                "epcClass": "https://id.gs1.org/01/04012345999839/10/456789A",
                                 "quantity": 10,
                                 "uom": "GRM"
                             }
                         ],
                         "readPoint": {
-                            "id": "https://id.gs1.org/414/4055724062311"
+                            "id": "https://id.gs1.org/414/4012345600032"
                         },
                         "bizStep": "shipping",
                         "disposition": "in_transit",
@@ -152,13 +152,13 @@
                         "sourceList": [
                             {
                                 "type": "possessing_party",
-                                "source": "https://id.gs1.org/417/4055724062311"
+                                "source": "https://id.gs1.org/417/4012345600032"
                             }
                         ],
                         "destinationList": [
                             {
                                 "type": "possessing_party",
-                                "destination": "https://id.gs1.org/417/4055724000351"
+                                "destination": "https://id.gs1.org/417/4012345600025"
                             }
                         ]
                     },
@@ -169,13 +169,13 @@
                         "eventTimeZoneOffset": "+00:00",
                         "quantityList": [
                             {
-                                "epcClass": "https://id.gs1.org/01/04055724001570/10/456789A",
+                                "epcClass": "https://id.gs1.org/01/04012345999839/10/456789A",
                                 "quantity": 10,
                                 "uom": "GRM"
                             }
                         ],
                         "readPoint": {
-                            "id": "https://id.gs1.org/414/4055724000351"
+                            "id": "https://id.gs1.org/414/4012345600025"
                         },
                         "bizStep": "receiving",
                         "disposition": "in_progress",
@@ -189,13 +189,13 @@
                         "sourceList": [
                             {
                                 "type": "possessing_party",
-                                "source": "https://id.gs1.org/417/4055724062311"
+                                "source": "https://id.gs1.org/417/4012345600032"
                             }
                         ],
                         "destinationList": [
                             {
                                 "type": "possessing_party",
-                                "destination": "https://id.gs1.org/417/4055724000351"
+                                "destination": "https://id.gs1.org/417/4012345600025"
                             }
                         ]
                     },
@@ -206,13 +206,13 @@
                         "eventTimeZoneOffset": "+00:00",
                         "quantityList": [
                             {
-                                "epcClass": "https://id.gs1.org/01/04055724001570/10/456789A",
+                                "epcClass": "https://id.gs1.org/01/04012345999839/10/456789A",
                                 "quantity": 2.5,
                                 "uom": "GRM"
                             }
                         ],
                         "readPoint": {
-                            "id": "https://id.gs1.org/414/4055724000351"
+                            "id": "https://id.gs1.org/414/4012345600025"
                         },
                         "bizStep": "sampling",
                         "disposition": "unavailable",
@@ -242,7 +242,7 @@
                         },
                         "example:MaterialInformation": {
                             "example:productName": "Weed One",
-                            "example:gtin": "04055724001570"
+                            "example:gtin": "04012345999839"
                         },
                         "example:TransportationInformation": {
                             "example:targetMarketCountries": [
@@ -262,19 +262,19 @@
                         "eventTimeZoneOffset": "+00:00",
                         "inputQuantityList": [
                             {
-                                "epcClass": "https://id.gs1.org/01/04055724001570/10/456789A",
+                                "epcClass": "https://id.gs1.org/01/04012345999839/10/456789A",
                                 "quantity": 15.4,
                                 "uom": "KGM"
                             }
                         ],
                         "outputQuantityList": [
                             {
-                                "epcClass": "https://id.gs1.org/01/04055724000290/10/12345",
-                                "quantity": 3800
+                                "epcClass": "https://id.gs1.org/01/04012345999846/10/12345",
+                                "quantity": 3080
                             }
                         ],
                         "readPoint": {
-                            "id": "https://id.gs1.org/414/4055724062311"
+                            "id": "https://id.gs1.org/414/4012345600032"
                         },
                         "bizStep": "commissioning",
                         "disposition": "active",
@@ -299,12 +299,12 @@
                         "eventTimeZoneOffset": "+00:00",
                         "quantityList": [
                             {
-                                "epcClass": "https://id.gs1.org/01/04055724000290/10/12345",
-                                "quantity": 3800
+                                "epcClass": "https://id.gs1.org/01/04012345999846/10/12345",
+                                "quantity": 3080
                             }
                         ],
                         "readPoint": {
-                            "id": "https://id.gs1.org/414/4055724062311"
+                            "id": "https://id.gs1.org/414/4012345600032"
                         },
                         "bizStep": "shipping",
                         "disposition": "in_transit",
@@ -318,13 +318,13 @@
                         "sourceList": [
                             {
                                 "type": "owning_party",
-                                "source": "https://id.gs1.org/417/4055724062311"
+                                "source": "https://id.gs1.org/417/4012345600032"
                             }
                         ],
                         "destinationList": [
                             {
                                 "type": "owning_party",
-                                "destination": "https://id.gs1.org/417/4055724000108"
+                                "destination": "https://id.gs1.org/417/4012345600049"
                             }
                         ]
                     },
@@ -335,12 +335,12 @@
                         "eventTimeZoneOffset": "+00:00",
                         "quantityList": [
                             {
-                                "epcClass": "https://id.gs1.org/01/04055724000290/10/12345",
+                                "epcClass": "https://id.gs1.org/01/04012345999846/10/12345",
                                 "quantity": 120
                             }
                         ],
                         "readPoint": {
-                            "id": "https://id.gs1.org/417/4055724000108"
+                            "id": "https://id.gs1.org/417/4012345600049"
                         },
                         "bizStep": "receiving",
                         "disposition": "sellable_accessible",
@@ -354,13 +354,13 @@
                         "sourceList": [
                             {
                                 "type": "owning_party",
-                                "source": "https://id.gs1.org/417/4055724062311"
+                                "source": "https://id.gs1.org/417/4012345600032"
                             }
                         ],
                         "destinationList": [
                             {
                                 "type": "owning_party",
-                                "destination": "https://id.gs1.org/417/4055724000108"
+                                "destination": "https://id.gs1.org/417/4012345600049"
                             }
                         ]
                     },
@@ -371,12 +371,12 @@
                         "eventTimeZoneOffset": "+00:00",
                         "quantityList": [
                             {
-                                "epcClass": "https://id.gs1.org/01/04055724000290/10/12345",
+                                "epcClass": "https://id.gs1.org/01/04012345999846/10/12345",
                                 "quantity": 2
                             }
                         ],
                         "readPoint": {
-                            "id": "https://id.gs1.org/417/4055724000108"
+                            "id": "https://id.gs1.org/417/4012345600049"
                         },
                         "bizStep": "retail_selling",
                         "disposition": "retail_sold",
