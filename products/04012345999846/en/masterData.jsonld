@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "gs1": "https://gs1.org/voc/",
+        "xsd": "https://www.w3.org/2001/XMLSchema#",
+        "@vocab": "https://gs1.org/voc/"
+    },
+    "@type": "gs1:FoodBeverageTobaccoProduct",
+    "productName": [
+        {
+            "@value": "Weed One Pouch 5 g",
+            "@language": "en"
+        }
+    ],
+    "gtin": "04012345999846",
+    "brand": {
+        "brandName": [
+            {
+                "@value": "Manufacturer One",
+                "@language": "en"
+            }
+        ],
+        "@type": "gs1:Brand"
+    },
+    "productDescription": [
+        {
+            "@value": "Pouch with cannabis (species: Cannabis sativa) hash , 5 g",
+            "@language": "en"
+        }
+    ],
+    "gpcCategoryCode": "10008099",
+    "netWeight": {
+        "value": {
+            "@value": "5",
+            "@type": "xsd:float"
+        },
+        "unitCode": "GRM",
+        "@type": "gs1:QuantitativeValue"
+    },
+    "brandOwner": {
+        "@id": "4012345600032"
+    },
+    "manufacturingPlant": {
+        "@id": "4012345000115"
+    },
+    "targetMarket": [
+        {
+            "targetMarketCountries": [
+                {
+                    "@type": "gs1:Country",
+                    "countryCode": "BE"
+                },
+                {
+                    "@type": "gs1:Country",
+                    "countryCode": "DE"
+                }
+            ],
+            "@type": "gs1:TargetMarketDetails"
+        }
+    ]
+}

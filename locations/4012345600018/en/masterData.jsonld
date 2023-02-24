@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "gs1": "https://gs1.org/voc/",
+        "s": "https://schema.org/",
+        "xsd": "https://www.w3.org/2001/XMLSchema#",
+        "@vocab": "https://gs1.org/voc/"
+    },
+    "@type": [
+        "gs1:Place",
+        "s:Place"
+    ],
+    "globalLocationNumber": "4012345600018",
+    "@id": "https://id.gs1.de/414/4012345600018",
+    "s:address": {
+        "s:name": [
+            {
+                "@value": "Grower One Farm",
+                "@language": "en"
+            }
+        ],
+        "s:streetAddress": [
+            {
+                "@value": "Example Road 45",
+                "@language": "en"
+            }
+        ],
+        "s:addressLocality": [
+            {
+                "@value": "Musterstadt",
+                "@language": "en"
+            }
+        ],
+        "s:addressRegion": [
+            {
+                "@value": "NRW",
+                "@language": "en"
+            }
+        ],
+        "s:postalCode": "55555",
+        "s:addressCountry": {
+            "countryCode": "DE",
+            "@type": [
+                "gs1:Country",
+                "s:Country"
+            ]
+        },
+        "@type": [
+            "gs1:PostalAddress",
+            "s:PostalAddress"
+        ]
+    }
+}
