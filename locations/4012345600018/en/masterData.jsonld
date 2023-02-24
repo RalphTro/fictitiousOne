@@ -9,12 +9,12 @@
         "gs1:Place",
         "s:Place"
     ],
-    "globalLocationNumber": "4055724000924",
-    "@id": "https://id.gs1.de/414/4055724000924",
+    "globalLocationNumber": "4012345600018",
+    "@id": "https://id.gs1.de/414/4012345600018",
     "s:address": {
         "s:name": [
             {
-                "@value": "Fictitious One Farm",
+                "@value": "Grower One Farm",
                 "@language": "en"
             }
         ],
