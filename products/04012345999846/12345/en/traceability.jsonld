@@ -2,7 +2,7 @@
     "@context": [
         "https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld",
         {
-            "example": "http://ns.example.com/epcis/"
+            "example": "https://ns.example.com/epcis/"
         }
     ],
     "id": "https://id.example.com/01/04012345999846/10/12345",
@@ -15,7 +15,7 @@
             "resultsBody": {
                 "eventList": [
                     {
-                        "eventID": "ni:///sha-256;434fca1aedbd383588aed841d9fafb4072c6193a549d885edd208c53f2dbc142?ver=CBV2.0",
+                        "eventID": "ni:///sha-256;469a363693ce0327bdbae398c22cf7895aca9d8273317392b5b9da1d8f3c7388?ver=CBV2.0",
                         "type": "ObjectEvent",
                         "eventTime": "2023-02-01T11:00:00.123Z",
                         "eventTimeZoneOffset": "+00:00",
@@ -48,7 +48,7 @@
                         }
                     },
                     {
-                        "eventID": "ni:///sha-256;d0dc16737d4b02cd88de0704f295f050ca2160dc59e63c524ad5fcca71285e4f?ver=CBV2.0",
+                        "eventID": "ni:///sha-256;ed613b66a2e19a1106abdedd865c03922c6451a715607114ba87beb12135c428?ver=CBV2.0",
                         "type": "ObjectEvent",
                         "eventTime": "2023-02-02T12:00:00.123Z",
                         "eventTimeZoneOffset": "+00:00",
@@ -85,7 +85,7 @@
                         ]
                     },
                     {
-                        "eventID": "ni:///sha-256;6aa79d94403bb4fd1833b071941d94c243c222e1fc60ca2771c7b351be6bf54c?ver=CBV2.0",
+                        "eventID": "ni:///sha-256;eb39e336e2797949430f381d2778ee32281c9c15f374bde09b05cb88d57e06af?ver=CBV2.0",
                         "type": "ObjectEvent",
                         "eventTime": "2023-02-03T13:00:00.123Z",
                         "eventTimeZoneOffset": "+00:00",
@@ -126,7 +126,7 @@
                         ]
                     },
                     {
-                        "eventID": "ni:///sha-256;1daf9963a904c50570f891254411f8f6dc0c11b44997efc9ea018e42d1fd7087?ver=CBV2.0",
+                        "eventID": "ni:///sha-256;9ca1cae83277ecd60b3f60787375a0b60fec77a794ba7ffd6f975d21006bc605?ver=CBV2.0",
                         "type": "ObjectEvent",
                         "eventTime": "2023-02-04T14:00:00.123Z",
                         "eventTimeZoneOffset": "+00:00",
@@ -163,7 +163,7 @@
                         ]
                     },
                     {
-                        "eventID": "ni:///sha-256;2d3542ac8f8d406410920f4300e2ab8e8d301e88c54104a178790f9e1d3f38da?ver=CBV2.0",
+                        "eventID": "ni:///sha-256;b02098c9dd30a2eeafda0afbd5159e00bbe6eddb8174eaf378915f131e381100?ver=CBV2.0",
                         "type": "ObjectEvent",
                         "eventTime": "2023-02-05T15:00:00.123Z",
                         "eventTimeZoneOffset": "+00:00",
@@ -200,7 +200,7 @@
                         ]
                     },
                     {
-                        "eventID": "ni:///sha-256;cc50508015c4735fb0c2cb6c411524032eca951755c82ad5ed69cd734ddefb71?ver=CBV2.0",
+                        "eventID": "ni:///sha-256;3792b8fe05238e002c7339fecb75b7783f977e4b75eb78eef5a031ebb802f593?ver=CBV2.0",
                         "type": "ObjectEvent",
                         "eventTime": "2023-02-06T16:00:00.123Z",
                         "eventTimeZoneOffset": "+00:00",
@@ -256,7 +256,7 @@
                         }
                     },
                     {
-                        "eventID": "ni:///sha-256;74c761160b0c94bef022364860d5a4ba75a039a4e8ee845a92af41a8a91ad216?ver=CBV2.0",
+                        "eventID": "ni:///sha-256;3f99a520e6b7cf6896580b5e5773fe487e6a57b60b344becaa7da86897f70693?ver=CBV2.0",
                         "type": "TransformationEvent",
                         "eventTime": "2023-02-07T17:00:00.123Z",
                         "eventTimeZoneOffset": "+00:00",
@@ -293,7 +293,7 @@
                         }
                     },
                     {
-                        "eventID": "ni:///sha-256;00bf4b1930784c84d864a1207aa0a6c81e7179b272e897ecb2806f6662d21c68?ver=CBV2.0",
+                        "eventID": "ni:///sha-256;8c8524769488cb9d3044d8fd0f36552d9f68cf2b0901bdfa0d4ebba0ce6f1e7a?ver=CBV2.0",
                         "type": "ObjectEvent",
                         "eventTime": "2023-02-08T18:00:00.123Z",
                         "eventTimeZoneOffset": "+00:00",
@@ -329,7 +329,7 @@
                         ]
                     },
                     {
-                        "eventID": "ni:///sha-256;5fb2d45d1709dd62667807cde74046dfcffb4ee3deda7ef78e7af59799c864ec?ver=CBV2.0",
+                        "eventID": "ni:///sha-256;28028d9276032f3cb255f0ee1dd3f97c03c9b4b981086fc8e733e5a62ecdd9c7?ver=CBV2.0",
                         "type": "ObjectEvent",
                         "eventTime": "2023-02-09T19:00:00.123Z",
                         "eventTimeZoneOffset": "+00:00",
@@ -365,7 +365,7 @@
                         ]
                     },
                     {
-                        "eventID": "ni:///sha-256;a7c83e3e6ac5247be5d557e49e9f9c6e2bf138f4687dfe01f26ac544aae5b46a?ver=CBV2.0",
+                        "eventID": "ni:///sha-256;965f12100d0c747dfeffee8f729dc59c656dce3ed7358cd653fdfef92dacf73c?ver=CBV2.0",
                         "type": "ObjectEvent",
                         "eventTime": "2023-02-10T10:00:00.123Z",
                         "eventTimeZoneOffset": "+00:00",
