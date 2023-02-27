@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "gs1": "https://gs1.org/voc/",
+        "xsd": "https://www.w3.org/2001/XMLSchema#",
+        "@vocab": "https://gs1.org/voc/"
+    },
+    "@type": "gs1:Seafood",
+    "@id": "https://id.gs1.de/01/04012345999853",
+    "gtin": "04012345999853",
+    "productName": [
+        {
+            "@value": "Troeger's Fresh Salmon",
+            "@language": "en"
+        }
+    ],
+    "brand": {
+        "brandName": [
+            {
+                "@value": "Troeger's",
+                "@language": "en"
+            }
+        ],
+        "@type": "gs1:Brand"
+    },
+    "productDescription": [
+        {
+            "@value": "Fresh salmon, gutted and cleaned",
+            "@language": "en"
+        }
+    ],
+    "gpcCategoryDescription": [
+        {
+            "@value": "Fish - Prepared/Processed (Perishable)",
+            "@language": "en"
+        }
+    ],
+    "gpcCategoryCode": "10000016",
+    "targetMarket": [
+        {
+            "targetMarketCountries": [
+                {
+                    "@type": "gs1:Country",
+                    "countryCode": "BE"
+                },
+                {
+                    "@type": "gs1:Country",
+                    "countryCode": "DE"
+                },
+                {
+                    "@type": "gs1:Country",
+                    "countryCode": "GB"
+                }
+            ],
+            "@type": "gs1:TargetMarketDetails"
+        }
+    ]
+}
