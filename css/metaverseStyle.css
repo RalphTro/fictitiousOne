@@ -2,13 +2,13 @@ body {
     background-color: #f0f0f0;
 }
 
-nav, footer {
+nav {
     background-color: #333;
     color: white;
 }
 
-nav a, footer a {
-    color: #4CAF50;
+ul {
+    color: #f0f0f0;
 }
 
 .container {
@@ -23,10 +23,26 @@ nav a, footer a {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
 }
 
-h2, h3 {
+h2, h3, h4 {
     color: #333;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 40px; 
 }
 
 figure {
     margin-left: 20px;
+    width: 60%;
+    margin: auto; /* Centers the figure */
 }
+
+img {
+    width: 100%; /* Ensures the image fills the figure */
+    height: auto; /* Maintains aspect ratio */
+}
+
+footer {
+        color: #333;
+    }
