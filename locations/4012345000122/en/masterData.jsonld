@@ -1,0 +1,51 @@
+Platform.
+
+{
+    "@context": {
+        "gs1": "https://gs1.org/voc/",
+        "xsd": "https://www.w3.org/2001/XMLSchema#",
+        "@vocab": "https://gs1.org/voc/"
+    },
+    "@type": "gs1:Place",
+    "@id": "https://id.gs1.org/414/4012345000122",
+    "physicalLocationName": [
+          {
+              "@value": "Example Location One",
+              "@language": "en"
+          }
+      ],
+    "locationGLN": "4012345000122",
+    "address": [
+        {
+            "streetAddress": [
+                {
+                    "@value": "Sample Street 123",
+                    "@language": "en"
+                }
+            ],
+            "addressLocality": [
+                {
+                    "@value": "Sample City",
+                    "@language": "en"
+                }
+            ],
+            "postalCode": "12345",
+            "addressCountry": {
+                "countryCode": "DE",
+                "@type": "gs1:Country"
+            },
+            "@type": "gs1:PostalAddress"
+        }
+    ],
+    "geo": {
+        "latitude": {
+            "@value": "50.942499",
+            "@type": "xsd:float"
+        },
+        "longitude": {
+            "@value": "6.898247",
+            "@type": "xsd:float"
+        },
+        "@type": "gs1:GeoCoordinates"
+    }
+}
