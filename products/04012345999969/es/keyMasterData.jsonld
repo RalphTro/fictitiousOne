@@ -1,0 +1,78 @@
+{
+    "@context": {
+        "gs1": "https://gs1.org/voc/",
+        "xsd": "https://www.w3.org/2001/XMLSchema#",
+        "@vocab": "https://gs1.org/voc/"
+    },
+    "@type": "gs1:FoodBeverageTobaccoProduct",
+    "@id": "https://id.gs1.de/01/04012345999969",
+    "productName": [
+        {
+            "@value": "Honey Pot One",
+            "@language": "es"
+        }
+    ],
+    "gtin": "04012345999969",
+    "brand": {
+        "brandName": [
+            {
+                "@value": "Fictitious One",
+                "@language": "es"
+            }
+        ],
+        "@type": "gs1:Brand"
+    },
+    "productDescription": [
+        {
+            "@value": "Tarro de miel de flores silvestres",
+            "@language": "es"
+        }
+    ],
+    "gpcCategoryDescription": [
+        {
+            "@value": "Miel (no necesita refrigeración)",
+            "@language": "es"
+        }
+    ],
+    "gpcCategoryCode": "10000213",
+    "netWeight": {
+        "value": {
+            "@value": "250",
+            "@type": "xsd:float"
+        },
+        "unitCode": "GRM",
+        "@type": "gs1:QuantitativeValue"
+    },
+    "grossWeight": {
+        "value": {
+            "@value": "375",
+            "@type": "xsd:float"
+        },
+        "unitCode": "GRM",
+        "@type": "gs1:QuantitativeValue"
+    },
+    "outOfPackageHeight": {
+        "value": {
+            "@value": "12",
+            "@type": "xsd:float"
+        },
+        "unitCode": "CMT",
+        "@type": "gs1:QuantitativeValue"
+    },
+    "outOfPackageWidth": {
+        "value": {
+            "@value": "10",
+            "@type": "xsd:float"
+        },
+        "unitCode": "CMT",
+        "@type": "gs1:QuantitativeValue"
+    },
+    "outOfPackageDepth": {
+        "value": {
+            "@value": "10",
+            "@type": "xsd:float"
+        },
+        "unitCode": "CMT",
+        "@type": "gs1:QuantitativeValue"
+    }
+}
