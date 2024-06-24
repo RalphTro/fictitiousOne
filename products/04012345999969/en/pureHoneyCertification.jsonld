@@ -1,0 +1,36 @@
+{
+    "@context": {
+      "gs1": "https://gs1.org/voc/",
+      "schema": "https://schema.org/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@type": "schema:Certification",
+    "schema:issuer": {
+      "@type": "schema:Organization",
+      "@id": "https://example.org/certifiers/PureHoneyCertifiers",
+      "schema:name": "Pure Honey Certifiers"
+    },
+    "schema:datePublished": {
+      "@value": "2024-06-24T00:00:00Z",
+      "@type": "xsd:dateTime"
+    },
+    "schema:expires": {
+      "@value": "2026-06-23T23:59:59Z",
+      "@type": "xsd:dateTime"
+    },
+    "schema:subjectOf": {
+      "@type": "schema:Product",
+      "schema:name": "Honey Pot One",
+      "schema:productID": "04012345999969",
+      "schema:certification": {
+        "@type": "schema:Certification",
+        "schema:name": "Certified Pure Honey"
+      }
+    },
+    "signature": {
+      "type": "ECDSA",
+      "created": "2024-06-24T10:15:00Z",
+      "creator": "https://example.org/certifiers/signatureKeys/publicKey.pem",
+      "signatureValue": "Base64EncodedSignature"
+    }
+  }
