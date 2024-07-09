@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "gs1": "https://gs1.org/voc/",
+        "xsd": "https://www.w3.org/2001/XMLSchema#",
+        "@vocab": "https://gs1.org/voc/",
+        "schema": "https://schema.org/"
+    },
+    "@type": "gs1:Place",
+    "@id": "https://id.gs1.org/414/4012345000122",
+    "physicalLocationName": [
+          {
+              "@value": "Example Location One",
+              "@language": "en"
+          }
+      ],
+    "locationGLN": "4012345000122",
+    "additionalLocationID": [
+        {
+            "locationID": "554433",
+            "locationID_Type": "Example-Location-ID-Type",
+            "@type": "gs1:LocationID_Details"
+        }
+    ],
+    "schema:description": "ABC DEF",
+    "address": [
+        {
+            "streetAddress": [
+                {
+                    "@value": "Sample Street 123",
+                    "@language": "en"
+                }
+            ],
+            "addressLocality": [
+                {
+                    "@value": "Sample City",
+                    "@language": "en"
+                }
+            ],
+            "postalCode": "12345",
+            "addressCountry": {
+                "countryCode": "DE",
+                "@type": "gs1:Country"
+            },
+            "@type": "gs1:PostalAddress"
+        }
+    ],
+    "geo": {
+        "polygon": "6.898247,50.942499 6.898292,50.942275 6.898094,50.942263 6.898126,50.942106 6.898526,50.942130 6.898451,50.942512 6.898247,50.942499",
+        "@type": "gs1:GeoShape"
+    }   
+}

@@ -1,0 +1,30 @@
+{
+    "@context": {
+        "gs1": "https://gs1.org/voc/",
+        "xsd": "https://www.w3.org/2001/XMLSchema#",
+        "@vocab": "https://gs1.org/voc/",
+        "ex": "https://example.com/voc/"
+    },
+    "@type": "gs1:Place",
+    "@id": "https://id.gs1.org/414/4012345000122",
+    "ex:legalComplianceInfo": [
+        {
+            "ex:regulationName": [
+                {
+                    "@value": "XYZ Law",
+                    "@language": "en"
+                }
+            ],
+            "ex:selfAssessmentValue": [
+                {
+                    "@value": "compliant",
+                    "@language": "en"
+                }
+            ],
+            "ex:proofURL": "https://indigenousPeoplesSettlements.example.com/",
+            "ex:assessmentDate": "2027-07-08",
+            "ex:dateModified": "2024-07-08",
+            "@type": "ex:LegalComplianceDetails"
+        }
+    ]
+}
