@@ -1,10 +1,12 @@
 {
-    "@context": {
-        "gs1": "https://gs1.org/voc/",
-        "xsd": "https://www.w3.org/2001/XMLSchema#",
-        "@vocab": "https://gs1.org/voc/",
-        "schema": "https://schema.org/"
-    },
+    "@context": [
+        "https://PLACEHOLDER.for.gs1.web.voc.file.jsonld",
+        {
+            "gs1": "https://gs1.org/voc/",
+            "xsd": "https://www.w3.org/2001/XMLSchema#",
+            "schema": "https://schema.org/"
+        }
+    ],
     "@type": "gs1:Place",
     "@id": "https://id.gs1.org/414/4012345000122",
     "certification": [
