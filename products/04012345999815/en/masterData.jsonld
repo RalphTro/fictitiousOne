@@ -1,6 +1,7 @@
 {
     "@context": {
         "gs1": "https://gs1.org/voc/",
+        "gs1de": "https://ralphtro.github.io/TestWebVoc/#",
         "xsd": "https://www.w3.org/2001/XMLSchema#",
         "ex": "https://example.com/voc/",
         "@vocab": "https://gs1.org/voc/"
@@ -32,7 +33,19 @@
             "countryCode": "EC"
         }
     ],
-    "ex:hsCode": "18040000",
+    "additionalProductClassification": [
+        {
+            "additionalProductClassificationCode": "gs1de:AdditionalProductClassificationCode-HS",
+            "additionalProductClassificationValue": "180400",
+            "additionalProductClassificationDescription": [
+                {
+                    "@value": "Cocoa butter, fat and oil",
+                    "@language": "en"
+                }
+            ],
+            "@type": "gs1:AdditionalProductClassificationDetails"
+        }
+    ],
     "ex:scientificName": "Theobroma cacao",
     "ex:commodityDescription": [
         {
