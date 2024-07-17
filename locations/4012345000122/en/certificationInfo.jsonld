@@ -1,64 +1,71 @@
 {
-    "@context": [
-        "https://PLACEHOLDER.for.gs1.web.voc.file.jsonld",
-        {
-            "gs1": "https://gs1.org/voc/",
-            "xsd": "https://www.w3.org/2001/XMLSchema#",
-            "schema": "https://schema.org/"
+    "@context": {
+        "xsd": "https://www.w3.org/2001/XMLSchema#",
+        "gs1": "https://gs1.org/voc/",
+        "gs1:certificationAuditDate": {
+            "@type": "xsd:dateTime"
+        },
+        "gs1:certificationEndDate": {
+            "@type": "xsd:dateTime"
+        },
+        "gs1:certification": {
+            "@type": "gs1:CertificationDetails"
+        },
+        "schema": "https://schema.org/",
+        "schema:dateModified": {
+            "@type": "xsd:dateTime"
         }
-    ],
+    },
     "@type": "gs1:Place",
     "@id": "https://id.gs1.org/414/4012345000122",
-    "certification": [
+    "gs1:certification": [
         {
-            "certificationAgency": [
+            "gs1:certificationAgency": [
                 {
                     "@value": "Agency 1",
                     "@language": "en"
                 }
             ],
-            "certificationStandard": [
+            "gs1:certificationStandard": [
                 {
                     "@value": "XYZ",
                     "@language": "en"
                 }
             ],
-            "certificationValue": [
+            "gs1:certificationValue": [
                 {
                     "@value": "12345",
                     "@language": "en"
                 }
             ],
-            "certificationAgencyURL": "https://certificates.example.com/",
-            "certificationAuditDate": "2024-07-09",
-            "certificationEndDate": "2027-07-08",
-            "schema:dateModified": "2024-07-10",
-            "@type": "gs1:CertificationDetails"
+            "gs1:certificationAgencyURL": "https://certificates.example.com/",
+            "gs1:certificationAuditDate": "2024-07-09",
+            "gs1:certificationEndDate": "2027-07-08",
+            "schema:dateModified": "2024-07-10"
         },
         {
-            "certificationAgency": [
+            "gs1:certificationAgency": [
                 {
                     "@value": "Agency 2",
                     "@language": "en"
                 }
             ],
-            "certificationStandard": [
+            "gs1:certificationStandard": [
                 {
                     "@value": "ABC",
                     "@language": "en"
                 }
             ],
-            "certificationValue": [
+            "gs1:certificationValue": [
                 {
                     "@value": "98765",
                     "@language": "en"
                 }
             ],
-            "certificationAgencyURL": "https://agency2.example.com/",
-            "certificationAuditDate": "2024-07-10",
-            "certificationEndDate": "2027-07-09",
-            "schema:dateModified": "2024-07-10",
-            "@type": "gs1:CertificationDetails"
+            "gs1:certificationAgencyURL": "https://agency2.example.com/",
+            "gs1:certificationAuditDate": "2024-07-10",
+            "gs1:certificationEndDate": "2027-07-09",
+            "schema:dateModified": "2024-07-10"
         }
     ]
 }
