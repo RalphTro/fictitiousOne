@@ -1,36 +1,44 @@
 {
-    "@context": {
-      "gs1": "https://gs1.org/voc/",
-      "schema": "https://schema.org/",
-      "xsd": "http://www.w3.org/2001/XMLSchema#"
-    },
-    "@type": "schema:Certification",
+  "@context": {
+    "gs1": "https://gs1.org/voc/",
+    "schema": "https://schema.org/",
     "schema:issuer": {
-      "@type": "schema:Organization",
-      "@id": "https://example.org/certifiers/PureHoneyCertifiers",
-      "schema:name": "Pure Honey Certifiers"
+      "@type": "schema:Organization"
     },
     "schema:datePublished": {
-      "@value": "2024-06-24T00:00:00Z",
       "@type": "xsd:dateTime"
     },
     "schema:expires": {
-      "@value": "2026-06-23T23:59:59Z",
       "@type": "xsd:dateTime"
     },
     "schema:subjectOf": {
-      "@type": "schema:Product",
-      "schema:name": "Honey Pot One",
-      "schema:productID": "04012345999969",
-      "schema:certification": {
-        "@type": "schema:Certification",
-        "schema:name": "Certified Pure Honey"
-      }
+      "@type": "schema:Product"
     },
-    "signature": {
-      "type": "ECDSA",
-      "created": "2024-06-24T10:15:00Z",
-      "creator": "https://example.org/certifiers/signatureKeys/publicKey.pem",
-      "signatureValue": "Base64EncodedSignature"
+    "sec": "https://w3id.org/security#",
+    "sec:created": {
+      "@type": "xsd:dateTime"
+    },
+    "xsd": "https://www.w3.org/2001/XMLSchema#"
+  },
+  "@type": "schema:Certification",
+  "schema:issuer": {
+    "@id": "https://example.org/certifiers/PureHoneyCertifiers",
+    "schema:name": "Pure Honey Certifiers"
+  },
+  "schema:datePublished": "2024-06-24T00:00:00Z",
+  "schema:expires": "2026-06-23T23:59:59Z",
+  "schema:subjectOf": {
+    "schema:name": "Honey Pot One",
+    "schema:productID": "04012345999969",
+    "schema:certification": {
+      "schema:name": "Certified Pure Honey"
     }
+  },
+  "sec:proof": {
+    "@type": "sec:Ed25519Signature2020",
+    "sec:created": "2024-06-24T10:15:00Z",
+    "sec:proofPurpose": "sec:assertionMethod",
+    "sec:verificationMethod": "https://example.org/certifiers/signatureKeys/publicKey.pem",
+    "sec:jws": "Base64EncodedSignature"
   }
+}

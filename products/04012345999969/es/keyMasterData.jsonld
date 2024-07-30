@@ -1,20 +1,34 @@
 {
     "@context": {
         "gs1": "https://gs1.org/voc/",
-        "xsd": "https://www.w3.org/2001/XMLSchema#",
-        "@vocab": "https://gs1.org/voc/"
+        "gs1:netWeight": {
+            "@type": "gs1:QuantitativeValue"
+        },
+        "gs1:grossWeight": {
+            "@type": "gs1:QuantitativeValue"
+        },
+        "gs1:outOfPackageHeight": {
+            "@type": "gs1:QuantitativeValue"
+        },
+        "gs1:outOfPackageWidth": {
+            "@type": "gs1:QuantitativeValue"
+        },
+        "gs1:outOfPackageDepth": {
+            "@type": "gs1:QuantitativeValue"
+        },
+        "xsd": "https://www.w3.org/2001/XMLSchema#"
     },
     "@type": "gs1:FoodBeverageTobaccoProduct",
     "@id": "https://id.gs1.de/01/04012345999969",
-    "productName": [
+    "gs1:productName": [
         {
             "@value": "Honey Pot One",
             "@language": "es"
         }
     ],
-    "gtin": "04012345999969",
-    "brand": {
-        "brandName": [
+    "gs1:gtin": "04012345999969",
+    "gs1:brand": {
+        "gs1:brandName": [
             {
                 "@value": "Fictitious One",
                 "@language": "es"
@@ -22,57 +36,52 @@
         ],
         "@type": "gs1:Brand"
     },
-    "productDescription": [
+    "gs1:productDescription": [
         {
             "@value": "Tarro de miel de flores silvestres",
             "@language": "es"
         }
     ],
-    "gpcCategoryDescription": [
+    "gs1:gpcCategoryDescription": [
         {
             "@value": "Miel (no necesita refrigeración)",
             "@language": "es"
         }
     ],
-    "gpcCategoryCode": "10000213",
-    "netWeight": {
-        "value": {
+    "gs1:gpcCategoryCode": "10000213",
+    "gs1:netWeight": {
+        "gs1:value": {
             "@value": "250",
             "@type": "xsd:float"
         },
-        "unitCode": "GRM",
-        "@type": "gs1:QuantitativeValue"
+        "gs1:unitCode": "GRM"
     },
-    "grossWeight": {
-        "value": {
+    "gs1:grossWeight": {
+        "gs1:value": {
             "@value": "375",
             "@type": "xsd:float"
         },
-        "unitCode": "GRM",
-        "@type": "gs1:QuantitativeValue"
+        "gs1:unitCode": "GRM"
     },
-    "outOfPackageHeight": {
-        "value": {
+    "gs1:outOfPackageHeight": {
+        "gs1:value": {
             "@value": "12",
             "@type": "xsd:float"
         },
-        "unitCode": "CMT",
-        "@type": "gs1:QuantitativeValue"
+        "gs1:unitCode": "CMT"
     },
-    "outOfPackageWidth": {
-        "value": {
+    "gs1:outOfPackageWidth": {
+        "gs1:value": {
             "@value": "10",
             "@type": "xsd:float"
         },
-        "unitCode": "CMT",
-        "@type": "gs1:QuantitativeValue"
+        "gs1:unitCode": "CMT"
     },
-    "outOfPackageDepth": {
-        "value": {
+    "gs1:outOfPackageDepth": {
+        "gs1:value": {
             "@value": "10",
             "@type": "xsd:float"
         },
-        "unitCode": "CMT",
-        "@type": "gs1:QuantitativeValue"
+        "gs1:unitCode": "CMT"
     }
 }
