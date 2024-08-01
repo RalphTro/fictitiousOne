@@ -1,75 +1,55 @@
 {
     "@context": {
         "gs1": "https://gs1.org/voc/",
-        "s": "https://schema.org/",
-        "xsd": "https://www.w3.org/2001/XMLSchema#",
-        "@vocab": "https://gs1.org/voc/"
+        "gs1:additionalOrganizationID": {
+            "@type": "gs1:OrganizationID_Details"
+        },
+        "gs1:address": {
+            "@type": "gs1:PostalAddress"
+        },
+        "gs1:addressCountry": {
+            "@type": "gs1:Country"
+        },
+        "xsd": "https://www.w3.org/2001/XMLSchema#"
     },
     "@type": [
         "gs1:Organization"
     ],
-    "partyGLN": "4000001000005",
-    "additionalOrganizationID": [
+    "gs1:partyGLN": "4000001000005",
+    "gs1:additionalOrganizationID": [
         {
-            "organizationID": "554433",
-            "organizationID_Type": "EORI",
-            "@type": "gs1:OrganizationID_Details"
+            "gs1:organizationID": "554433",
+            "gs1:organizationID_Type": "EORI"
         }
     ],
-    "organizationName": [
+    "gs1:organizationName": [
         {
             "@value": "GS1 DE Demo",
             "@language": "en"
         }
     ],
-    "address": {
-        "streetAddress": [
+    "gs1:address": {
+        "gs1:streetAddress": [
             {
                 "@value": "Fictitious One",
                 "@language": "en"
             }
         ],
-        "addressLocality": [
+        "gs1:addressLocality": [
             {
                 "@value": "Musterstadt",
                 "@language": "en"
             }
         ],
-        "addressRegion": [
+        "gs1:addressRegion": [
             {
                 "@value": "NRW",
                 "@language": "en"
             }
         ],
-        "postalCode": "55555",
-        "addressCountry": {
-            "countryCode": "DE",
-            "@type": "gs1:Country"
-        },
-        "@type": "gs1:PostalAddress"
-    },
-    "certification": [
-        {
-            "certificationAgency": [
-                {
-                    "@value": "Agency 1",
-                    "@language": "en"
-                }
-            ],
-            "certificationStandard": [
-                {
-                    "@value": "XYZ",
-                    "@language": "en"
-                }
-            ],
-            "certificationValue": [
-                {
-                    "@value": "12345",
-                    "@language": "en"
-                }
-            ],
-            "certificationAgencyURL": "https://certificates.example.com/",
-            "@type": "gs1:CertificationDetails"
+        "gs1:postalCode": "55555",
+        "gs1:addressCountry": {
+            "gs1:countryCode": "DE"
         }
-    ]
+    }
 }
