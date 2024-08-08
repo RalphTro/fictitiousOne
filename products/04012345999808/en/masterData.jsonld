@@ -1,0 +1,15 @@
+{
+    "@context": {
+        "gs1": "https://gs1.org/voc/",
+        "xsd": "https://www.w3.org/2001/XMLSchema#"
+    },
+    "@type": "gs1:Product",
+    "@id": "https://id.gs1.org/01/04012345999808",
+    "gs1:gtin": "04012345999808",
+    "gs1:productName": [
+        {
+            "@value": "D4S Coffee Beans",
+            "@language": "en"
+        }
+    ]
+}
