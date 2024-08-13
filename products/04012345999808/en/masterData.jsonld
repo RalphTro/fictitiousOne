@@ -6,9 +6,9 @@
     "@type": "gs1:Product",
     "@id": "https://id.gs1.org/01/04012345999808",
     "gs1:gtin": "04012345999808",
-    "gs1:productName": [
+    "gs1:productDescription": [
         {
-            "@value": "D4S Coffee Beans",
+            "@value": "D4S Coffee Beans. Sold in sealed bags with a net weight of 4 kilograms. Handpicked, washed, and sun-dried to preserve natural flavors. Sourced from high-altitude regions known for their ideal coffee-growing conditions. Offers a fruity, slightly sweet flavor with balanced acidity.",
             "@language": "en"
         }
     ]
