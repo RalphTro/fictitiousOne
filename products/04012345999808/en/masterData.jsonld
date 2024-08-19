@@ -24,16 +24,5 @@
             "gs1:additionalProductClassificationCode": "gs1de:AdditionalProductClassificationCode-HS",
             "gs1:additionalProductClassificationValue": "090111"
         }
-    ],
-    "gs1:ingredientOfConcern": [
-        {
-            "@value": "Coffee Beans (HS Code: 090111)",
-            "@language": "en"
-        }
-    ],
-    "gs1:countryOfOrigin": [
-        {
-            "countryCode": "EC"
-        }
     ]
 }
