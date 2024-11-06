@@ -1,0 +1,64 @@
+{
+    "@context": {
+        "gs1": "https://ref.gs1.org/voc/",
+        "gs1:address": {
+            "@type": "gs1:PostalAddress"
+        },
+        "gs1:addressCountry": {
+            "@type": "gs1:Country"
+        },
+        "gs1:contactPoint": {
+            "@type": "gs1:ContactPoint"
+        },
+        "gs1:additionalOrganizationID": {
+            "@type": "gs1:OrganizationID_Details"
+        }
+    },
+    "@type": [
+        "gs1:Organization"
+    ],
+    "@id": "https://id.gs1.org/417/4262431780005",
+    "gs1:organizationName": [
+        {
+            "@value": "TEST GmbH",
+            "@language": "en"
+        }
+    ],
+    "gs1:partyGLN": "4262431780005",
+    "gs1:address": {
+        "gs1:streetAddress": [
+            {
+                "@value": "Test Street 5",
+                "@language": "en"
+            }
+        ],
+        "gs1:addressLocality": [
+            {
+                "@value": "Cologne",
+                "@language": "en"
+            }
+        ],
+        "gs1:postalCode": "50825",
+        "gs1:addressCountry": {
+            "gs1:countryCode": "DE",
+            "gs1:countrySubdivisionCode": "DE-NW"
+        }
+    },
+    "gs1:contactPoint": [
+        {
+            "gs1:contactType": [
+                {
+                    "@value": "Customer Support",
+                    "@language": "en"
+                }
+            ],
+            "gs1:email": "customer-support@example.com"
+        }
+    ],
+    "gs1:additionalOrganizationID": [
+        {
+            "gs1:organizationID": "DE123456789012",
+            "gs1:organizationID_Type": "gs1:OrganizationID_Type-EORI"
+        }
+    ]
+}
