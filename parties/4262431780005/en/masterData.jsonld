@@ -14,9 +14,7 @@
             "@type": "gs1:OrganizationID_Details"
         }
     },
-    "@type": [
-        "gs1:Organization"
-    ],
+    "@type": "gs1:Organization",
     "@id": "https://id.gs1.org/417/4262431780005",
     "gs1:organizationName": [
         {
