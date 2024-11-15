@@ -19,10 +19,17 @@
             "@language": "en"
         }
     ],
-    "gs1:additionalProductClassification": [
+    "gs1de:importClassification": [
         {
-            "gs1:additionalProductClassificationCode": "gs1de:AdditionalProductClassificationCode-HS",
-            "gs1:additionalProductClassificationValue": "090111"
+            "gs1de:importClassificationTypeCode": "gs1de:ImportClassificationTypeCode-INTRASTAT_COMBINED_NOMENCLATURE",
+            "gs1de:importClassificationValue": "09011100",
+            "@type": "gs1de:ImportClassification"
         }
-    ]
+    ],
+    "gs1:countryOfOrigin": [
+        {
+            "countryCode": "EC"
+        }
+    ],
+
 }
