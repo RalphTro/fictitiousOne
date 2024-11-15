@@ -1,0 +1,106 @@
+{
+    "@context": {
+        "gs1": "https://gs1.org/voc/",
+        "gs1:countryOfOrigin": {
+            "@type": "gs1:Country"
+        },
+        "gs1:value": {
+            "@type": "xsd:float"
+        },
+        "gs1:netWeight": {
+            "@type": "gs1:QuantitativeValue"
+        },
+        "gs1:grossWeight": {
+            "@type": "gs1:QuantitativeValue"
+        },
+        "gs1:inPackageHeight": {
+            "@type": "gs1:QuantitativeValue"
+        },
+        "gs1:inPackageWidth": {
+            "@type": "gs1:QuantitativeValue"
+        },
+        "gs1:inPackageDepth": {
+            "@type": "gs1:QuantitativeValue"
+        },
+        "gs1de": "https://PLACEHOLDER.example.com/voc/",
+        "gs1de:importClassification": {
+            "@type": "gs1de:ImportClassification"
+        },
+        "gs1de:containedRegulatedCommodities": {
+            "@type": "gs1de:ContainedRegulatedCommodityDetails"
+        },
+        "gs1de:organismClassification": {
+            "@type": "gs1de:OrganismClassification"
+        }
+    },
+    "@type": "gs1:Product",
+    "@id": "https://id.gs1.org/01/04262431780012",
+    "gs1:gtin": "04262431780012",
+    "gs1:brandName": {
+        "@value": "TEST",
+        "@language": "en"
+    },
+    "gs1:productName": {
+        "@value": "Wooden Box One",
+        "@language": "en"
+    },
+    "gs1:productDescription": {
+        "@value": "[Fictitious product] Compact storage solution measuring 30 cm x 20 cm x 15 cm and weighing 1.5 kg. It's made from high-quality, sustainably sourced wood.",
+        "@language": "en"
+    },
+    "gs1:netWeight": {
+        "gs1:value": "1500",
+        "gs1:unitCode": "GRM"
+    },
+    "gs1:grossWeight": {
+        "gs1:value": "1700",
+        "gs1:unitCode": "GRM"
+    },
+    "gs1:inPackageHeight": {
+        "gs1:value": "15",
+        "gs1:unitCode": "CMT"
+    },
+    "gs1:inPackageWidth": {
+        "gs1:value": "30",
+        "gs1:unitCode": "CMT"
+    },
+    "gs1:inPackageDepth": {
+        "gs1:value": "20",
+        "gs1:unitCode": "CMT"
+    },
+    "gs1:countryOfOrigin": {
+        "gs1:countryCode": "DE",
+        "gs1:countrySubdivisionCode": "DE-NW"
+    },
+    "gs1de:importClassification": {
+        "gs1de:importClassificationTypeCode": "gs1de:ImportClassificationTypeCode-INTRASTAT_COMBINED_NOMENCLATURE",
+        "gs1de:importClassificationValue": "44151010"
+    },
+    "gs1de:regulatoryInformation": [
+        {
+            "gs1de:regulationTypeCode": "gs1de:RegulationTypeCode-DEFORESTATION_REGULATION",
+            "gs1de:containedRegulatedCommodities": [
+                {
+                    "gs1de:importClassification": {
+                        "gs1de:importClassificationTypeCode": "gs1de:ImportClassificationTypeCode-HARMONIZED_COMMODITY_DESCRIPTION_AND_CODING_SYSTEM",
+                        "gs1de:importClassificationValue": "440395"
+                    },
+                    "gs1de:organismClassification": {
+                        "gs1de:organismTypeCodeList": "gs1de:OrganismTypeCodeList-EuropeanTradedWoodsType",
+                        "gs1de:organismTypeCodeValue": "gs1de:OrganismTypeCode-BTXX"
+                    }
+                },
+                {
+                    "gs1de:importClassification": {
+                        "gs1de:importClassificationTypeCode": "gs1de:ImportClassificationTypeCode-HARMONIZED_COMMODITY_DESCRIPTION_AND_CODING_SYSTEM",
+                        "gs1de:importClassificationValue": "440393"
+                    },
+                    "gs1de:organismClassification": {
+                        "gs1de:organismTypeCodeList": "gs1de:OrganismTypeCodeList-EuropeanTradedWoodsType",
+                        "gs1de:organismTypeCodeValue": "gs1de:OrganismTypeCode-FASY"
+                    }
+                }
+            ]
+        }
+    ]
+}
