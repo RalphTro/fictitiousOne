@@ -27,6 +27,7 @@
         }
     ],
     "gs1:locationGLN": "4262431780029",
+    "gs1:locationRole": "gs1:LocationRoleType-FARM",
     "gs1:address": [
         {
             "gs1:streetAddress": [
