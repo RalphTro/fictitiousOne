@@ -86,8 +86,8 @@
                         "gs1de:importClassificationValue": "440395"
                     },
                     "gs1de:organismClassification": {
-                        "gs1de:organismTypeCodeList": "gs1de:OrganismTypeCodeList-EuropeanTradedWoodsType",
-                        "gs1de:organismTypeCodeValue": "gs1de:OrganismTypeCode-BTXX"
+                        "gs1de:organismTypeCodeList": "gs1de:OrganismCodeListCode-EUROPEAN_TIMBER_CODE",
+                        "gs1de:organismTypeCodeValue": "gs1de:EuropeanTimberCode-BTXX"
                     }
                 },
                 {
@@ -96,8 +96,8 @@
                         "gs1de:importClassificationValue": "440393"
                     },
                     "gs1de:organismClassification": {
-                        "gs1de:organismTypeCodeList": "gs1de:OrganismTypeCodeList-EuropeanTradedWoodsType",
-                        "gs1de:organismTypeCodeValue": "gs1de:OrganismTypeCode-FASY"
+                        "gs1de:organismTypeCodeList": "gs1de:OrganismCodeListCode-EUROPEAN_TIMBER_CODE",
+                        "gs1de:organismTypeCodeValue": "gs1de:EuropeanTimberCode-FASY"
                     }
                 }
             ]
