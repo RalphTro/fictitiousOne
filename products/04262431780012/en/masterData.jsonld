@@ -6,7 +6,6 @@
         },
         "gs1de": "https://PLACEHOLDER.example.com/voc/",
     },
-    "@type": "gs1:Product",
     "@id": "https://id.gs1.org/01/04262431780012",
     "gs1:gtin": "04262431780012",
     "gs1:brandName": {
