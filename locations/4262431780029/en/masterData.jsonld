@@ -7,15 +7,6 @@
         },
         "gs1:longitude": {
             "@type": "xsd:float"
-        },
-        "gs1:geo": {
-            "@type": "gs1:GeoCoordinates"
-        },
-        "gs1:address": {
-            "@type": "gs1:PostalAddress"
-        },
-        "gs1:countryCode": {
-            "@type": "gs1:Country"
         }
     },
     "@type": "gs1:Place",
