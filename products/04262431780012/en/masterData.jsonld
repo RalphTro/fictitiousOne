@@ -4,7 +4,7 @@
         "gs1:value": {
             "@type": "xsd:float"
         },
-        "gs1de": "https://PLACEHOLDER.example.com/voc/",
+        "gs1de": "https://PLACEHOLDER.example.com/voc/"
     },
     "@id": "https://id.gs1.org/01/04262431780012",
     "gs1:gtin": "04262431780012",
