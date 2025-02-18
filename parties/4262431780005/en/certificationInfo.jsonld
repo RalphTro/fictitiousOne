@@ -15,38 +15,35 @@
         },
         "gs1:certificationURI": {
             "@type": "xsd:anyURI"
-        }        
+        },
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
     },
     "@type": "gs1:Organization",
     "@id": "https://id.gs1.org/417/4262431780005",
     "gs1:partyGLN": "4262431780005",
-    "gs1:certification": [
-        {
-            "gs1:certificationAgency": [
-                {
-                    "@value": "Fictitious Accredited Certifying Body One",
-                    "@language": "en"
-                }
-            ],
-            "gs1:certificationStandard": [
-                {
-                    "@value": "FSC-STD-40-004 V3-1",
-                    "@language": "en"
-                }
-            ],
-            "gs1:certificationValue": [
-                {
-                    "@value": "Chain of Custody Certification",
-                    "@language": "en"
-                }
-            ],
-            "gs1:certificationIdentification": "ABCDE-FGH-123456",
-            "gs1:certificationAuditDate": "2024-09-10",
-            "gs1:certificationStartDate": "2024-09-11",
-            "gs1:certificationEndDate": "2027-09-10",
-            "gs1:initialCertificationDate": "2016-09-10",
-            "gs1:certificationAgencyURL": "https://facbo.example.com/",
-            "gs1:certificationURI": "https://search.facbo.example.com/?search=ABCDE-FGH-123456"
-        }
-    ]
+    "gs1:certification": [{
+        "gs1:certificationAgency": [{
+            "@value": "Fictitious Accredited Certifying Body One",
+            "@language": "en"
+        }],
+        "gs1:certificationStandard": [{
+            "@value": "FSC-STD-40-004 V3-1",
+            "@language": "en"
+        }],
+        "gs1:certificationValue": [{
+            "@value": "Chain of Custody Certification",
+            "@language": "en"
+        }],
+        "gs1:certificationIdentification": "ABCDE-FGH-123456",
+        "gs1:certificationAuditDate": "2024-09-10",
+        "gs1:certificationStartDate": "2024-09-11",
+        "gs1:certificationEndDate": "2027-09-10",
+        "gs1:initialCertificationDate": "2016-09-10",
+        "gs1:certificationAgencyURL": "https://facbo.example.com/",
+        "gs1:certificationURI": "https://search.facbo.example.com/?search=ABCDE-FGH-123456"
+    }],
+    "rdfs:comment": [{
+        "@value": "Note: This dataset is fictitious and is intended for illustration purposes only.",
+        "@language": "en"
+    }]
 }

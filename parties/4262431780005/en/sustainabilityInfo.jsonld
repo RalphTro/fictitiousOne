@@ -1,15 +1,14 @@
 {
     "@context": {
         "gs1": "https://ref.gs1.org/voc/",
-        "gs1de": "https://PLACEHOLDER.example.com/voc/"
+        "gs1de": "https://PLACEHOLDER.example.com/voc/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
     },
     "@id": "https://id.gs1.org/417/4262431780005",
-    "gs1:organizationName": [
-        {
-            "@value": "TEST GmbH",
-            "@language": "en"
-        }
-    ],
+    "gs1:organizationName": [{
+        "@value": "TEST GmbH",
+        "@language": "en"
+    }],
     "gs1:partyGLN": "4262431780005",
     "gs1de:codeOfConduct": {
         "gs1:referencedFileURL": "https://example.com/codeOfConduct-supplier/v1.pdf",
@@ -17,22 +16,24 @@
     },
     "gs1de:greenhouseGasEmissionInfo": {
         "gs1de:greenhouseGasEmissionInfoIsExternallyValidated": "gs1:NonbinaryLogicCode-TRUE",
-        "gs1de:greenhouseGasEmissionReductionTarget": [
-            {
-                "gs1de:greenhouseGasEmissionScope": "gs1de:GreenhouseGasEmissionScopeType-GREENHOUSEGAS_PROTOCOL_SCOPE_1",
-                "gs1de:greenhouseGasEmissionBaseLine": {
-                    "gs1de:greenhouseGasEmissionYear": "2025",
-                    "gs1de:greenhouseGasEmissionQuantityTCO2e": 20.5
-                },
-                "gs1de:greenhouseGasEmissionTarget": {
-                    "gs1de:greenhouseGasEmissionYear": "2030",
-                    "gs1de:greenhouseGasEmissionQuantityTCO2e": 14.2
-                }
+        "gs1de:greenhouseGasEmissionReductionTarget": [{
+            "gs1de:greenhouseGasEmissionScope": "gs1de:GreenhouseGasEmissionScopeType-GREENHOUSEGAS_PROTOCOL_SCOPE_1",
+            "gs1de:greenhouseGasEmissionBaseLine": {
+                "gs1de:greenhouseGasEmissionYear": "2025",
+                "gs1de:greenhouseGasEmissionQuantityTCO2e": 20.5
+            },
+            "gs1de:greenhouseGasEmissionTarget": {
+                "gs1de:greenhouseGasEmissionYear": "2030",
+                "gs1de:greenhouseGasEmissionQuantityTCO2e": 14.2
             }
-        ],
+        }],
         "gs1de:greenhouseGasEmissionReductionTargetVerification": {
             "gs1:referencedFileURL": "https://sciencebasedtargets.org/target-dashboard",
             "gs1:referencedFileType": "gs1de:ReferencedFileTypeCode-GREENHOUSE_GAS_EMISSION_REDUCTION_TARGET_PROOF"
         }
-    }
+    },
+    "rdfs:comment": [{
+        "@value": "Note: This dataset is fictitious and is intended for illustration purposes only.",
+        "@language": "en"
+    }]
 }
