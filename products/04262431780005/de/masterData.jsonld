@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "gs1": "https://gs1.org/voc/",
+        "gs1:value": {
+            "@type": "xsd:float"
+        }
+    },
+    "@id": "https://id.gs1.de/01/04262431780005",
+    "gs1:gtin": "04262431780005",
+    "gs1:brandName": {
+        "@value": "GS1",
+        "@language": "de"
+    },
+    "gs1:productDescription": {
+        "@value": "T-Shirt Gelb L",
+        "@language": "de"
+    },
+    "gs1:gpcCategoryCode": "67000000",
+    "gs1:gpcCategoryDescription": [{
+        "@value": "Bekleidung",
+        "@language": "de"
+    }],
+    "gs1:colourCode": [{
+        "gs1:colourCodeValue": "yellow-orange",
+        "gs1:colourCodeList": "gs1:ColourCodeList-SELLER"
+    }],
+    "gs1:netContent": {
+        "gs1:value": "1",
+        "gs1:unitCode": "H87"
+    },
+    "gs1:targetMarket": [{
+        "gs1:targetMarketCountries": [{
+            "gs1:countryCode": "DE"
+        }]
+    }],
+    "gs1:textileMaterial": [{
+        "gs1:textileMaterialDescription": [{
+            "@value": "Baumwolle",
+            "@language": "de"
+        }],
+        "gs1:textileMaterialPercentage": "100",
+        "gs1:textileMaterialWeight": {
+            "gs1:value": "180",
+            "gs1:unitCode": "GM"
+        }
+    }],
+    "gs1:image": {
+        "gs1:referencedFileURL": "https://simbaimagestorage.blob.core.windows.net/storage/products/8030625/1.png?lastModified=1718114635758",
+        "gs1:referencedFileType": "gs1:ReferencedFileTypeCode-PRODUCT_IMAGE"
+    }
+}
