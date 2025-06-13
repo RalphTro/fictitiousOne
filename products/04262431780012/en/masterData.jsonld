@@ -4,7 +4,7 @@
         "gs1:value": {
             "@type": "xsd:float"
         },
-        "gs1de": "https://PLACEHOLDER.example.com/voc/"
+        "gs1de": "https://voc.gs1.de/"
     },
     "@id": "https://id.gs1.org/01/04262431780012",
     "gs1:gtin": "04262431780012",
@@ -78,5 +78,11 @@
     "gs1:image": {
         "gs1:referencedFileURL": "https://simbaimagestorage.blob.core.windows.net/storage/products/18309452/1.jpeg?lastModified=1731659264330",
         "gs1:referencedFileType": "gs1:ReferencedFileTypeCode-PRODUCT_IMAGE"
-    }
+    },
+    "rdfs:comment": [
+        {
+            "@value": "Note: This dataset is fictitious and is intended for illustration purposes only.",
+            "@language": "en"
+        }
+    ]
 }
