@@ -1,6 +1,7 @@
 {
     "@context": [
-        "https://mh1.eu/temp/GS1WebVocContext-minimal8.jsonld"
+        "https://mh1.eu/temp/GS1WebVocContext-minimal8.jsonld",
+        "https://ralphtro.github.io/TEMP_contextExperiments/contextFiles/gs1de-webvoc-context-file-draft.jsonld"
     ],
     "id": "https://id.gs1.org/01/04262431780029",
     "gtin": "04262431780029",
