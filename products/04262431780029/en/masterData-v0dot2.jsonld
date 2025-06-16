@@ -1,0 +1,48 @@
+{
+    "@context": [
+        "https://mh1.eu/temp/GS1WebVocContext-minimal8.jsonld"
+    ],
+    "id": "https://id.gs1.org/01/04262431780029",
+    "gtin": "04262431780029",
+    "productName": {
+        "en": "Cocoa Powder One"
+    },
+    "productDescription": {
+        "en": "[Fictitious product] Premium-quality, natural cocoa powder with a rich aroma and fine texture, ideal for use in bakery, confectionery, and beverage applications."
+    },
+    "brandName": {
+        "en": "TEST"
+    },
+    "netWeight": {
+        "value": "25",
+        "unitCode": "KGM"
+    },
+    "grossWeight": {
+        "value": "25.5",
+        "unitCode": "KGM"
+    },
+    "countryOfOrigin": {
+        "countryCode": "GH"
+    },
+    "gs1de:plotOfOrigin": {
+        "geo": {
+            "polygon": "-1.6245,6.6885 -1.6243,6.6882 -1.6247,6.6881 -1.6246,6.6879 -1.6241,6.6880 -1.6242,6.6886 -1.6245,6.6885"
+        }
+    },
+    "gs1de:importClassification": {
+        "gs1de:importClassificationTypeCode": "gs1de:ImportClassificationTypeCode-INTRASTAT_COMBINED_NOMENCLATURE",
+        "gs1de:importClassificationValue": "18050000"
+    },
+    "gs1de:regulatoryInformation": [{
+        "gs1de:regulationTypeCode": "gs1de:RegulationTypeCode-DEFORESTATION_REGULATION"
+    }],
+    "rdfs:comment": [{
+            "@value": "(1) This GTIN master data file is fictitious and intended for illustration purposes only.",
+            "@language": "en"
+        },
+        {
+            "@value": "(2) In this case, the geographic origin is assumed to be static for the fictitious trade item.",
+            "@language": "en"
+        }
+    ]
+}
