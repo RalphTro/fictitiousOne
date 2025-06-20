@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "https://mh1.eu/temp/GS1WebVocContext-minimal8.jsonld",
+        "https://ralphtro.github.io/TEMP_contextExperiments/contextFiles/gs1de-webvoc-context-file-draft.jsonld"
+    ],
+    "id": "https://id.gs1.org/01/04262431780036",
+    "gtin": "04262431780036",
+    "productName": {
+        "en": "Chocolate Bar One"
+    },
+    "productDescription": {
+        "en": "[Fictitious product] Delicious, premium-quality chocolate bar with a rich flavor and smooth texture, 2025 special edition."
+    },
+    "brandName": {
+        "en": "TEST"
+    },
+    "netWeight": {
+        "value": "100",
+        "unitCode": "GRM"
+    },
+    "grossWeight": {
+        "value": "110",
+        "unitCode": "GRM"
+    },
+    "countryOfOrigin": {
+        "countryCode": "GH"
+    },
+    "hasAllergen": [
+        {
+            "allergenType": "NC",
+            "allergenLevelOfContainmentCode": "CONTAINS"
+        }
+    ],
+    "importClassification": {
+        "importClassificationTypeCode": "INTRASTAT_COMBINED_NOMENCLATURE",
+        "importClassificationValue": "18069039"
+    },
+    "regulatoryInformation": [
+        {
+            "regulationTypeCode": "DEFORESTATION_REGULATION"
+
+            "24ABCDEFGHI4"
+            "CDPAR5HK"
+        }
+    ],
+    "rdfs:comment": {
+        "en": "(1) This GTIN master data file is fictitious and intended for illustration purposes only. \n (2) In this case, the product is assumed to be a seasonal product, i.e. the EUDR Due Diligence Statement applies to all chocolate bar instances identified with this GTIN."
+    }
+}

@@ -25,23 +25,27 @@
     "countryOfOrigin": {
         "countryCode": "GH"
     },
-    "hasAllergen": [{
-        "allergenType": "NC",
-        "allergenLevelOfContainmentCode": "CONTAINS"
-    }],
+    "hasAllergen": [
+        {
+            "allergenType": "NC",
+            "allergenLevelOfContainmentCode": "CONTAINS"
+        }
+    ],
     "plotOfOrigin": {
         "geo": {
             "polygon": "-1.6245,6.6885 -1.6243,6.6882 -1.6247,6.6881 -1.6246,6.6879 -1.6241,6.6880 -1.6242,6.6886 -1.6245,6.6885"
         }
     },
-  "importClassification": {
+    "importClassification": {
         "importClassificationTypeCode": "INTRASTAT_COMBINED_NOMENCLATURE",
         "importClassificationValue": "18050000"
     },
-    "regulatoryInformation": [{
-        "regulationTypeCode": "DEFORESTATION_REGULATION"
-    }],
-  "rdfs:comment": {
+    "regulatoryInformation": [
+        {
+            "regulationTypeCode": "DEFORESTATION_REGULATION"
+        }
+    ],
+    "rdfs:comment": {
         "en": "(1) This GTIN master data file is fictitious and intended for illustration purposes only. \n (2) In this case, the geographic origin is assumed to be static for the fictitious trade item."
     }
 }
