@@ -1,42 +1,37 @@
 {
-    "@context": {
-        "gs1": "https://ref.gs1.org/voc/",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    "@context": [
+        "https://mh1.eu/temp/GS1WebVocContext-minimal8.jsonld",
+        "https://ralphtro.github.io/TEMP_contextExperiments/contextFiles/gs1de-webvoc-context-file-0dot2.jsonld"
+    ],
+    "id": "https://id.gs1.org/417/4262431780005",
+    "organizationName": {
+        "en": "TEST GmbH"
     },
-    "@id": "https://id.gs1.org/417/4262431780005",
-    "gs1:organizationName": [{
-        "@value": "TEST GmbH",
-        "@language": "en"
-    }],
-    "gs1:partyGLN": "4262431780005",
-    "gs1:address": {
-        "gs1:streetAddress": [{
-            "@value": "Test Street 5",
-            "@language": "en"
-        }],
-        "gs1:addressLocality": [{
-            "@value": "Cologne",
-            "@language": "en"
-        }],
-        "gs1:postalCode": "50825",
-        "gs1:addressCountry": {
-            "gs1:countryCode": "DE",
-            "gs1:countrySubdivisionCode": "DE-NW"
+    "partyGLN": "4262431780005",
+    "address": {
+        "streetAddress": {
+            "en": "Test Street 5"
+        },
+        "addressLocality": {
+            "en": "Cologne"
+        },
+        "postalCode": "50825",
+        "addressCountry": {
+            "countryCode": "DE",
+            "countrySubdivisionCode": "DE-NW"
         }
     },
-    "gs1:contactPoint": [{
-        "gs1:contactType": [{
-            "@value": "Customer Support",
-            "@language": "en"
-        }],
-        "gs1:email": "customer-support@example.com"
-    }],
-    "gs1:additionalOrganizationID": [{
-        "gs1:organizationID": "DE123456789012",
-        "gs1:organizationID_Type": "gs1:OrganizationID_Type-EORI"
-    }],
-    "rdfs:comment": [{
-        "@value": "Note: This dataset is fictitious and is intended for illustration purposes only.",
-        "@language": "en"
-    }]
+    "contactPoint": {
+        "contactType": {
+            "en": "Customer Support"
+        },
+        "email": "customer-support@example.com"
+    },
+    "additionalOrganizationID": {
+        "organizationID": "DE123456789012",
+        "organizationID_Type": "gs1:OrganizationID_Type-EORI"
+    },
+    "rdfs:comment": {
+        "@en": "Note: This dataset is fictitious and is intended for illustration purposes only."
+    }
 }
