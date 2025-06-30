@@ -1,48 +1,42 @@
 {
-    "@context": {
-        "gs1": "https://gs1.org/voc/",
-        "gs1:value": {
-            "@type": "xsd:float"
-        },
-        "gs1de": "https://voc.gs1.de/"
+    "@context": [
+        "https://mh1.eu/temp/GS1WebVocContext-minimal8.jsonld",
+        "https://ralphtro.github.io/TEMP_contextExperiments/contextFiles/gs1de-webvoc-context-file-0dot2.jsonld"
+    ],
+    "id": "https://id.gs1.org/01/04262431780012",
+    "gtin": "04262431780012",
+    "brandName": {
+        "en": "TEST"
     },
-    "@id": "https://id.gs1.org/01/04262431780012",
-    "gs1:gtin": "04262431780012",
-    "gs1:brandName": {
-        "@value": "TEST",
-        "@language": "en"
+    "productName": {
+        "en": "Wooden Box One"
     },
-    "gs1:productName": {
-        "@value": "Wooden Box One",
-        "@language": "en"
+    "productDescription": {
+        "en": "[Fictitious product] Compact storage solution measuring 30 cm x 20 cm x 15 cm and weighing 1.5 kg. It's made from high-quality, sustainably sourced wood."
     },
-    "gs1:productDescription": {
-        "@value": "[Fictitious product] Compact storage solution measuring 30 cm x 20 cm x 15 cm and weighing 1.5 kg. It's made from high-quality, sustainably sourced wood.",
-        "@language": "en"
+    "netWeight": {
+        "value": "1500",
+        "unitCode": "GRM"
     },
-    "gs1:netWeight": {
-        "gs1:value": "1500",
-        "gs1:unitCode": "GRM"
+    "grossWeight": {
+        "value": "1700",
+        "unitCode": "GRM"
     },
-    "gs1:grossWeight": {
-        "gs1:value": "1700",
-        "gs1:unitCode": "GRM"
+    "inPackageHeight": {
+        "value": "15",
+        "unitCode": "CMT"
     },
-    "gs1:inPackageHeight": {
-        "gs1:value": "15",
-        "gs1:unitCode": "CMT"
+    "inPackageWidth": {
+        "value": "30",
+        "unitCode": "CMT"
     },
-    "gs1:inPackageWidth": {
-        "gs1:value": "30",
-        "gs1:unitCode": "CMT"
+    "inPackageDepth": {
+        "value": "20",
+        "unitCode": "CMT"
     },
-    "gs1:inPackageDepth": {
-        "gs1:value": "20",
-        "gs1:unitCode": "CMT"
-    },
-    "gs1:countryOfOrigin": {
-        "gs1:countryCode": "DE",
-        "gs1:countrySubdivisionCode": "DE-NW"
+    "countryOfOrigin": {
+        "countryCode": "DE",
+        "countrySubdivisionCode": "DE-NW"
     },
     "gs1de:importClassification": {
         "gs1de:importClassificationTypeCode": "gs1de:ImportClassificationTypeCode-INTRASTAT_COMBINED_NOMENCLATURE",
@@ -59,7 +53,7 @@
                     },
                     "gs1de:organismClassification": {
                         "gs1de:organismTypeCodeList": "gs1de:OrganismCodeListCode-EUROPEAN_TIMBER_CODE",
-                        "gs1de:organismTypeCodeValue": "gs1de:EuropeanTimberCode-BTXX"
+                        "gs1de:organismTypeCodeValue": "BTXX"
                     }
                 },
                 {
@@ -69,20 +63,17 @@
                     },
                     "gs1de:organismClassification": {
                         "gs1de:organismTypeCodeList": "gs1de:OrganismCodeListCode-EUROPEAN_TIMBER_CODE",
-                        "gs1de:organismTypeCodeValue": "gs1de:EuropeanTimberCode-FASY"
+                        "gs1de:organismTypeCodeValue": "FASY"
                     }
                 }
             ]
         }
     ],
-    "gs1:image": {
-        "gs1:referencedFileURL": "https://simbaimagestorage.blob.core.windows.net/storage/products/18309452/1.jpeg?lastModified=1731659264330",
-        "gs1:referencedFileType": "gs1:ReferencedFileTypeCode-PRODUCT_IMAGE"
+    "image": {
+        "referencedFileURL": "https://simbaimagestorage.blob.core.windows.net/storage/products/18309452/1.jpeg?lastModified=1731659264330",
+        "referencedFileType": "PRODUCT_IMAGE"
     },
-    "rdfs:comment": [
-        {
-            "@value": "Note: This dataset is fictitious and is intended for illustration purposes only.",
-            "@language": "en"
-        }
-    ]
+    "rdfs:comment": {
+        "en": "Note: This dataset is fictitious and is intended for illustration purposes only."
+    }
 }
