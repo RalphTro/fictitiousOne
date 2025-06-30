@@ -1,55 +1,32 @@
 {
-    "@context": {
-        "gs1": "https://gs1.org/voc/",
-        "gs1:additionalOrganizationID": {
-            "@type": "gs1:OrganizationID_Details"
-        },
-        "gs1:address": {
-            "@type": "gs1:PostalAddress"
-        },
-        "gs1:addressCountry": {
-            "@type": "gs1:Country"
-        },
-        "xsd": "https://www.w3.org/2001/XMLSchema#"
+    "@context": [
+        "https://mh1.eu/temp/GS1WebVocContext-minimal8.jsonld"
+    ],
+    "type": [
+        "Organization"
+    ],
+    "id": "https://id.gs1.org/417/4000001000005",
+    "partyGLN": "4000001000005",
+    "additionalOrganizationID": {
+        "organizationID": "554433",
+        "organizationID_Type": "EORI"
     },
-    "@type": [
-        "gs1:Organization"
-    ],
-    "gs1:partyGLN": "4000001000005",
-    "gs1:additionalOrganizationID": [
-        {
-            "gs1:organizationID": "554433",
-            "gs1:organizationID_Type": "EORI"
-        }
-    ],
-    "gs1:organizationName": [
-        {
-            "@value": "GS1 DE Demo",
-            "@language": "en"
-        }
-    ],
-    "gs1:address": {
-        "gs1:streetAddress": [
-            {
-                "@value": "Fictitious One",
-                "@language": "en"
-            }
-        ],
-        "gs1:addressLocality": [
-            {
-                "@value": "Musterstadt",
-                "@language": "en"
-            }
-        ],
-        "gs1:addressRegion": [
-            {
-                "@value": "NRW",
-                "@language": "en"
-            }
-        ],
-        "gs1:postalCode": "55555",
-        "gs1:addressCountry": {
-            "gs1:countryCode": "DE"
+    "organizationName": {
+        "en": "GS1 DE Demo"
+    },
+    "address": {
+        "streetAddress": {
+            "en": "Fictitious One"
+        },
+        "addressLocality": {
+            "en": "Musterstadt"
+        },
+        "addressRegion": {
+            "en": "NRW"
+        },
+        "postalCode": "55555",
+        "addressCountry": {
+            "countryCode": "DE"
         }
     }
 }
