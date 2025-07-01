@@ -32,6 +32,6 @@
         "organizationID_Type": "gs1:OrganizationID_Type-EORI"
     },
     "rdfs:comment": {
-        "@en": "Note: This dataset is fictitious and is intended for illustration purposes only."
+        "en": "Note: This dataset is fictitious and is intended for illustration purposes only."
     }
 }
