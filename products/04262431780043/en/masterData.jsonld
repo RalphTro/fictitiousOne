@@ -1,0 +1,81 @@
+{
+    "@context": [
+        "https://mh1.eu/temp/GS1WebVocContext-minimal8.jsonld",
+        "https://ralphtro.github.io/TEMP_contextExperiments/contextFiles/gs1de-webvoc-context-file-0dot2.jsonld"
+    ],
+    "type": "Product",
+    "id": "https://id.gs1.org/01/04262431780043",
+    "gtin": "04262431780043",
+    "productName": {
+        "en": "Rwandan Black Tea One"
+    },
+    "brandName": {
+        "en": "Fictitious One"
+    },
+    "productDescription": {
+        "en": "[Fictitious product] A premium quality black tea from Rwanda."
+    },
+    "netContent": {
+        "value": "100",
+        "unitCode": "GRM"
+    },
+    "grossWeight": {
+        "value": "120",
+        "unitCode": "GRM"
+    },
+    "countryOfOrigin": {
+        "countryCode": "RW"
+    },
+    "packaging": {
+        "packagingMaterial": {
+            "packagingMaterialType": "PAPER_KRAFT_WET_STRENGTH"
+        }
+    },
+    "consumerStorageInstructions": {
+        "en": "Store in a cool, dry place."
+    },
+    "ingredientStatement": {
+        "en": "Black Tea (100%)"
+    },
+    "servingSize": {
+        "value": "2",
+        "unitCode": "GRM"
+    },
+    "numberOfServingsPerPackage": "50",
+    "nutrientBasisQuantityType": "BY_SERVING",
+    "nutrientMeasurementPrecision": "APPROXIMATELY",
+    "fatPerNutrientBasis": {
+        "value": "0",
+        "unitCode": "GRM"
+    },
+    "energyPerNutrientBasis": {
+        "value": "0",
+        "unitCode": "E14"
+    },
+    "carbohydratesPerNutrientBasis": {
+        "value": "0",
+        "unitCode": "GRM"
+    },
+    "proteinPerNutrientBasis": {
+        "value": "0",
+        "unitCode": "GRM"
+    },
+    "image": {
+        "referencedFileType": "PRODUCT_IMAGE",
+        "referencedFileURL": ""
+    },
+    "targetMarket": {
+        "targetMarketCountries": ["RW", "DE"]
+    },
+    "gs1de:importClassification": {
+        "gs1de:importClassificationTypeCode": "gs1de:ImportClassificationTypeCode-INTRASTAT_COMBINED_NOMENCLATURE",
+        "gs1de:importClassificationValue": "09023000"
+    },
+    "gs1de:isTradeItemABaseUnit": true,
+    "gs1de:isTradeItemAConsumerUnit": true,
+    "gs1de:isTradeItemADespatchUnit": false,
+    "gs1de:isTradeItemAnOrderableUnit": true,
+    "gs1de:tradeItemUnitDescriptorCode": "gs1de:TradeItemUnitDescriptorCode-BASE_UNIT_OR_EACH"
+
+    
+}
