@@ -13,8 +13,9 @@
         "en": "Fictitious One"
     },
     "productDescription": {
-        "en": "[Fictitious product] A premium quality black tea from Rwanda."
+        "en": "[Fictitious product] A premium quality black tea from Rwanda, in a sachet containing 100 g, by Fictitious One."
     },
+    "gpcCategoryCode": "10000116",
     "netContent": {
         "value": "100",
         "unitCode": "GRM"
@@ -25,6 +26,18 @@
     },
     "countryOfOrigin": {
         "countryCode": "RW"
+    },
+    "inPackageDepth": {
+        "value": "4.2",
+        "unitCode": "CMT"
+    },
+    "inPackageHeight": {
+        "value": "15.6",
+        "unitCode": "CMT"
+    },
+    "inPackageWidth": {
+        "value": "6.0",
+        "unitCode": "CMT"
     },
     "packaging": {
         "packagingMaterial": {
@@ -67,6 +80,11 @@
     "targetMarket": {
         "targetMarketCountries": ["RW", "DE"]
     },
+    "availabilityStarts": "2025-07-12",
+    "packagingType": "61",
+    "functionalName": {
+        "en": "Rwandan Black Tea"
+    },
     "gs1de:importClassification": {
         "gs1de:importClassificationTypeCode": "gs1de:ImportClassificationTypeCode-INTRASTAT_COMBINED_NOMENCLATURE",
         "gs1de:importClassificationValue": "09023000"
@@ -75,7 +93,14 @@
     "gs1de:isTradeItemAConsumerUnit": true,
     "gs1de:isTradeItemADespatchUnit": false,
     "gs1de:isTradeItemAnOrderableUnit": true,
-    "gs1de:tradeItemUnitDescriptorCode": "gs1de:TradeItemUnitDescriptorCode-BASE_UNIT_OR_EACH"
+    "gs1de:tradeItemUnitDescriptorCode": "gs1de:TradeItemUnitDescriptorCode-BASE_UNIT_OR_EACH",
+    "gs1de:effectiveDateTime": "2025-07-11",
+    "gs1de:isTradeItemAVariableUnit": false,
+    "gs1de:dataProvider": {
+        "partyGLN": "4262431780005",
+        "organizationName": "TEST GmbH"
+    }
 
-    
+
+
 }
