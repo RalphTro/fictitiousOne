@@ -4,8 +4,8 @@
         "https://ralphtro.github.io/TEMP_contextExperiments/contextFiles/gs1de-webvoc-context-file-0dot2.jsonld"
     ],
     "type": "Product",
-    "id": "https://id.gs1.org/01/04262431780043",
-    "gtin": "04262431780043",
+    "id": "https://id.gs1.org/01/04262431780081",
+    "gtin": "04262431780081",
     "productName": {
         "en": "Rwandan Black Tea One"
     },
@@ -75,7 +75,7 @@
     },
     "image": {
         "referencedFileType": "PRODUCT_IMAGE",
-        "referencedFileURL": ""
+        "referencedFileURL": "https://ralphtro.github.io/fictitiousOne/products/04262431780081/black-tea-one.jpg"
     },
     "targetMarket": {
         "targetMarketCountries": ["RW", "DE"]
@@ -99,8 +99,8 @@
     "gs1de:dataProvider": {
         "partyGLN": "4262431780005",
         "organizationName": "TEST GmbH"
+    },
+    "rdfs:comment": {
+        "en": "This GTIN master data file is fictitious and intended for illustration purposes only."
     }
-
-
-
 }
