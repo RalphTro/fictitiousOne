@@ -1,43 +1,43 @@
 {
-    "@context": {
-        "xsd": "https://www.w3.org/2001/XMLSchema#",
-        "gs1": "https://ref.gs1.org/voc/",
-        "gs1:latitude": {
-            "@type": "xsd:float"
-        },
-        "gs1:longitude": {
-            "@type": "xsd:float"
-        },
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    "@context": [
+        "https://mh1.eu/temp/GS1WebVocContext-minimal8.jsonld",
+        {
+            "gs1:latitude": {
+                "@type": "xsd:float"
+            },
+            "gs1:longitude": {
+                "@type": "xsd:float"
+            },
+            "rdfs:comment": {
+                "@container": "@language"
+            }
+        }
+    ],
+    "id": "https://id.gs1.org/414/4262431780029",
+    "physicalLocationName": {
+        "en": "TEST Location One"
     },
-    "@id": "https://id.gs1.org/414/4262431780029",
-    "gs1:physicalLocationName": [{
-        "@value": "TEST Location One",
-        "@language": "en"
-    }],
-    "gs1:locationGLN": "4262431780029",
-    "gs1:locationRole": "gs1:LocationRoleType-FARM",
-    "gs1:address": [{
-        "gs1:streetAddress": [{
-            "@value": "Sample Street 123",
-            "@language": "en"
-        }],
-        "gs1:addressLocality": [{
-            "@value": "Sample City",
-            "@language": "en"
-        }],
-        "gs1:postalCode": "12345",
-        "gs1:addressCountry": {
-            "gs1:countryCode": "DE",
-            "gs1:countrySubdivisionCode": "NW"
+    "locationGLN": "4262431780029",
+    "locationRole": "gs1:LocationRoleType-FARM",
+    "address": [{
+        "streetAddress": {
+            "en": "Sample Street 123"
+        },
+        "addressLocality": {
+            "en": "Sample City"
+        },
+        "postalCode": "12345",
+        "addressCountry": {
+            "countryCode": "DE",
+            "countrySubdivisionCode": "NW"
         }
     }],
-    "gs1:geo": {
+    "geo": {
         "gs1:latitude": "50.942499",
         "gs1:longitude": "6.898247"
     },
-    "rdfs:comment": [{
-        "@value": "Note: This dataset is fictitious and is intended for illustration purposes only.",
-        "@language": "en"
-    }]
+    "rdfs:comment": {
+        "en": "Note: This dataset is fictitious and is intended for illustration purposes only."
+    }
+
 }
