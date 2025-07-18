@@ -1,0 +1,62 @@
+/* Import Skeleton CSS */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css');
+
+/* Custom styles for Standard Phone One website */
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding-top: 40px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.tagline {
+  font-size: 1.25rem;
+  color: #888;
+}
+
+.image-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.description {
+  margin-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #aaa;
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+/* Skeleton grid layout */
+.row {
+  margin-bottom: 30px;
+}
+
+.column {
+  padding: 0 15px;
+}
+
+@media (min-width: 550px) {
+  .one-half.column {
+    width: 48%;
+  }
+  .offset-by-one-half {
+    margin-left: 52%;
+  }
+}

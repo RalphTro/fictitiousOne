@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "type": "@type",
+        "id": "@id",
+        "gs1": "https://ref.gs1.org/voc/"
+    },
+    "type": "Product",
+    "id": "https://id.gs1.de/01/04262431780791/21/SER987",
+    "gs1:cellularMobileTelephoneID": "DE-V-5821",
+    "gs1:internationalMobileEquipmentID": [
+        "356938035643809",
+        "356938035643810",
+        "356938035643811"
+    ],
+    "gs1:embeddedDigitalSIM": "89445001021987654321123456789101",
+    "gs1:embeddedPhysicalSIM": "89445001021987654322"
+}
