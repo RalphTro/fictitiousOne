@@ -11,6 +11,9 @@
         },
         "gs1:bestBeforeDate": {
             "@type": "xsd:date"
+        },
+        "gs1:freshOrSeawaterFarmed": {
+            "@type": "@vocab"
         }
     },
     "type": "gs1:Seafood",
@@ -18,7 +21,7 @@
     "gs1:gtin": "04012345999853",
     "gs1:hasBatchLotNumber": "LOT987",
     "gs1:catchZone": "37.2",
-    "gs1:freshOrSeawaterFarmed": "https://ref.gs1.org/voc/FreshOrSeawaterFarmedCode-SEAWATER_FARMED",
+    "gs1:freshOrSeawaterFarmed": "gs1:FreshOrSeawaterFarmedCode-SEAWATER_FARMED",
     "gs1:harvestDateStart": "2025-02-09",
     "gs1:harvestDateEnd": "2025-02-10",
     "gs1:bestBeforeDate": "2025-02-15"
