@@ -1,16 +1,25 @@
 {
     "@context": {
-        "gs1": "https://gs1.org/voc/",
-        "xsd": "https://www.w3.org/2001/XMLSchema#",
-        "@vocab": "https://gs1.org/voc/"
+        "type": "@type",
+        "id": "@id",
+        "gs1": "https://ref.gs1.org/voc/",
+        "gs1:harvestDateStart": {
+            "@type": "xsd:date"
+        },
+        "gs1:harvestDateEnd": {
+            "@type": "xsd:date"
+        },
+        "gs1:bestBeforeDate": {
+            "@type": "xsd:date"
+        }
     },
-    "@type": "gs1:Seafood",
-    "@id": "https://id.gs1.de/01/04012345999853/10/LOT987",
-    "gtin": "04012345999853",
-    "hasBatchLotNumber": "LOT987",
-    "catchZone": "37.2",
-    "freshOrSeawaterFarmed": "gs1:FreshOrSeawaterFarmedCode-SEAWATER_FARMED",
-    "harvestDateStart": "2023-02-09",
-    "harvestDateEnd": "2023-02-10",
-    "bestBeforeDate": "2023-02-15"
+    "type": "gs1:Seafood",
+    "id": "https://id.gs1.de/01/04012345999853/10/LOT987",
+    "gs1:gtin": "04012345999853",
+    "gs1:hasBatchLotNumber": "LOT987",
+    "gs1:catchZone": "37.2",
+    "gs1:freshOrSeawaterFarmed": "https://ref.gs1.org/voc/FreshOrSeawaterFarmedCode-SEAWATER_FARMED",
+    "gs1:harvestDateStart": "2025-02-09",
+    "gs1:harvestDateEnd": "2025-02-10",
+    "gs1:bestBeforeDate": "2025-02-15"
 }
