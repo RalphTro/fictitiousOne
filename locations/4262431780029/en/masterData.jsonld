@@ -1,43 +1,49 @@
 {
-    "@context": [
-        "https://mh1.eu/temp/GS1WebVocContext-minimal8.jsonld",
-        {
-            "gs1:latitude": {
-                "@type": "xsd:float"
-            },
-            "gs1:longitude": {
-                "@type": "xsd:float"
-            },
-            "rdfs:comment": {
-                "@container": "@language"
-            }
+    "@context": {
+        "gs1": "https://ref.gs1.org/voc/",
+        "gs1:latitude": {
+            "@type": "xsd:float"
+        },
+        "gs1:longitude": {
+            "@type": "xsd:float"
+        },
+        "gs1:physicalLocationName": {
+            "@container": "@language"
+        },
+        "gs1:streetAddress": {
+            "@container": "@language"
+        },
+        "gs1:addressLocality": {
+            "@container": "@language"
+        },
+        "rdfs:comment": {
+            "@container": "@language"
         }
-    ],
-    "id": "https://id.gs1.org/414/4262431780029",
-    "physicalLocationName": {
-        "en": "TEST Location One"
     },
-    "locationGLN": "4262431780029",
-    "locationRole": "gs1:LocationRoleType-FARM",
-    "address": [{
-        "streetAddress": {
+    "@type": "gs1:Place",
+    "@id": "https://id.gs1.org/414/4262431780029",
+    "gs1:physicalLocationName": {
+        "en": "Example Location One"
+    },
+    "gs1:locationGLN": "4262431780029",
+    "gs1:address": [{
+        "gs1:streetAddress": {
             "en": "Sample Street 123"
         },
-        "addressLocality": {
+        "gs1:addressLocality": {
             "en": "Sample City"
         },
-        "postalCode": "12345",
-        "addressCountry": {
-            "countryCode": "DE",
-            "countrySubdivisionCode": "NW"
+        "gs1:postalCode": "12345",
+        "gs1:addressCountry": {
+            "gs1:countryCode": "DE",
+            "gs1:countrySubdivisionCode": "NW"
         }
     }],
-    "geo": {
+    "gs1:geo": {
         "gs1:latitude": "50.942499",
         "gs1:longitude": "6.898247"
     },
     "rdfs:comment": {
         "en": "Note: This dataset is fictitious and is intended for illustration purposes only."
     }
-
 }
