@@ -1,0 +1,94 @@
+[
+  {
+    "gtin": "04262431780036",
+    "gtinRecordStatus": "OK",
+    "gpcCategoryCode": "50000000",
+    "brandName": [
+      {
+        "language": "en",
+        "value": "TEST"
+      }
+    ],
+    "productDescription": [
+      {
+        "language": "en",
+        "value": "TEST Chocolate Bar One 100.0 g"
+      }
+    ],
+    "productImageUrl": [
+      {
+        "language": "de",
+        "value": "https://simbaimagestorage.blob.core.windows.net/storage/products/28287172/1.jpeg?lastModified=1750692480061"
+      }
+    ],
+    "netContent": [
+      {
+        "unitCode": "GRM",
+        "value": "100"
+      }
+    ],
+    "countryOfSaleCode": [
+      {
+        "numeric": "276",
+        "alpha2": "DE",
+        "alpha3": "DEU"
+      }
+    ],
+    "dateCreated": "2025-06-23T13:19:39.5475661Z",
+    "dateUpdated": "2025-06-23T15:28:14.4825356Z",
+    "gs1Licence": {
+      "licenceKey": "426243178",
+      "licenceType": "GCP",
+      "licenseeName": "TEST GmbH",
+      "licenseeGLN": "4262431780005",
+      "licenceStatus": "ACTIVE",
+      "licensingMO": {
+        "moGLN": "4000001000005",
+        "moName": "GS1 Germany"
+      },
+      "address": {
+        "addressLocality": {
+          "language": "de",
+          "value": "Köln"
+        },
+        "countryCode": "DE",
+        "postalName": {
+          "language": "de",
+          "value": "TEST GmbH"
+        },
+        "streetAddress": {
+          "language": "de",
+          "value": "Teststrasse 5"
+        },
+        "postalCode": "50825"
+      },
+      "primaryMO": {
+        "moGLN": "4000001000005",
+        "moName": "GS1 Germany"
+      },
+      "dateCreated": "2023-06-01T11:45:02.462916Z",
+      "dateUpdated": "2024-11-20T06:07:04.0637511Z",
+      "gcp": "426243178"
+    },
+    "isComplete": true,
+    "linkset": {
+      "anchor": "https://id.gs1.org/01/04262431780036",
+      "itemDescription": "QR Code Chocolate Bar One",
+      "https://gs1.org/voc/masterData": [
+        {
+          "href": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/en/masterData.jsonld",
+          "title": "QR Code Chocolate Bar One",
+          "fwqs": true,
+          "public": true,
+          "type": "text/html",
+          "hreflang": [
+            "en"
+          ],
+          "context": [
+            "001"
+          ]
+        }
+      ]
+    }
+  }
+]

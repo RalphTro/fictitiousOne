@@ -1,0 +1,160 @@
+[
+  {
+    "gln": "4262431780005",
+    "glnRecords": [
+      {
+        "gln": "4262431780005",
+        "glnType": "LEGAL_ENTITY",
+        "organizationName": [
+          {
+            "language": "de",
+            "value": "TEST GmbH"
+          }
+        ],
+        "organizationRole": [
+          "BRAND_OWNER"
+        ],
+        "contactPoint": [
+          {
+            "email": "sebastian.schanz@gs1.de"
+          }
+        ],
+        "address": [
+          {
+            "addressLocality": {
+              "language": "de",
+              "value": "Köln"
+            },
+            "countryCode": "DE",
+            "postalName": {
+              "language": "de",
+              "value": "TEST GmbH"
+            },
+            "streetAddress": {
+              "language": "de",
+              "value": "Teststrasse 5"
+            },
+            "postalCode": "50825"
+          }
+        ],
+        "glnRecordStatus": "ACTIVE",
+        "dateCreated": "2024-11-20T09:25:54.6653254Z",
+        "dateUpdated": "2025-08-14T11:28:51.5398582Z"
+      }
+    ],
+    "gs1Licence": {
+      "licenceKey": "426243178",
+      "licenceType": "GCP",
+      "licenseeName": "TEST GmbH",
+      "licenseeGLN": "4262431780005",
+      "licenceStatus": "ACTIVE",
+      "licensingMO": {
+        "moGLN": "4000001000005",
+        "moName": "GS1 Germany"
+      },
+      "address": {
+        "addressLocality": {
+          "language": "de",
+          "value": "Köln"
+        },
+        "countryCode": "DE",
+        "postalName": {
+          "language": "de",
+          "value": "TEST GmbH"
+        },
+        "streetAddress": {
+          "language": "de",
+          "value": "Teststrasse 5"
+        },
+        "postalCode": "50825"
+      },
+      "primaryMO": {
+        "moGLN": "4000001000005",
+        "moName": "GS1 Germany"
+      },
+      "dateCreated": "2023-06-01T11:45:02.462916Z",
+      "dateUpdated": "2024-11-20T06:07:04.0637511Z",
+      "gcp": "426243178"
+    },
+    "linkset": [
+      {
+        "anchor": "https://id.gs1.org/414/4262431780005",
+        "itemDescription": "Sustainability Information",
+        "https://gs1.org/voc/certificationInfo": [
+          {
+            "href": "https://ralphtro.github.io/fictitiousOne/parties/4262431780005/en/certificationInfo.jsonld",
+            "title": "Certification Information",
+            "fwqs": true,
+            "public": true,
+            "type": "application/ld+json",
+            "hreflang": [
+              "en"
+            ],
+            "context": [
+              "001"
+            ]
+          }
+        ],
+        "https://gs1.org/voc/masterData": [
+          {
+            "href": "https://ralphtro.github.io/fictitiousOne/parties/4262431780005/en/masterData.jsonld",
+            "title": "Master Data",
+            "fwqs": true,
+            "public": true,
+            "type": "application/ld+json",
+            "hreflang": [
+              "en"
+            ],
+            "context": [
+              "001",
+              "und"
+            ]
+          }
+        ],
+        "https://gs1.org/voc/registryEntry": [
+          {
+            "href": "https://ralphtro.github.io/fictitiousOne/parties/4262431780005/en/ralphTroCredential.jsonld",
+            "title": "RalphTro's Registry Entry Credential",
+            "fwqs": true,
+            "public": true,
+            "type": "application/ld+json",
+            "hreflang": [
+              "en"
+            ],
+            "context": [
+              "001"
+            ]
+          },
+          {
+            "href": "https://ralphtro.github.io/fictitiousOne/parties/4262431780005/en/ralphTroCredential.pdf",
+            "title": "RalphTro's Registry Entry Credential",
+            "fwqs": true,
+            "public": true,
+            "type": "application/pdf",
+            "hreflang": [
+              "en"
+            ],
+            "context": [
+              "001"
+            ]
+          }
+        ],
+        "https://gs1.org/voc/sustainabilityInfo": [
+          {
+            "href": "https://ralphtro.github.io/fictitiousOne/parties/4262431780005/en/sustainabilityInfo.jsonld",
+            "title": "Sustainability Information",
+            "fwqs": true,
+            "public": true,
+            "type": "application/ld+json",
+            "hreflang": [
+              "en"
+            ],
+            "context": [
+              "001"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

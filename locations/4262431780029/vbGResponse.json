@@ -1,0 +1,106 @@
+[
+  {
+    "gln": "4262431780029",
+    "glnRecords": [
+      {
+        "gln": "4262431780029",
+        "glnType": "FIXED_PHYSICAL_LOCATION",
+        "physicalLocationName": [
+          {
+            "language": "en",
+            "value": "TEST Location One"
+          }
+        ],
+        "locationRole": [
+          "FARM"
+        ],
+        "contactPoint": [
+          {
+            "website": "https://example.com/company"
+          }
+        ],
+        "geoCoordinates": {
+          "latitude": "40.4811661",
+          "longitude": "-79.97581579999999",
+          "coordinateReferenceSystem": "https://epsg.io/4326"
+        },
+        "address": [
+          {
+            "addressLocality": {
+              "language": "de",
+              "value": "Sample City"
+            },
+            "countryCode": "DE",
+            "postalName": {
+              "language": "de",
+              "value": "Max Mustermann"
+            },
+            "streetAddress": {
+              "language": "de",
+              "value": "Sample Street 123"
+            },
+            "postalCode": "12345"
+          }
+        ],
+        "glnRecordStatus": "ACTIVE",
+        "dateCreated": "2024-11-06T15:44:02.6630432Z",
+        "dateUpdated": "2024-11-15T14:04:22.3098386Z"
+      }
+    ],
+    "gs1Licence": {
+      "licenceKey": "426243178",
+      "licenceType": "GCP",
+      "licenseeName": "TEST GmbH",
+      "licenseeGLN": "4262431780005",
+      "licenceStatus": "ACTIVE",
+      "licensingMO": {
+        "moGLN": "4000001000005",
+        "moName": "GS1 Germany"
+      },
+      "address": {
+        "addressLocality": {
+          "language": "de",
+          "value": "Köln"
+        },
+        "countryCode": "DE",
+        "postalName": {
+          "language": "de",
+          "value": "TEST GmbH"
+        },
+        "streetAddress": {
+          "language": "de",
+          "value": "Teststrasse 5"
+        },
+        "postalCode": "50825"
+      },
+      "primaryMO": {
+        "moGLN": "4000001000005",
+        "moName": "GS1 Germany"
+      },
+      "dateCreated": "2023-06-01T11:45:02.462916Z",
+      "dateUpdated": "2024-11-20T06:07:04.0637511Z",
+      "gcp": "426243178"
+    },
+    "linkset": [
+      {
+        "anchor": "https://id.gs1.org/414/4262431780029",
+        "itemDescription": "Master Data",
+        "https://gs1.org/voc/masterData": [
+          {
+            "href": "https://ralphtro.github.io/fictitiousOne/locations/4262431780029/en/masterData.jsonld",
+            "title": "Master Data",
+            "fwqs": true,
+            "public": true,
+            "type": "text/html",
+            "hreflang": [
+              "en"
+            ],
+            "context": [
+              "001"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
