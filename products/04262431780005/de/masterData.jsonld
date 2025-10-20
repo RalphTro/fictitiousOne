@@ -1,51 +1,87 @@
 {
-    "@context": {
-        "gs1": "https://gs1.org/voc/",
-        "gs1:value": {
-            "@type": "xsd:float"
+    "@context": [
+        "https://mh1.eu/temp/GS1WebVocContext-minimal8.jsonld",
+        "https://ralphtro.github.io/TEMP_contextExperiments/contextFiles/gs1de-webvoc-context-file-0dot3.jsonld"
+    ],
+    "id": "https://id.gs1.de/01/04262431780005",
+    "gtin": "04262431780005",
+    "brandName": {
+        "de": "GS1",
+        "en": "GS1"
+    },
+    "productDescription": {
+        "de": "T-Shirt Gelb L",
+        "en": "T-Shirt Yellow L"
+    },
+    "gpcCategoryCode": "67000000",
+    "gpcCategoryDescription": {
+        "de": "Bekleidung",
+        "en": "Clothing"
+    },
+    "colourCode": {
+        "colourCodeValue": "yellow-orange",
+        "colourCodeList": "gs1:ColourCodeList-SELLER"
+    },
+    "netContent": {
+        "value": "1",
+        "unitCode": "H87"
+    },
+    "targetMarket": {
+        "targetMarketCountries": {
+            "countryCode": [
+                "DE",
+                "FR"
+            ]
         }
     },
-    "@id": "https://id.gs1.de/01/04262431780005",
-    "gs1:gtin": "04262431780005",
-    "gs1:brandName": {
-        "@value": "GS1",
-        "@language": "de"
-    },
-    "gs1:productDescription": {
-        "@value": "T-Shirt Gelb L",
-        "@language": "de"
-    },
-    "gs1:gpcCategoryCode": "67000000",
-    "gs1:gpcCategoryDescription": [{
-        "@value": "Bekleidung",
-        "@language": "de"
-    }],
-    "gs1:colourCode": [{
-        "gs1:colourCodeValue": "yellow-orange",
-        "gs1:colourCodeList": "gs1:ColourCodeList-SELLER"
-    }],
-    "gs1:netContent": {
-        "gs1:value": "1",
-        "gs1:unitCode": "H87"
-    },
-    "gs1:targetMarket": [{
-        "gs1:targetMarketCountries": [{
-            "gs1:countryCode": "DE"
-        }]
-    }],
-    "gs1:textileMaterial": [{
-        "gs1:textileMaterialDescription": [{
-            "@value": "Baumwolle",
-            "@language": "de"
-        }],
-        "gs1:textileMaterialPercentage": "100",
-        "gs1:textileMaterialWeight": {
-            "gs1:value": "180",
-            "gs1:unitCode": "GM"
+    "gs1de:materialComposition": [
+        {
+            "gs1de:materialCode": "gs1de:MaterialCode-FIBRE_COTTON",
+            "gs1de:materialWeight": {
+                "value": "130",
+                "unitCode": "GRM"
+            }
+        },
+        {
+            "gs1de:materialCode": "gs1de:MaterialCode-METAL_STAINLESS_STEEL",
+            "gs1de:materialWeight": {
+                "value": "10.2",
+                "unitCode": "GRM"
+            }
         }
-    }],
-    "gs1:image": {
-        "gs1:referencedFileURL": "https://simbaimagestorage.blob.core.windows.net/storage/products/8030625/1.png?lastModified=1718114635758",
-        "gs1:referencedFileType": "gs1:ReferencedFileTypeCode-PRODUCT_IMAGE"
+    ],
+    "packaging": {
+        "packagingMaterial": {
+            "packagingMaterialType": "PAPER_PAPERBOARD",
+            "packagingMaterialCompositionQuantity": {
+                "value": "80",
+                "unitCode": "GRM"
+            }
+        },
+        "packagingRecyclingProcessType": "RECYCLABLE"
+    },
+    "gs1de:productReparability": {
+        "referencedFileURL": "https://example.com/item-reparability-info.html",
+        "referencedFileType": "gs1de:ReferencedFileTypeCode-REPARABILITY_INFORMATION"
+    },
+    "gs1de:productDurability": [
+        {
+            "gs1de:usageUnitDescription": {
+                "de": "Anzahl Waschzyklen vor erkennbarem Verschleiss",
+                "en": "Number of washes before visible wear"
+            },
+            "gs1de:usageDuration": {
+                "value": "50",
+                "unitCode": "C62"
+            }
+        }
+    ],
+    "image": {
+        "referencedFileURL": "https://simbaimagestorage.blob.core.windows.net/storage/products/8030625/1.png?lastModified=1718114635758",
+        "referencedFileType": "PRODUCT_IMAGE"
+    },
+    "rdfs:comment": {
+        "de": "Diese GTIN-Stammdatendatei ist fiktiv und dient ausschliesslich Illustrationszwecken.",
+        "en": "This GTIN master data file is fictitious and intended for illustration purposes only."
     }
 }
