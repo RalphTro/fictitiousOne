@@ -6,14 +6,14 @@
     "id": "https://id.gs1.de/01/04262431780005",
     "gtin": "04262431780005",
     "brandName": {
-        "de": "GS1"
+        "en": "GS1"
     },
     "productDescription": {
-        "de": "T-Shirt Gelb L"
+        "en": "T-Shirt Yellow L"
     },
     "gpcCategoryCode": "67000000",
     "gpcCategoryDescription": {
-        "de": "Bekleidung"
+        "en": "Clothing"
     },
     "colourCode": {
         "colourCodeValue": "yellow-orange",
@@ -64,7 +64,7 @@
     "gs1de:productDurability": [
         {
             "gs1de:usageUnitDescription": {
-                "de": "Anzahl Waschzyklen vor erkennbarem Verschleiss"
+                "en": "Number of washes before visible wear"
             },
             "gs1de:usageDuration": {
                 "value": "50",
@@ -77,6 +77,6 @@
         "referencedFileType": "PRODUCT_IMAGE"
     },
     "rdfs:comment": {
-        "de": "Diese GTIN-Stammdatendatei ist fiktiv und dient ausschliesslich Illustrationszwecken."
+        "en": "This GTIN master data file is fictitious and intended for illustration purposes only."
     }
 }
