@@ -1,0 +1,39 @@
+{
+    "@context": [
+        "https://mh1.eu/temp/GS1WebVocContext-minimal8.jsonld",
+        "https://ralphtro.github.io/TEMP_contextExperiments/contextFiles/gs1de-webvoc-context-file-0dot2.jsonld"
+    ],
+    "type": "Product",
+    "id": "https://id.gs1.org/01/04262431780081",
+    "gtin": "04262431780081",
+    "allergenStatement": [
+        {
+            "en": "This product is a single-ingredient black tea (Camellia sinensis). It does not contain any intentionally added allergens. However, it is packed in a facility that also handles products containing cereals (including wheat/gluten), nuts, and soy; therefore it may contain traces of these due to cross‑contamination."
+        }
+    ],
+    "additive": [
+        {
+            "additiveLevelOfContainment": {
+                "id": "gs1:LevelOfContainmentCode-FREE_FROM"
+            },
+            "additiveName": [
+                {
+                    "en": "Artificial flavours and colourants"
+                }
+            ]
+        }
+    ],
+    "hasAllergen": [
+        {
+            "allergenLevelOfContainmentCode": {
+                "id": "gs1:LevelOfContainmentCode-MAY_CONTAIN"
+            },
+            "allergenType": {
+                "id": "gs1:AllergenTypeCode-WHEAT"
+            }
+        }
+    ],
+    "rdfs:comment": {
+        "en": "This allergen info document is fictitious and intended for test and illustration purposes only."
+    }
+}
