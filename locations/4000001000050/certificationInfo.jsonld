@@ -1,0 +1,25 @@
+{
+    "@context": [
+        "https://mh1.eu/temp/GS1WebVocContext-minimal8.jsonld"
+    ],
+    "type": [
+        "Place"
+    ],
+    "id": "https://id.gs1.org/414/4000001000050",
+    "locationGLN": "4000001000050",
+    "physicalLocationName": {
+        "en": "Example Field One"
+    },
+    "certification": {
+        "certificationAgency": {
+            "en": "Fictitious Certifier One"
+        },
+        "certificationIdentification": "EX-C-123",
+        "certificationStandard": {
+            "en": "Field Certification Level 1"
+        },
+        "certificationEndDate": "2028-12-31",
+        "initialCertificationDate": "2024-01-02",
+        "certificationURI": "https://certificates.example.com/id/EX-C-123"
+    }
+}
