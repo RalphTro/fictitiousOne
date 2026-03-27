@@ -1,0 +1,62 @@
+{
+    "@context": [
+        "https://mh1.eu/context/GS1-WebVoc-context.jsonld",
+        {
+            "gs1de": "https://voc.gs1.de/",
+            "gs1de:greenhouseGasEmissionScope": {
+                "@type": "@vocab"
+            },
+            "gs1de:greenhouseGasEmissionInfoIsExternallyValidated": {
+                "@type": "@vocab"
+            },
+            "gs1de:greenhouseGasEmissionYear": {
+                "@type": "xsd:gYear"
+            }
+        }
+    ],
+    "id": "https://id.example.com/253/4012345000221987",
+    "type": "schema:Dataset",
+    "schema:version": "0.0.1",
+    "schema:dateModified": "2026-03-13",
+    "schema:creator": {
+        "id": "https://id.gs1.org/417/4262431780005"
+    },
+    "rdfs:comment": {
+        "@value": "Note: This dataset is fictitious and is intended for illustration purposes only.",
+        "@language": "en"
+    },
+    "schema:about": {
+        "id": "https://id.gs1.org/417/4262431780005",
+        "type": "Organization",
+        "partyGLN": "4262431780005",
+        "organizationName": {
+            "en": "TEST GmbH"
+        },
+        "gs1de:codeOfConduct": {
+            "type": "ReferencedFileDetails",
+            "referencedFileURL": "https://example.com/codeOfConduct-supplier/v1.pdf",
+            "referencedFileType": "gs1de:ReferencedFileTypeCode-CODE_OF_CONDUCT_SUPPLIER"
+        },
+        "gs1de:greenhouseGasEmissionInfo": {
+            "type": "gs1de:GreenhouseGasEmissionInformation",
+            "gs1de:greenhouseGasEmissionInfoIsExternallyValidated": "gs1:NonbinaryLogicCode-TRUE",
+            "gs1de:greenhouseGasEmissionReductionTarget": [
+                                {
+                    "gs1de:greenhouseGasEmissionScope": "gs1de:GreenhouseGasEmissionScopeType-GREENHOUSEGAS_PROTOCOL_SCOPE_1",
+                    "gs1de:greenhouseGasEmissionBaseLine": {
+                        "gs1de:greenhouseGasEmissionYear": "2025",
+                        "gs1de:greenhouseGasEmissionQuantityTCO2e": 20.5
+                    },
+                    "gs1de:greenhouseGasEmissionTarget": {
+                        "gs1de:greenhouseGasEmissionYear": "2030",
+                        "gs1de:greenhouseGasEmissionQuantityTCO2e": 14.2
+                    }
+                }
+            ],
+            "gs1de:greenhouseGasEmissionReductionTargetVerification": {
+                "gs1:referencedFileURL": "https://sciencebasedtargets.org/target-dashboard",
+                "gs1:referencedFileType": "gs1de:ReferencedFileTypeCode-GREENHOUSE_GAS_EMISSION_REDUCTION_TARGET_PROOF"
+            }
+        }
+    }
+}
