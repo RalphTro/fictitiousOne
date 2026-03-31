@@ -1,0 +1,68 @@
+{
+    "@context": [
+        "https://mh1.eu/context/GS1-WebVoc-context.jsonld",
+        "https://ref.gs1.org/standards/eudr/p.0.0/context.jsonld",
+        {
+            "gs1de": "https://voc.gs1.de/",
+            "gs1de:importClassificationTypeCode": {
+                "@type": "@vocab"
+            }
+        }
+    ],
+    "id": "https://id.example.com/253/401234500022112345",
+    "type": "schema:Dataset",
+    "schema:version": "0.0.1",
+    "schema:dateModified": "2026-03-31",
+    "schema:creator": {
+        "id": "https://id.gs1.org/417/4262431780005"
+    },
+    "rdfs:comment": {
+        "@value": "This GTIN master data file is fictitious and intended for illustration purposes only.",
+        "@language": "en"
+    },
+    "schema:about": {
+        "id": "https://id.gs1.org/01/04262431780036",
+        "type": "Product",
+        "gtin": "04262431780036",
+        "productName": {
+            "en": "Chocolate Bar One"
+        },
+        "productDescription": {
+            "en": "[Fictitious product] Delicious, premium-quality chocolate bar with a rich flavor and smooth texture, 2025 special edition."
+        },
+        "brandName": {
+            "en": "TEST"
+        },
+        "netWeight": {
+            "value": "100",
+            "unitCode": "GRM"
+        },
+        "grossWeight": {
+            "value": "110",
+            "unitCode": "GRM"
+        },
+        "countryOfOrigin": {
+            "countryCode": "GH"
+        },
+        "hasAllergen": [
+            {
+                "allergenType": "NC",
+                "allergenLevelOfContainmentCode": "CONTAINS"
+            }
+        ],
+        "gs1de:importClassification": {
+            "gs1de:importClassificationTypeCode": "gs1de:ImportClassificationTypeCode-INTRASTAT_COMBINED_NOMENCLATURE",
+            "gs1de:importClassificationValue": "18069039"
+        },
+        "regulatoryInformation": [
+            {
+                "regulatoryAct": "EU 2023/1115",
+                "regulationType": "DEFORESTATION_REGULATION"
+            }
+        ],
+        "image": {
+            "referencedFileURL": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/chocolateBarOne.jpg",
+            "referencedFileType": "PRODUCT_IMAGE"
+        }
+    }
+}
