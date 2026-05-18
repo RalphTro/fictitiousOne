@@ -1,16 +1,27 @@
 {
-    "@context": ["https://mh1.eu/context/GS1-WebVoc-context.jsonld", "https://ralphtro.github.io/TEMP_contextExperiments/contextFiles/gs1de-webvoc-context-file-0dot3.jsonld"],
+    "@context": [
+        "https://mh1.eu/context/GS1-WebVoc-context.jsonld",
+        "https://ralphtro.github.io/TEMP_contextExperiments/contextFiles/gs1de-webvoc-context-file-0dot3.jsonld"
+    ],
     "@graph": [
         {
             "id": "https://example.com/dataset/98765",
             "type": "schema:Dataset",
             "schema:version": "0.1.0",
-            "dct:modified": {
+            "dct:hasVersion": "0.1.0",
+            "dc:modified": {
                 "@value": "2026-05-15",
                 "@type": "xsd:date"
             },
             "schema:about": {
                 "id": "https://id.gs1.org/01/04012345999792"
+            },
+            "dc:subject": {
+                "id": "https://id.gs1.org/01/04012345999792"
+            },
+            "dc:description": {
+                "@value": "Note: This dataset is fictitious and is intended for illustration purposes only.",
+                "@language": "en"
             }
         },
         {
