@@ -16,23 +16,21 @@
     ],
     "@graph": [
         {
-            "id": "https://example.com/dataset/98765/sustainabilityInfo",
+            "id": "https://example.com/dataset/98765/energyLabellingInfo",
             "type": "schema:Dataset",
             "gs1:linkType": {
-                "id": "gs1:sustainabilityInfo"
+                "id": "gs1:energyLabellingInfo"
             },
-            "schema:hasPart": [
-                {
-                    "id": "https://example.com/dataset/98765/energyLabellingInfo"
-                }
-            ],
              "schema:isPartOf": [
                 {
                     "id": "https://example.com/dataset/98765/masterData"
+                },
+                       {
+                    "id": "https://example.com/dataset/98765/sustainabilityInfo"
                 }
             ],
             "schema:name": {
-                "@value": "Sustainability Information (Master Data Subset)",
+                "@value": "Energy Labelling Information (Master Data Subset)",
                 "@language": "en"
             },
             "schema:version": "0.1.0",
@@ -52,22 +50,6 @@
         {
             "id": "https://id.gs1.org/01/04012345999792",
             "type": "Product",
-            "packaging": {
-                "packagingMaterial": [
-                    {
-                        "packagingMaterialType": "PAPER_PAPERBOARD",
-                        "packagingMaterialCompositionQuantity": {
-                            "value": 960,
-                            "unitCode": "GRM"
-                        }
-                    }
-                ],
-                "packagingRecyclingProcessType": "RECYCLABLE"
-            },
-            "gs1de:productReparability": {
-                "referencedFileURL": "https://example.com/item-reparability-info.html",
-                "referencedFileType": "gs1de:ReferencedFileTypeCode-REPARABILITY_INFORMATION"
-            },
             "schema:hasEnergyConsumptionDetails": {
                 "schema:energyEfficiencyScaleMax": {
                     "id": "schema:EUEnergyEfficiencyCategoryA3Plus"
