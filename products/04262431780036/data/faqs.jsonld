@@ -1,0 +1,72 @@
+{
+    "@context": [
+        "https://schema.org",
+        "https://mh1.eu/temp/GS1WebVocContext-minimal8.jsonld"
+    ],
+    "id": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/#faqs",
+    "type": "FAQPage",
+    "name": "Frequently Asked Questions - Utopia One Chocolate Bar 100 Gram",
+    "inLanguage": "en",
+    "about": {
+        "id": "https://resolver-st.gs1.org/01/04262431780036",
+        "type": "Product",
+        "gtin": "04262431780036",
+        "name": "Utopia One Chocolate Bar 100 Gram",
+        "brand": {
+            "type": "Brand",
+            "name": "Utopia One"
+        }
+    },
+    "publisher": {
+        "type": "Organization",
+        "name": "Utopia One",
+        "url": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/"
+    },
+    "mainEntity": [
+        {
+            "type": "Question",
+            "id": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/data/faqs.jsonld#q1",
+            "name": "Is Utopia One suitable for vegans?",
+            "acceptedAnswer": {
+                "type": "Answer",
+                "text": "Yes. Utopia One contains no animal-derived ingredients. It is produced on lines that also handle milk, so trace amounts cannot be ruled out."
+            }
+        },
+        {
+            "type": "Question",
+            "id": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/data/faqs.jsonld#q2",
+            "name": "How should I store the bar?",
+            "acceptedAnswer": {
+                "type": "Answer",
+                "text": "Store in a cool, dry place between 15 °C and 20 °C, away from direct sunlight and strong odours. Best consumed within 12 months of the packaging date."
+            }
+        },
+        {
+            "type": "Question",
+            "id": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/data/faqs.jsonld#q3",
+            "name": "Is the packaging really compostable?",
+            "acceptedAnswer": {
+                "type": "Answer",
+                "text": "Yes. The outer wrap is unbleached kraft paper certified for home composting. The inner liner is a cellulose-based, food-safe film that also composts at home within 12 weeks."
+            }
+        },
+        {
+            "type": "Question",
+            "id": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/data/faqs.jsonld#q4",
+            "name": "Where does the cocoa come from?",
+            "acceptedAnswer": {
+                "type": "Answer",
+                "text": "We source from two cooperatives — one in the Ashanti region of Ghana and one near Ambanja in northern Madagascar. Each batch is traceable to its cooperative and harvest window."
+            }
+        },
+        {
+            "type": "Question",
+            "id": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/data/faqs.jsonld#q5",
+            "name": "Does the bar contain allergens?",
+            "acceptedAnswer": {
+                "type": "Answer",
+                "text": "The recipe itself contains only cocoa, sugar, cocoa butter, vanilla and salt. However, the bar is produced in a facility that also handles milk, tree nuts and gluten, so traces may be present."
+            }
+        }
+    ]
+}
