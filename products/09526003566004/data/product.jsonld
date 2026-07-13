@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "https://schema.org/",
+        {
+            "gs1": "https://gs1.org/voc/"
+        }
+    ],
+    "@type": "Product",
+    "@id": "https://id.gs1.org/01/09526003566004",
+    "name": "Utopia One Chocolate Bar 100 Gram",
+    "brand": {
+        "@type": "Brand",
+        "name": "Utopia One"
+    },
+    "description": "Single-origin dark chocolate bar (100 g) made from ethically sourced cocoa from Ghana and Madagascar. Wrapped in home-compostable kraft paper.",
+    "image": "https://ralphtro.github.io/fictitiousOne/images/chocolateBarOne.jpg",
+    "url": "https://ralphtro.github.io/fictitiousOne/products/09526003566004/",
+    "gtin13": "9526003566004",
+    "gtin14": "09526003566004",
+    "sku": "UTO-ONE-100",
+    "category": "Chocolate and Chocolate/Sugar Candy Combinations - Confectionery",
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "name": "GPC Brick Code",
+            "value": "10000045"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Product Type",
+            "value": "Sold to consumers, fixed, single product"
+        }
+    ],
+    "countryOfSale": [
+        "DE",
+        "ZA"
+    ],
+    "weight": {
+        "@type": "QuantitativeValue",
+        "value": 100,
+        "unitCode": "GRM"
+    }
+}

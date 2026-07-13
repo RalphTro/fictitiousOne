@@ -1,0 +1,74 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "@id": "https://id.gs1.org/01/09526003566004",
+    "name": "Utopia One Chocolate Bar 100 Gram",
+    "offers": [
+        {
+            "@type": "Offer",
+            "areaServed": "DE",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+                "@type": "Organization",
+                "name": "Kaufhalle Nord",
+                "description": "Independent grocer · Hamburg",
+                "url": "https://example.com/kaufhalle-nord"
+            }
+        },
+        {
+            "@type": "Offer",
+            "areaServed": "DE",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+                "@type": "Organization",
+                "name": "Genuss-Markt",
+                "description": "Speciality food store · Munich",
+                "url": "https://example.com/genussmarkt"
+            }
+        },
+        {
+            "@type": "Offer",
+            "areaServed": "DE",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+                "@type": "Organization",
+                "name": "BioFresh Berlin",
+                "description": "Organic supermarket chain · Berlin & Brandenburg",
+                "url": "https://example.com/biofresh"
+            }
+        },
+        {
+            "@type": "Offer",
+            "areaServed": "ZA",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+                "@type": "Organization",
+                "name": "Cape Pantry",
+                "description": "Artisanal deli · Cape Town",
+                "url": "https://example.com/cape-pantry"
+            }
+        },
+        {
+            "@type": "Offer",
+            "areaServed": "ZA",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+                "@type": "Organization",
+                "name": "Savanna Grocers",
+                "description": "Fine-food retailer · Johannesburg",
+                "url": "https://example.com/savanna-grocers"
+            }
+        },
+        {
+            "@type": "Offer",
+            "areaServed": "ZA",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+                "@type": "Organization",
+                "name": "Table Bay Foods",
+                "description": "Speciality store · Durban",
+                "url": "https://example.com/table-bay-foods"
+            }
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "FAQPage",
+    "@id": "https://ralphtro.github.io/fictitiousOne/products/09526003566004/#faqs",
+    "about": {
+        "@id": "https://id.gs1.org/01/09526003566004"
+    },
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "Is Utopia One suitable for vegans?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Utopia One contains no animal-derived ingredients. It is produced on lines that also handle milk, so trace amounts cannot be ruled out."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How should I store the bar?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Store in a cool, dry place between 15 °C and 20 °C, away from direct sunlight and strong odours. Best consumed within 12 months of the packaging date."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is the packaging really compostable?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. The outer wrap is unbleached kraft paper certified for home composting. The inner liner is a cellulose-based, food-safe film that also composts at home within 12 weeks."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Where does the cocoa come from?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We source from two cooperatives — one in the Ashanti region of Ghana and one near Ambanja in northern Madagascar. Each batch is traceable to its cooperative and harvest window."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Does the bar contain allergens?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The recipe itself contains only cocoa, sugar, cocoa butter, vanilla and salt. However, the bar is produced in a facility that also handles milk, tree nuts and gluten, so traces may be present."
+            }
+        }
+    ]
+}
