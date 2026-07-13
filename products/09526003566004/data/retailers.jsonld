@@ -1,7 +1,7 @@
 {
     "@context": "https://schema.org/",
     "@type": "Product",
-    "@id": "https://id.gs1.org/01/09526003566004",
+    "@id": "https://resolver-st.gs1.org/01/09526003566004",
     "name": "Utopia One Chocolate Bar 100 Gram",
     "offers": [
         {

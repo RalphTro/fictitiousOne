@@ -3,7 +3,7 @@
     "@type": "FAQPage",
     "@id": "https://ralphtro.github.io/fictitiousOne/products/09526003566004/#faqs",
     "about": {
-        "@id": "https://id.gs1.org/01/09526003566004"
+        "@id": "https://resolver-st.gs1.org/01/09526003566004"
     },
     "mainEntity": [
         {
