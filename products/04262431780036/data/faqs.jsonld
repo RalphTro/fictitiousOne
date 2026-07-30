@@ -1,12 +1,16 @@
 {
     "@context": [
         "https://schema.org",
-        "https://mh1.eu/temp/GS1WebVocContext-minimal8.jsonld"
+        {
+            "@language": "en-GB"
+        }
     ],
     "id": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/#faqs",
     "type": "FAQPage",
     "name": "Frequently Asked Questions - Utopia One Chocolate Bar 100 Gram",
-    "inLanguage": "en",
+    "inLanguage": "en-GB",
+    "datePublished": "2026-07-30",
+    "dateModified": "2026-07-30",
     "about": {
         "id": "https://resolver-st.gs1.org/01/04262431780036",
         "type": "Product",
@@ -20,12 +24,12 @@
     "publisher": {
         "type": "Organization",
         "name": "Utopia One",
-        "url": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/"
+        "url": "https://example.com/utopia-one/"
     },
     "mainEntity": [
         {
             "type": "Question",
-            "id": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/data/faqs.jsonld#q1",
+            "id": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/#q1",
             "name": "Is Utopia One suitable for vegans?",
             "acceptedAnswer": {
                 "type": "Answer",
@@ -34,7 +38,7 @@
         },
         {
             "type": "Question",
-            "id": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/data/faqs.jsonld#q2",
+            "id": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/#q2",
             "name": "How should I store the bar?",
             "acceptedAnswer": {
                 "type": "Answer",
@@ -43,7 +47,7 @@
         },
         {
             "type": "Question",
-            "id": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/data/faqs.jsonld#q3",
+            "id": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/#q3",
             "name": "Is the packaging really compostable?",
             "acceptedAnswer": {
                 "type": "Answer",
@@ -52,7 +56,7 @@
         },
         {
             "type": "Question",
-            "id": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/data/faqs.jsonld#q4",
+            "id": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/#q4",
             "name": "Where does the cocoa come from?",
             "acceptedAnswer": {
                 "type": "Answer",
@@ -61,7 +65,7 @@
         },
         {
             "type": "Question",
-            "id": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/data/faqs.jsonld#q5",
+            "id": "https://ralphtro.github.io/fictitiousOne/products/04262431780036/#q5",
             "name": "Does the bar contain allergens?",
             "acceptedAnswer": {
                 "type": "Answer",
